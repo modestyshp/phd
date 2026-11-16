@@ -209,53 +209,8 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Bundesgesetz über Stipendien an ausländische Studierende und Kunstschaffende in der Schweiz",
-   "link": "https://www.admin.ch/opc/de/classified-compilation/19870116/index.html",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Verordnung über Stipendien für ausländische Studierende und Kunstschaffende in der Schweiz",
-   "link": "https://www.admin.ch/opc/de/classified-compilation/20121883/index.html",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Verordnung des WBF über die Vergabe von Stipendien an ausländische Studierende und Kunstschaffende in der Schweiz",
-   "link": "https://www.admin.ch/opc/de/classified-compilation/20130049/index.html",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "E2-news: Scholarships as a career booster",
    "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "X: Swiss Government Excellence Scholarships for foreign scholars and artists",
-   "link": "https://twitter.com/Swiss_FCS",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "YouTube: Swiss Government Excellence Scholarships",
-   "link": "https://www.youtube.com/watch?v=RRZjsHok5N4",
    "country": "Switzerland",
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
@@ -323,14 +278,7 @@
    "source": "Turkiye Scholarships",
    "fund": "PhD job / position",
    "deadline": "",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "",
-    "requirements": [],
-    "funding_details": "",
-    "summary": "Page could not be read automatically (needs JavaScript). Open it and check.",
-    "ai": false
-   }
+   "first_seen": "2026-11-16"
   },
   {
    "title": "TÜRKİYE SCHOLARSHIPS",
@@ -729,29 +677,11 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Search for Scholarships Search icon",
-   "link": "javascript:void(0);",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "GKS Scholarship",
    "link": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1",
    "country": "South Korea",
    "source": "Study in Korea (GKS)",
    "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Doctoral 1 Univ.",
-   "link": "javascript:void(0)",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "PhD job / position",
    "deadline": "",
    "first_seen": "2026-11-16"
   },
@@ -776,33 +706,6 @@
   {
    "title": "Links About Scholarships",
    "link": "https://taiwanscholarship.moe.gov.tw/pages.aspx?p=10",
-   "country": "Taiwan",
-   "source": "Taiwan Scholarship",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "(Updated on 2026.01.22) List of Universities/Colleges Providing Degree Programs Taught in English for the 2025 academic year and Universities/Colleges Providing",
-   "link": "javascript:__doPostBack('ctl00$ContentPlaceHolder1$NewsRP$ctl00$LinkButton1','')",
-   "country": "Taiwan",
-   "source": "Taiwan Scholarship",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "（Updated on 2026.01.22）MOE Scholarship Terms of Agreement",
-   "link": "javascript:__doPostBack('ctl00$ContentPlaceHolder1$NewsRP$ctl01$LinkButton1','')",
-   "country": "Taiwan",
-   "source": "Taiwan Scholarship",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "taiwanscholarship@mail.moe.gov.tw",
-   "link": "mailto:taiwanscholarship@mail.moe.gov.tw",
    "country": "Taiwan",
    "source": "Taiwan Scholarship",
    "fund": "Scholarship",
@@ -1082,46 +985,12 @@
   "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
-  "READFAIL https://euraxess.ec.europa.eu/jobs/480722: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://euraxess.ec.europa.eu/jobs/480721: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.jobs.ac.uk/job/DTF907/applied-linguistics-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.jobs.ac.uk/job/DTO516/phd-studentship-linguistics-and-bilingualism-f: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.jobs.ac.uk/job/DTI693/intercultural-communication-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.jobs.ac.uk/job/DTG046/discourse-studies-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.jobs.ac.uk/job/DTH184/english-language-teaching-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.jobs.ac.uk/job/DTB024/magdalen-vernon-phd-studentship-in-psychology-: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/bursaries-foreign-students: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/node/2280: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/organising-your-stay-as-a-scholarship-holder: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/what-involved-Doctorate-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/how-to-enrol-Doctorate-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://doctorat.campusfrance.org/phd/dschools/main: 403 Client Error: Forbidden for url: https://doctorat.campusfrance.org/phd/dschools/main",
-  "READFAIL https://www.campusfrance.org/en/pre-Doctorate-programme-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/how-to-finance-Doctorate-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/FAQ-Doctorate-France-questions: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/post-doctorate-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/social-security-doctoral-students-researchers: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.campusfrance.org/en/reception-programmes-doctoral-student-associatio: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glanc: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glanc: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.admin.ch/opc/de/classified-compilation/19870116/index.html: 403 Client Error: Forbidden for url: https://www.admin.ch/opc/de/classified-compilation/19870116/ind",
-  "READFAIL https://www.admin.ch/opc/de/classified-compilation/20121883/index.html: 403 Client Error: Forbidden for url: https://www.admin.ch/opc/de/classified-compilation/20121883/ind",
-  "READFAIL https://www.admin.ch/opc/de/classified-compilation/20130049/index.html: 403 Client Error: Forbidden for url: https://www.admin.ch/opc/de/classified-compilation/20130049/ind",
-  "READFAIL https://e2-news.ch/en/news/scholarships-as-a-career-booster: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://twitter.com/Swiss_FCS: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.youtube.com/watch?v=RRZjsHok5N4: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www",
-  "READFAIL https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-g: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-g: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-g: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glanc: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://turkiyeburslari.gov.tr/about: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://turkiyeburslari.gov.tr/: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://turkiyeburslari.gov.tr/whyturkiyescholarships: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://turkiyeburslari.gov.tr/scholarshipsprograms: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READFAIL https://turkiyeburslari.gov.tr/scholarshipsprocess: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
-  "READ  1 pages read this run, 39 failed, AI ON"
+  "MODEL gemini-flash-latest",
+  "AIFAIL https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again l",
+  "AIFAIL https://www.jobs.ac.uk/job/DTF907/applied-linguistics-mphil-: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again l",
+  "AIFAIL https://www.jobs.ac.uk/job/DTO516/phd-studentship-linguistic: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again l",
+  "AI STOPPED after 3 errors in a row, see AIFAIL lines above",
+  "READ  0 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
