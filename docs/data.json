@@ -2,6 +2,15 @@
  "updated": "2026-11-16",
  "items": [
   {
+   "title": "Teaching Assistant ( Profesor Ayudante Doctor)",
+   "link": "https://euraxess.ec.europa.eu/jobs/480687",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "Assistantship",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
    "country": "UK",
@@ -65,29 +74,110 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "other selected funding organisations",
-   "link": "https://www.daad.de/en/study-and-research-in-germany/scholarships/scholarship-database/information-on-other-funding-organisations/",
-   "country": "Germany",
-   "source": "DAAD scholarship database",
+   "title": "Scholarships programmes",
+   "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
+   "country": "France",
+   "source": "Campus France scholarships",
    "fund": "Scholarship",
    "deadline": "",
    "first_seen": "2026-11-16"
   },
   {
-   "title": "important scholarship information",
-   "link": "https://www.daad.de/en/study-and-research-in-germany/scholarships/important-information-for-scholarship-applicants/",
-   "country": "Germany",
-   "source": "DAAD scholarship database",
+   "title": "Scholarships for French students or students living in France",
+   "link": "https://www.campusfrance.org/en/node/2280",
+   "country": "France",
+   "source": "Campus France scholarships",
    "fund": "Scholarship",
    "deadline": "",
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Skip to main content",
-   "link": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html#main-content",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
+   "title": "Organising your stay as a scholarship holder",
+   "link": "https://www.campusfrance.org/en/organising-your-stay-as-a-scholarship-holder",
+   "country": "France",
+   "source": "Campus France scholarships",
    "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "What is involved in a Doctorate in France? Discover",
+   "link": "https://www.campusfrance.org/en/what-involved-Doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "How to enrol in a Doctorate Discover",
+   "link": "https://www.campusfrance.org/en/how-to-enrol-Doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Doctoral Schools directory",
+   "link": "https://doctorat.campusfrance.org/phd/dschools/main",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Pre-Doctorate programmes",
+   "link": "https://www.campusfrance.org/en/pre-Doctorate-programme-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "How to finance your Doctorat (PhD)",
+   "link": "https://www.campusfrance.org/en/how-to-finance-Doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "FAQ – Doing my Doctorate in France",
+   "link": "https://www.campusfrance.org/en/FAQ-Doctorate-France-questions",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Post-Doctorate Discover",
+   "link": "https://www.campusfrance.org/en/post-doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Social Security for doctoral students and researchers Discover",
+   "link": "https://www.campusfrance.org/en/social-security-doctoral-students-researchers",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Reception programmes and doctoral student associations",
+   "link": "https://www.campusfrance.org/en/reception-programmes-doctoral-student-associations",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
    "deadline": "",
    "first_seen": "2026-11-16"
   },
@@ -200,26 +290,8 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Recognition of professional qualifications",
-   "link": "https://www.sbfi.admin.ch/en/foreign-professional-qualifications-in-switzerland",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Swiss Government Excellence Scholarships",
    "link": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Diploma Supplements for professional qualifications",
-   "link": "https://www.sbfi.admin.ch/en/diploma-supplements-for-professional-qualifications",
    "country": "Switzerland",
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
@@ -281,15 +353,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "News & Announcements",
-   "link": "https://turkiyeburslari.gov.tr/news",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "YTB–IsDB Joint Scholarship Program Meeting",
    "link": "https://turkiyeburslari.gov.tr/news/ytbisdb-joint-scholarship-program-meeting-123",
    "country": "Turkey",
@@ -326,15 +389,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Frequently Asked Questions",
-   "link": "https://turkiyeburslari.gov.tr/FAQ",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "How do I apply for Türkiye Scholarships?",
    "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=28",
    "country": "Turkey",
@@ -362,6 +416,33 @@
    "first_seen": "2026-11-16"
   },
   {
+   "title": "Search for scholarships",
+   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
+   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
+   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
    "title": "International scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
    "country": "Canada",
@@ -371,26 +452,8 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Frequently asked questions",
-   "link": "https://www.educanada.ca/scholarships-bourses/non_can/faq.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Search for scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Emerging Leaders in the Americas Program",
-   "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng",
    "country": "Canada",
    "source": "EduCanada scholarships",
    "fund": "Scholarship",
@@ -416,15 +479,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Canada-China Scholars’ Exchange Program",
-   "link": "https://www.educanada.ca/scholarships-bourses/non_can/ccsep-peucc.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Canadian International Development Scholarships 2030",
    "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
    "country": "Canada",
@@ -436,15 +490,6 @@
   {
    "title": "Organization of American States Academic Scholarships Program",
    "link": "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Testimonial: Belgin from Türkiye",
-   "link": "https://www.educanada.ca/scholarships-bourses/testimonials-temoignages/belgin-ozturk.aspx?lang=eng",
    "country": "Canada",
    "source": "EduCanada scholarships",
    "fund": "Scholarship",
@@ -470,15 +515,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Funding Opportunities",
-   "link": "https://www.ugc.edu.hk/eng/rgc/funding_opport/",
-   "country": "Hong Kong",
-   "source": "HKPFS (RGC)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "http://www.rgc.edu.hk/hkphd",
    "link": "http://www.rgc.edu.hk/hkphd",
    "country": "Hong Kong",
@@ -488,53 +524,17 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "https://cerg1.ugc.edu.hk/hkpfs/institutions.html",
-   "link": "https://cerg1.ugc.edu.hk/hkpfs/institutions.html",
-   "country": "Hong Kong",
-   "source": "HKPFS (RGC)",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "review the program summary",
-   "link": "https://us.fulbrightonline.org/countries",
-   "country": "USA",
-   "source": "Fulbright Foreign Student",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Skip to main content",
-   "link": "https://nawa.gov.pl/en#skip-to-main-content",
-   "country": "Poland",
-   "source": "NAWA",
+   "title": "/get-funded/study-scholarships",
+   "link": "https://www.vliruos.be/get-funded/study-scholarships",
+   "country": "Belgium",
+   "source": "VLIR-UOS",
    "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Recognition for academic purposes",
-   "link": "https://nawa.gov.pl/en/recognition/recognition-for-academic-purposes",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
    "deadline": "",
    "first_seen": "2026-11-16"
   },
   {
    "title": "Applying for admission to doctoral schools",
    "link": "https://nawa.gov.pl/en/recognition/recognition-for-academic-purposes/applying-for-admission-to-doctoral-studies",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Closed call - 2020",
-   "link": "https://nawa.gov.pl/en",
    "country": "Poland",
    "source": "NAWA",
    "fund": "PhD job / position",
@@ -551,26 +551,8 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Closed call - 2022",
-   "link": "https://nawa.gov.pl/en/scientists/the-ulam-programme/closed-calls/closed-call-2022/call-for-proposals-2022",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/scientists/the-ulam-programme/closed-calls/closed-call-2022/promotional-and-informational-materials",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "The Walczak Programme",
-   "link": "https://nawa.gov.pl/en/scientists/the-walczak-programme",
    "country": "Poland",
    "source": "NAWA",
    "fund": "PhD job / position",
@@ -587,15 +569,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Closed call - 2020",
-   "link": "https://nawa.gov.pl/en/scientists/the-walczak-programme/closed-calls/closed-call-2020/call-for-proposals",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/scientists/the-walczak-programme/closed-calls/closed-call-2020/promotional-and-informational-materials",
    "country": "Poland",
@@ -605,35 +578,8 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Closed call - 2022",
-   "link": "https://nawa.gov.pl/en/scientists/the-walczak-programme/closed-calls/closed-call-2022/call-for-proposals",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/scientists/the-walczak-programme/closed-calls/closed-call-2022/promotional-and-informational-materials",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Programy zakończone",
-   "link": "https://nawa.gov.pl/en/naukowcy/programy-zakonczone",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "The Iwanowska Programme",
-   "link": "https://nawa.gov.pl/en/scientists/the-iwanowska-programme",
    "country": "Poland",
    "source": "NAWA",
    "fund": "PhD job / position",
@@ -659,38 +605,11 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Closed call - 2020",
-   "link": "https://nawa.gov.pl/en/scientists/nawa-chair/closed-calls/closed-call-2020",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/scientists/nawa-chair/promotional-and-informational-materials",
    "country": "Poland",
    "source": "NAWA",
    "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Closed calls – 2018",
-   "link": "https://nawa.gov.pl/en/students/foreign-students/scholarships-for-the-polish-diaspora/closed-calls-2018",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Closed Programmes",
-   "link": "https://nawa.gov.pl/en/students/foreign-students/closed-programmes",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "Scholarship",
    "deadline": "",
    "first_seen": "2026-11-16"
   },
@@ -776,35 +695,8 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Why Korea More / Less",
-   "link": "https://www.studyinkorea.go.kr/ko/why/main.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Various Scholarship Opportunities",
    "link": "https://www.studyinkorea.go.kr/ko/why/diverseGovSpprt.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Plan your studies More / Less",
-   "link": "https://www.studyinkorea.go.kr/ko/plan/main.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Notice More / Less",
-   "link": "https://www.studyinkorea.go.kr/ko/notice/newsList.do?boardSort=1",
    "country": "South Korea",
    "source": "Study in Korea (GKS)",
    "fund": "Scholarship",
@@ -830,15 +722,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Online Application",
-   "link": "https://www.studyinkorea.go.kr/ko/receipt/OnlineReceipt11.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "GKS Scholarship",
    "link": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1",
    "country": "South Korea",
@@ -848,74 +731,11 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Study in Korea Fair",
-   "link": "https://www.studyinkorea.go.kr/ko/expomain.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Job Information",
-   "link": "https://www.studyinkorea.go.kr/ko/work/workInfo.do?tab=work_notification",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Study in Korea Supporters",
-   "link": "https://www.studyinkorea.go.kr/ko/community/supportersList.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "International Student Association in Korea",
-   "link": "https://www.studyinkorea.go.kr/ko/community/jaehanList.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Study Abroad Stories",
-   "link": "https://www.studyinkorea.go.kr/ko/community/abroadStory.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Bachelor`s 1 Univ.",
+   "title": "Doctoral 1 Univ.",
    "link": "javascript:void(0)",
    "country": "South Korea",
    "source": "Study in Korea (GKS)",
    "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Global Technology & Future Opportunities Study in Korea, a country equipped with cutting-edge technology and global competitiveness, and grow into a future lead",
-   "link": "https://www.studyinkorea.go.kr/ko/why/globalTechFuture.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Highly Satisfying Student Life Over 90% of international students in Korea report high levels of satisfaction with both academics and daily life.",
-   "link": "https://www.studyinkorea.go.kr/ko/why/satisfyingLife.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
    "deadline": "",
    "first_seen": "2026-11-16"
   },
@@ -1001,15 +821,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Higher Education",
-   "link": "https://oead.at/en/news/higher-education",
-   "country": "Austria",
-   "source": "OeAD",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "OeAD Scholarship Programmes and Further Grants for Academic Stays in Austria 2027/2028",
    "link": "https://oead.at/en/news/article/2026/09/oead-scholarship-programmes-and-further-grants-to-austria-for-2027-28",
    "country": "Austria",
@@ -1021,15 +832,6 @@
   {
    "title": "Scholarships and funding programmes from A to Z",
    "link": "https://oead.at/en/the-oead/our-programmes-from-a-to-z",
-   "country": "Austria",
-   "source": "OeAD",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Study : Research : Teaching",
-   "link": "https://oead.at/en/study-research-teaching",
    "country": "Austria",
    "source": "OeAD",
    "fund": "Scholarship",
@@ -1073,26 +875,8 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Plan your studies",
-   "link": "https://www.studyaustralia.gov.au/en/plan-your-studies",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "The Australia Awards Scholarships (AAS)",
    "link": "https://www.dfat.gov.au/people-to-people/australia-awards",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "selection of developing countries",
-   "link": "https://www.dfat.gov.au/people-to-people/australia-awards/participating-countries",
    "country": "Australia",
    "source": "Study Australia scholarships",
    "fund": "Scholarship",
@@ -1109,44 +893,8 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Department of Education",
-   "link": "https://www.education.gov.au/research-training-program-frequently-asked-questions-students",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "participating university",
-   "link": "https://www.education.gov.au/higher-education-providers-eligible-research-block-grants",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Course Search tool",
-   "link": "https://search.studyaustralia.gov.au/scholarship/search-results.html",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "The Quad Fellowship",
    "link": "https://www.quadfellowship.org/",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "10 Southeast Asian Countries.",
-   "link": "https://asean.org/member-states/",
    "country": "Australia",
    "source": "Study Australia scholarships",
    "fund": "Scholarship",
@@ -1201,33 +949,6 @@
   {
    "title": "The Northcote Postgraduate Scholarship",
    "link": "https://www.britain-australia.org.uk/northcote",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "US Financial Aid",
-   "link": "https://www2.ed.gov/fund/grants-apply.html?src=pn",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Fulbright program",
-   "link": "https://www.fulbright.org.au/applicants/us-applicants/",
-   "country": "Australia",
-   "source": "Study Australia scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Institute of International Education (IIE) website",
-   "link": "https://www.iie.org/scholarships-programs/",
    "country": "Australia",
    "source": "Study Australia scholarships",
    "fund": "Scholarship",
@@ -1308,41 +1029,41 @@
   }
  ],
  "log": [
-  "FAIL  EURAXESS (applied linguistics): 403 Client Error: Forbidden for url: https://euraxess.ec.europa.eu/jobs/search?keywords=applied%20linguistics",
-  "FAIL  EURAXESS (language education): 403 Client Error: Forbidden for url: https://euraxess.ec.europa.eu/jobs/search?keywords=language%20education",
-  "FAIL  EURAXESS (educational technology): 403 Client Error: Forbidden for url: https://euraxess.ec.europa.eu/jobs/search?keywords=educational%20technology",
+  "OK    EURAXESS (applied linguistics): 1 matches (of 100 links)",
+  "OK    EURAXESS (language education): 0 matches (of 100 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 100 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
   "OK    AcademicTransfer: 0 matches (of 6 links)",
   "FAIL  Academic Positions (education): 403 Client Error: Forbidden for url: https://academicpositions.com/find-jobs?keywords=education+phd",
-  "OK    DAAD scholarship database: 2 matches (of 4 links)",
-  "FAIL  Campus France scholarships: 404 Client Error: Not Found for url: https://www.campusfrance.org/en/scholarships-catalogue",
-  "FAIL  ABG offers: 404 Client Error: Not Found for url: https://abg.asso.fr/fr/candidatMissions/",
-  "OK    Swiss Excellence Scholarships: 16 matches (of 23 links)",
-  "OK    Turkiye Scholarships: 15 matches (of 53 links)",
-  "FAIL  MEXT / Study in Japan: 404 Client Error: Not Found for url: https://www.studyinjapan.go.jp/en/smap-stopj-applications-scholarship.html",
+  "FAIL  DAAD scholarship database: 403 Client Error: Forbidden for url: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
+  "OK    Campus France scholarships: 12 matches (of 154 links)",
+  "OK    ABG offers: 0 matches (of 71 links)",
+  "OK    Swiss Excellence Scholarships: 13 matches (of 23 links)",
+  "OK    Turkiye Scholarships: 13 matches (of 53 links)",
+  "OK    MEXT / Study in Japan: 3 matches (of 75 links)",
   "OK    EducationUSA: 0 matches (of 0 links)",
-  "OK    EduCanada scholarships: 10 matches (of 52 links)",
+  "OK    EduCanada scholarships: 6 matches (of 52 links)",
   "OK    academics.de: 0 matches (of 55 links)",
-  "FAIL  Jobbnorge: 404 Client Error: Not Found for url: https://www.jobbnorge.no/en/available-jobs",
+  "OK    Jobbnorge: 0 matches (of 8 links)",
   "FAIL  PhDportal: 403 Client Error: Forbidden for url: https://www.phdportal.com/",
   "FAIL  ScholarshipDB: 403 Client Error: Forbidden for url: https://scholarshipdb.net/scholarships-in-Europe",
   "OK    Stipendium Hungaricum: 2 matches (of 17 links)",
   "FAIL  EURAXESS Belgium: 403 Client Error: Forbidden for url: https://www.euraxess.be/jobs",
-  "FAIL  EURAXESS Switzerland: 429 Client Error: Too Many Requests for url: https://www.euraxess.ch/jobs",
-  "OK    HKPFS (RGC): 3 matches (of 5 links)",
-  "OK    Fulbright Foreign Student: 1 matches (of 30 links)",
-  "FAIL  VLIR-UOS: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-  "OK    NAWA: 30 matches (of 926 links)",
+  "FAIL  EURAXESS Switzerland: 403 Client Error: Forbidden for url: https://www.euraxess.ch/jobs",
+  "OK    HKPFS (RGC): 1 matches (of 5 links)",
+  "OK    Fulbright Foreign Student: 0 matches (of 30 links)",
+  "OK    VLIR-UOS: 1 matches (of 51 links)",
+  "OK    NAWA: 18 matches (of 926 links)",
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
-  "OK    Study in Korea (GKS): 16 matches (of 143 links)",
+  "OK    Study in Korea (GKS): 5 matches (of 143 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
-  "OK    OeAD: 9 matches (of 308 links)",
+  "OK    OeAD: 7 matches (of 308 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
   "OK    FCT: 2 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
-  "OK    Study Australia scholarships: 20 matches (of 115 links)",
+  "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)"
  ],
