@@ -59,13 +59,35 @@ def from_html(src):
 
 
 # ---------- READING EACH PAGE (the part that replaces manual checking) ----------
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 KEY = os.environ.get("GEMINI_API_KEY", "")
-MAX_PAGES = int(os.environ.get("MAX_PAGES", "40"))
+MAX_PAGES = int(os.environ.get("MAX_PAGES", "80"))
+BAD = re.compile(r"youtube\.com|youtu\.be|twitter\.com|//x\.com|facebook\.com|instagram\.com|linkedin\.com|admin\.ch/opc|\.pdf(\?|$)", re.I)
 DOCS = {"CV": r"\bCV\b|curriculum vitae|resume", "Motivation letter": r"motivation|cover letter|statement of purpose|lettre de motivation",
         "Research proposal": r"research proposal|project proposal|research plan|projet de recherche",
         "Transcripts": r"transcript|relev[ée]s de notes", "Recommendation letters": r"recommendation|reference letter|referee|lettre de recommandation",
         "Passport / ID": r"passport|passeport", "Language test": r"IELTS|TOEFL|DELF|DALF|TCF|TestDaF|DSH|Cambridge|language (proficiency|certificate)"}
+
+class LLMError(Exception): pass
+
+_model = None
+def pick_model():
+    """Ask Google which models this key can use and pick a current Flash model."""
+    global _model
+    if _model: return _model
+    if os.environ.get("GEMINI_MODEL"):
+        _model = os.environ["GEMINI_MODEL"]; return _model
+    r = requests.get("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200", headers={"x-goog-api-key": KEY}, timeout=30)
+    if r.status_code != 200: raise LLMError(f"model list {r.status_code}: {r.text[:200]}")
+    names = [m["name"].split("/")[-1] for m in r.json().get("models", []) if "generateContent" in m.get("supportedGenerationMethods", [])]
+    if "gemini-flash-latest" in names:
+        _model = "gemini-flash-latest"; return _model
+    ver = lambda n: float(re.search(r"gemini-(\d+(?:\.\d+)?)", n).group(1)) if re.search(r"gemini-(\d+(?:\.\d+)?)", n) else 0
+    flash = [n for n in names if "flash" in n and not re.search(r"image|tts|live|audio|thinking|embed|8b|robotics", n)]
+    stable = [n for n in flash if not re.search(r"lite|preview|exp", n)]
+    pool = stable or flash or names
+    if not pool: raise LLMError("no usable model for this key")
+    _model = sorted(pool, key=ver, reverse=True)[0]
+    return _model
 
 def page_text(url):
     r = fetch(url)
@@ -100,14 +122,14 @@ PAGE TEXT:
 def ask_llm(text):
     body = {"contents": [{"parts": [{"text": PROMPT % (TODAY.isoformat(), text)}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model()}:generateContent"
     for i in range(3):
         r = requests.post(url, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"}, json=body, timeout=90)
         if r.status_code == 429: time.sleep(20 * (i + 1)); continue
-        r.raise_for_status()
+        if r.status_code != 200: raise LLMError(f"{r.status_code} {r.text[:200]}")
         out = r.json()["candidates"][0]["content"]["parts"][0]["text"]
         return json.loads(re.sub(r"^```(?:json)?|```$", "", out.strip()).strip())
-    raise RuntimeError("rate limited")
+    raise LLMError("rate limited (free quota used up for now)")
 
 def add_my_links(items, old):
     if not os.path.exists("my_links.txt"): return
@@ -118,36 +140,54 @@ def add_my_links(items, old):
                         "first_seen": old.get(u, {}).get("first_seen", TODAY.isoformat())}
 
 def enrich(items, old, log):
-    done = n_ok = n_fail = 0
     for link in list(items):
+        if not link.startswith("http") or BAD.search(link): del items[link]
+    use_ai = bool(KEY)
+    if use_ai:
+        try: log.append("MODEL " + pick_model())
+        except Exception as ex: use_ai = False; log.append(f"MODEL ERROR {str(ex)[:200]}")
+    def prio(l):
+        o = items[l]; t = o["title"]
+        if o["source"] == "My links": return (-1, -1)
+        return (0 if FIELD.search(t) else 1, 0 if re.search(r"phd|doctor|studentship|fellowship|scholarship", t, re.I) else 1)
+    done = n_ok = n_fail = ai_fail = 0
+    for link in sorted(items, key=prio):
         o = items[link]
-        if link in old and old[link].get("info"):
-            o["info"] = old[link]["info"]; continue
-        if done >= MAX_PAGES: continue
+        inf = old.get(link, {}).get("info")
+        if inf and (inf.get("ai") or not use_ai or (inf.get("retry") and inf["retry"] > TODAY.isoformat())):
+            o["info"] = inf; continue
+        if done >= MAX_PAGES or ai_fail >= 3: continue
         done += 1
-        try:
-            text = page_text(link)
-            info = quick_facts(text)
-            if len(text) < 300:
-                info["summary"] = "Page could not be read automatically (needs JavaScript). Open it and check."
-            elif KEY:
-                info.update({k: v for k, v in ask_llm(text).items() if v not in (None, "", [], "unknown")})
-                time.sleep(5)
-            info["ai"] = bool(KEY) and len(text) >= 300
-            o["info"] = info; n_ok += 1
+        try: text = page_text(link)
         except Exception as ex:
-            n_fail += 1; log.append(f"READFAIL {link[:80]}: {str(ex)[:100]}")
+            n_fail += 1; log.append(f"READFAIL {link[:70]}: {str(ex)[:70]}")
+            o["info"] = {"summary": "The script could not open this page. Open it and check.", "ai": False,
+                         "retry": (TODAY + dt.timedelta(days=7)).isoformat()}
+            continue
+        info = quick_facts(text); info["ai"] = False
+        if len(text) < 300:
+            info["summary"] = "Page needs JavaScript, so it could not be read automatically. Open it and check."
+            info["retry"] = (TODAY + dt.timedelta(days=14)).isoformat()
+        elif use_ai:
+            try:
+                got = ask_llm(text)
+                info.update({k: v for k, v in got.items() if v not in (None, "", [], "unknown")})
+                info["ai"] = True; ai_fail = 0; time.sleep(5)
+            except Exception as ex:
+                ai_fail += 1; log.append(f"AIFAIL {link[:60]}: {str(ex)[:160]}")
+                if ai_fail >= 3: log.append("AI STOPPED after 3 errors in a row, see AIFAIL lines above")
+                continue
+        o["info"] = info; n_ok += 1
     for link in list(items):
         inf = items[link].get("info")
         if not inf: continue
         if inf.get("is_phd_funding") is False: del items[link]; continue
         o = items[link]
-        for k in ("country",):
-            if inf.get(k) and not o.get(k): o[k] = inf[k]
+        if inf.get("country") and not o.get("country"): o["country"] = inf["country"]
         if inf.get("funding_type") in ("Scholarship", "Assistantship", "PhD job (paid)", "Other"): o["fund"] = inf["funding_type"]
         d = inf.get("deadline", "")
         if re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(d)): o["deadline"] = d
-    log.append(f"READ  {n_ok} pages read this run, {n_fail} failed, AI {'ON' if KEY else 'OFF (no GEMINI_API_KEY)'}")
+    log.append(f"READ  {n_ok} pages read this run, {n_fail} could not be opened, AI {'ON' if use_ai else 'OFF'}")
 
 def main():
     srcs = json.load(open("sources.json", encoding="utf-8"))
