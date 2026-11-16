@@ -7,17 +7,41 @@
    "country": "Europe",
    "source": "EURAXESS (applied linguistics)",
    "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Research Scholarship_BIO-K – BI_1",
-   "link": "https://euraxess.ec.europa.eu/jobs/480721",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "deadline": "2026-11-30",
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "2026-11-30",
+    "requirements": {
+     "documents": [
+      "application documents (implied by call for application)"
+     ],
+     "language_tests": []
+    },
+    "funding_details": {
+     "amount": "1359,64€ per month",
+     "duration": "29 months initial duration, renewable up to a maximum total of 33 months",
+     "what_is_covered": "Monthly maintenance allowance"
+    },
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Portugal",
+    "institution": "Universidade Católica Portuguesa - Porto",
+    "funding_type": "Scholarship",
+    "eligible_fields": [
+     "Biotechnology",
+     "Bioengineering",
+     "related areas"
+    ],
+    "who_can_apply": {
+     "nationality": "unknown",
+     "degree": "Master's degree in Biotechnology, Bioengineering, or related fields",
+     "age_or_other_limits": "Must be enrolled or present a commitment to enroll in a Doctoral degree in Biotechnology or related areas"
+    },
+    "fit_elt_dt": "low",
+    "fit_reason": "The PhD position requires a master's degree in biotechnology, bioengineering, or related fields rather than ELT or educational technology.",
+    "how_to_apply": "Apply online through the EURAXESS or institution's application portal by the specified deadline.",
+    "summary": "A PhD research scholarship in Biotechnology is available at Universidade Católica Portuguesa in Porto, funded for up to 33 months."
+   }
   },
   {
    "title": "Linguistics MPhil/PhD",
@@ -25,8 +49,37 @@
    "country": "UK",
    "source": "jobs.ac.uk (linguistics PhD)",
    "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "deadline": "2027-01-20",
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "2027-01-20",
+    "requirements": {
+     "documents_needed": "unknown",
+     "language_tests_needed": "unknown"
+    },
+    "funding_details": {
+     "amount": "Not Specified",
+     "duration": "unknown",
+     "what_is_covered": "unknown"
+    },
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "UK",
+    "institution": "University of Warwick",
+    "eligible_fields": [
+     "Linguistics",
+     "Applied Linguistics"
+    ],
+    "who_can_apply": {
+     "nationality": "unknown",
+     "degree": "unknown",
+     "age_or_other_limits": "unknown"
+    },
+    "fit_elt_dt": "high",
+    "fit_reason": "The PhD is in Applied Linguistics at the University of Warwick, which aligns well with an ELT master's background.",
+    "how_to_apply": "Click the 'Apply' button on the advert page for more information and to apply.",
+    "summary": "The University of Warwick offers an MPhil/PhD in Linguistics and Applied Linguistics with funding amount not specified and an application deadline of 20th January 2027."
+   }
   },
   {
    "title": "Applied Linguistics MPhil/PhD",
@@ -35,7 +88,15 @@
    "source": "jobs.ac.uk (linguistics PhD)",
    "fund": "PhD job / position",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [],
+    "funding_details": "",
+    "ai": false,
+    "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
+    "retry": "2026-11-30"
+   }
   },
   {
    "title": "PhD Studentship: Linguistics and Bilingualism: Fully funded PhD Scholarship in the ESRC Welsh Graduate School for the Social Sciences (WGSSS) Linguistics and Bi",
@@ -44,7 +105,15 @@
    "source": "jobs.ac.uk (linguistics PhD)",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [],
+    "funding_details": "",
+    "ai": false,
+    "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
+    "retry": "2026-11-30"
+   }
   },
   {
    "title": "Intercultural Communication MPhil/PhD",
@@ -52,8 +121,38 @@
    "country": "UK",
    "source": "jobs.ac.uk (linguistics PhD)",
    "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "deadline": "2027-01-20",
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "2027-01-20",
+    "requirements": {
+     "documents": [],
+     "language_tests": []
+    },
+    "funding_details": {
+     "amount": "Not Specified",
+     "duration": "unknown",
+     "what_is_covered": "unknown"
+    },
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "UK",
+    "institution": "University of Warwick",
+    "eligible_fields": [
+     "Intercultural Communication",
+     "Applied Linguistics",
+     "culture, language and communication"
+    ],
+    "who_can_apply": {
+     "nationality": "unknown",
+     "degree": "unknown",
+     "age_or_other_limits": "unknown"
+    },
+    "fit_elt_dt": "high",
+    "fit_reason": "The PhD is in Intercultural Communication within the Department of Applied Linguistics, which aligns well with an ELT background.",
+    "how_to_apply": "Click the 'Apply' button on the page to proceed.",
+    "summary": "The University of Warwick offers an Intercultural Communication MPhil/PhD in the Department of Applied Linguistics with funding amount not specified and an application deadline of 20th January 2027."
+   }
   },
   {
    "title": "Discourse Studies MPhil/PhD",
@@ -61,8 +160,22 @@
    "country": "UK",
    "source": "jobs.ac.uk (linguistics PhD)",
    "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "deadline": "2027-01-15",
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "2027-01-15",
+    "requirements": [],
+    "funding_details": "Funding amount: Not Specified",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "UK",
+    "institution": "University of Warwick",
+    "eligible_fields": "Discourse Studies, Applied Linguistics, language, communication and discourse",
+    "fit_elt_dt": "high",
+    "fit_reason": "The program is in Applied Linguistics and focuses on discourse studies, matching an ELT and digital technology background.",
+    "how_to_apply": "Click the 'Apply' button on the page.",
+    "summary": "The University of Warwick offers an MPhil/PhD in Discourse Studies within the Department of Applied Linguistics."
+   }
   },
   {
    "title": "English Language Teaching MPhil/PhD",
@@ -70,26 +183,73 @@
    "country": "UK",
    "source": "jobs.ac.uk (linguistics PhD)",
    "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "deadline": "2027-01-15",
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "2027-01-15",
+    "requirements": {
+     "documents": "unknown",
+     "language_tests": "unknown"
+    },
+    "funding_details": {
+     "amount": "Not Specified",
+     "duration": "unknown",
+     "what_is_covered": "unknown"
+    },
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "UK",
+    "institution": "University of Warwick",
+    "eligible_fields": [
+     "English Language Teaching",
+     "Applied Linguistics"
+    ],
+    "who_can_apply": {
+     "nationality": "unknown",
+     "degree": "unknown",
+     "age_or_other_limits": "unknown"
+    },
+    "fit_elt_dt": "high",
+    "fit_reason": "The program is an English Language Teaching MPhil/PhD in the Department of Applied Linguistics, matching an ELT background.",
+    "how_to_apply": "Click the 'Apply' button on the page to proceed with the application.",
+    "summary": "The University of Warwick offers an English Language Teaching MPhil/PhD in Applied Linguistics with an application deadline of January 15, 2027."
+   }
   },
   {
    "title": "Magdalen Vernon PhD Studentship in Psychology, Neuroscience, Psycholinguistics, or Clinical Language Science",
    "link": "https://www.jobs.ac.uk/job/DTB024/magdalen-vernon-phd-studentship-in-psychology-neuroscience-psycholinguistics-or-clinical-language-science",
    "country": "UK",
    "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Scholarships programmes",
-   "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
-   "country": "France",
-   "source": "Campus France scholarships",
    "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "deadline": "2026-12-04",
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "2026-12-04",
+    "requirements": [
+     "CV",
+     "Academic transcripts and certificates",
+     "Research proposal of 500-700 words (excluding references)",
+     "Online application for PhD study",
+     "Magdalen Vernon PhD Studentship Application Form"
+    ],
+    "funding_details": "Maintenance allowance/stipend of £21,805 per year, Research Training Support Grant of £1,000 per year, and Home/UK/Republic of Ireland tuition fees covered for a fixed period of 3 years starting September 2027.",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "UK",
+    "institution": "University of Reading",
+    "funding_type": "Scholarship",
+    "eligible_fields": [
+     "Psychology",
+     "Neuroscience",
+     "Psycholinguistics",
+     "Clinical Language Science"
+    ],
+    "who_can_apply": "Candidates who qualify for Home fee status only; requires a good first degree in psychology, neuroscience, linguistics, language therapy or related subject, with a master's degree in a relevant discipline being beneficial.",
+    "fit_elt_dt": "low",
+    "fit_reason": "The studentship is restricted to candidates who qualify for Home fee status only and requires specific subjects like psychology, neuroscience, psycholinguistics, or clinical language science.",
+    "how_to_apply": "Submit an online application for PhD study quoting reference DRC27-001 and complete the Magdalen Vernon PhD Studentship Application Form.",
+    "summary": "The University of Reading offers the Magdalen Vernon PhD Studentship in Psychology, Neuroscience, Psycholinguistics, or Clinical Language Science for Home fee status candidates starting in September 2027."
+   }
   },
   {
    "title": "Scholarships for French students or students living in France",
@@ -427,15 +587,6 @@
   {
    "title": "Study in Canada Scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Scholarships and Educational Exchanges for Development – Phase 2 (SEED-2)",
-   "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/seed-bpeed.aspx?lang=eng",
    "country": "Canada",
    "source": "EduCanada scholarships",
    "fund": "Scholarship",
@@ -789,9 +940,36 @@
    "link": "https://www.fct.pt/en/fct-atribui-1-609-bolsas-de-doutoramento-no-concurso-de-2026/",
    "country": "Portugal",
    "source": "FCT",
-   "fund": "PhD job / position",
+   "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": {
+     "documents": "unknown",
+     "language_tests": "unknown"
+    },
+    "funding_details": {
+     "amount": "unknown",
+     "duration": "unknown",
+     "what_is_covered": "unknown"
+    },
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Portugal",
+    "institution": "Foundation for Science and Technology (FCT)",
+    "funding_type": "Scholarship",
+    "eligible_fields": "Social Sciences, Engineering and Technology, Humanities, and others",
+    "who_can_apply": {
+     "nationality": "candidates from 63 countries (specific eligibility for Moroccan is unknown)",
+     "degree": "unknown",
+     "age_or_other_limits": "unknown"
+    },
+    "fit_elt_dt": "medium",
+    "fit_reason": "Social Sciences are included in the funding fields, but specific eligibility for ELT and digital technology graduates is not explicitly detailed.",
+    "how_to_apply": "Handle contracting through the associated contracting institutions and the myFCT portal.",
+    "summary": "The FCT has announced the final results of its 2026 doctoral research studentships call, awarding 1,609 new grants."
+   }
   },
   {
    "title": "The Australia Awards Scholarships (AAS)",
@@ -985,12 +1163,8 @@
   "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
-  "MODEL gemini-flash-latest",
-  "AIFAIL https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again l",
-  "AIFAIL https://www.jobs.ac.uk/job/DTF907/applied-linguistics-mphil-: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again l",
-  "AIFAIL https://www.jobs.ac.uk/job/DTO516/phd-studentship-linguistic: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again l",
-  "AI STOPPED after 3 errors in a row, see AIFAIL lines above",
-  "READ  0 pages read this run, 0 could not be opened, AI ON"
+  "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
+  "READ  12 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
