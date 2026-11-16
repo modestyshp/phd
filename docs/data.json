@@ -2,11 +2,20 @@
  "updated": "2026-11-16",
  "items": [
   {
-   "title": "Teaching Assistant ( Profesor Ayudante Doctor)",
-   "link": "https://euraxess.ec.europa.eu/jobs/480687",
+   "title": "Research Scholarship_REGENSMART+_ BI_1",
+   "link": "https://euraxess.ec.europa.eu/jobs/480722",
    "country": "Europe",
    "source": "EURAXESS (applied linguistics)",
-   "fund": "Assistantship",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Research Scholarship_BIO-K – BI_1",
+   "link": "https://euraxess.ec.europa.eu/jobs/480721",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "Scholarship",
    "deadline": "",
    "first_seen": "2026-11-16"
   },
@@ -314,7 +323,14 @@
    "source": "Turkiye Scholarships",
    "fund": "PhD job / position",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [],
+    "funding_details": "",
+    "summary": "Page could not be read automatically (needs JavaScript). Open it and check.",
+    "ai": false
+   }
   },
   {
    "title": "TÜRKİYE SCHOLARSHIPS",
@@ -1029,9 +1045,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 1 matches (of 100 links)",
-  "OK    EURAXESS (language education): 0 matches (of 100 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 100 links)",
+  "OK    EURAXESS (applied linguistics): 2 matches (of 88 links)",
+  "OK    EURAXESS (language education): 0 matches (of 88 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 88 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1065,7 +1081,47 @@
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
   "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
-  "OK    UMI (Moulay Ismail): 6 matches (of 99 links)"
+  "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
+  "READFAIL https://euraxess.ec.europa.eu/jobs/480722: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://euraxess.ec.europa.eu/jobs/480721: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.jobs.ac.uk/job/DTF907/applied-linguistics-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.jobs.ac.uk/job/DTO516/phd-studentship-linguistics-and-bilingualism-f: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.jobs.ac.uk/job/DTI693/intercultural-communication-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.jobs.ac.uk/job/DTG046/discourse-studies-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.jobs.ac.uk/job/DTH184/english-language-teaching-mphil-phd: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.jobs.ac.uk/job/DTB024/magdalen-vernon-phd-studentship-in-psychology-: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/bursaries-foreign-students: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/node/2280: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/organising-your-stay-as-a-scholarship-holder: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/what-involved-Doctorate-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/how-to-enrol-Doctorate-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://doctorat.campusfrance.org/phd/dschools/main: 403 Client Error: Forbidden for url: https://doctorat.campusfrance.org/phd/dschools/main",
+  "READFAIL https://www.campusfrance.org/en/pre-Doctorate-programme-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/how-to-finance-Doctorate-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/FAQ-Doctorate-France-questions: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/post-doctorate-France: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/social-security-doctoral-students-researchers: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.campusfrance.org/en/reception-programmes-doctoral-student-associatio: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glanc: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glanc: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.admin.ch/opc/de/classified-compilation/19870116/index.html: 403 Client Error: Forbidden for url: https://www.admin.ch/opc/de/classified-compilation/19870116/ind",
+  "READFAIL https://www.admin.ch/opc/de/classified-compilation/20121883/index.html: 403 Client Error: Forbidden for url: https://www.admin.ch/opc/de/classified-compilation/20121883/ind",
+  "READFAIL https://www.admin.ch/opc/de/classified-compilation/20130049/index.html: 403 Client Error: Forbidden for url: https://www.admin.ch/opc/de/classified-compilation/20130049/ind",
+  "READFAIL https://e2-news.ch/en/news/scholarships-as-a-career-booster: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://twitter.com/Swiss_FCS: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.youtube.com/watch?v=RRZjsHok5N4: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www",
+  "READFAIL https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-g: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-g: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-g: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glanc: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://turkiyeburslari.gov.tr/about: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://turkiyeburslari.gov.tr/: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://turkiyeburslari.gov.tr/whyturkiyescholarships: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://turkiyeburslari.gov.tr/scholarshipsprograms: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READFAIL https://turkiyeburslari.gov.tr/scholarshipsprocess: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-",
+  "READ  1 pages read this run, 39 failed, AI ON"
  ],
  "programmes": [
   {
