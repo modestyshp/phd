@@ -7,6 +7,8 @@ from bs4 import BeautifulSoup
 from dateutil import parser as dp
 
 TODAY = dt.date.today()
+START = time.time()
+BUDGET = int(os.environ.get("BUDGET_SECONDS", "600"))
 H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
      "Accept": "text/html,application/xhtml+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9,fr;q=0.8"}
 
@@ -60,7 +62,7 @@ def from_html(src):
 
 # ---------- READING EACH PAGE (the part that replaces manual checking) ----------
 KEY = os.environ.get("GEMINI_API_KEY", "")
-MAX_PAGES = int(os.environ.get("MAX_PAGES", "80"))
+MAX_PAGES = int(os.environ.get("MAX_PAGES", "30"))
 BAD = re.compile(r"youtube\.com|youtu\.be|twitter\.com|//x\.com|facebook\.com|instagram\.com|linkedin\.com|admin\.ch/opc|\.pdf(\?|$)", re.I)
 DOCS = {"CV": r"\bCV\b|curriculum vitae|resume", "Motivation letter": r"motivation|cover letter|statement of purpose|lettre de motivation",
         "Research proposal": r"research proposal|project proposal|research plan|projet de recherche",
@@ -162,7 +164,7 @@ def enrich(items, old, log):
         inf = old.get(link, {}).get("info")
         if inf and (inf.get("ai") or not use_ai or (inf.get("retry") and inf["retry"] > TODAY.isoformat())):
             o["info"] = inf; continue
-        if done >= MAX_PAGES or ai_fail >= 3: continue
+        if done >= MAX_PAGES or ai_fail >= 3 or time.time() - START > BUDGET: continue
         done += 1
         try: text = page_text(link)
         except Exception as ex:
