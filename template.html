@@ -31,8 +31,8 @@ function fill(){const src=tab==='prog'?D.programmes:tab==='found'?D.items:[];
  const cs=tab==='uni'?Object.keys(D.watch):[...new Set(src.map(o=>o.country))].sort();
  $('c').innerHTML='<option value="">All countries</option>'+cs.map(x=>'<option>'+E(x)+'</option>').join('');
  const fs=[...new Set(src.map(o=>o.type||o.fund))];$('f').innerHTML='<option value="">All funding types</option>'+fs.map(x=>'<option>'+E(x)+'</option>').join('');
- $('f').style.display=tab==='uni'?'none':''}
-function tabs(){$('nav').innerHTML=[['prog','Programmes by country'],['found','Auto-found'],['uni','Universities']].map(([k,v])=>`<button class="${k===tab?'on':''}" onclick="tab='${k}';fill();tabs();r()">${v}</button>`).join('')}
+ $('f').style.display=tab==='uni'||tab==='links'?'none':'';$('c').style.display=tab==='links'?'none':''}
+function tabs(){$('nav').innerHTML=[['prog','Programmes by country'],['found','Auto-found'],['uni','Universities'],['links','Search links']].map(([k,v])=>`<button class="${k===tab?'on':''}" onclick="tab='${k}';fill();tabs();r()">${v}</button>`).join('')}
 function r(){const q=$('q').value.toLowerCase(),c=$('c').value,f=$('f').value;let h='';
  if(tab==='prog'){const a=D.programmes.filter(o=>(!q||JSON.stringify(o).toLowerCase().includes(q))&&(!c||o.country===c)&&(!f||o.type===f))
   .sort((x,y)=>(x.deadline||'9')>(y.deadline||'9')?1:-1);
@@ -44,6 +44,9 @@ function r(){const q=$('q').value.toLowerCase(),c=$('c').value,f=$('f').value;le
   h+='<h2>'+E(k)+'</h2><div class="c u">'+v.filter(u=>!q||u[0].toLowerCase().includes(q)).map(u=>{const s='site:'+u[1]+' PhD (linguistics OR "language education" OR "educational technology") funding';
   return`<a href="https://www.google.com/search?q=${encodeURIComponent(s)}" target="_blank" rel="noopener">${E(u[0])}</a>`}).join('')+'</div>'}
   h='<div class="m">Each link runs a ready-made search of that university for PhD funding in your field.</div>'+h}
+ if(tab==='links'){const B=[['EURAXESS (Europe)','euraxess.ec.europa.eu'],['EURAXESS Belgium','euraxess.be'],['FindAPhD','findaphd.com'],['Academic Positions','academicpositions.com'],['PhDportal','phdportal.com'],['ScholarshipDB','scholarshipdb.net'],['Campus France','campusfrance.org'],['ABG (France)','abg.asso.fr'],['Jobbnorge (Nordics)','jobbnorge.no'],['MEXT Japan','studyinjapan.go.jp'],['AUF','auf.org'],['AcademicTransfer (NL)','academictransfer.com'],['academics.de (Germany)','academics.de']];
+ const K=['applied linguistics','language education','educational technology','TESOL','CALL language learning','digital learning'];
+ h='<div class="m">These sites block automatic search, so open each in your own browser. Each link searches that site for one keyword.</div>'+B.map(b=>'<h2>'+E(b[0])+'</h2><div class="c u">'+K.filter(k=>!q||k.toLowerCase().includes(q)||b[0].toLowerCase().includes(q)).map(k=>'<a href="https://www.google.com/search?q='+encodeURIComponent('site:'+b[1]+' '+k+' PhD (funded OR scholarship OR position)')+'" target="_blank" rel="noopener">'+E(k)+'</a>').join('')+'</div>').join('')}
  $('l').innerHTML=h||'<div class="c m">No matches.</div>'}
 fill();tabs();r();
 </script></body></html>

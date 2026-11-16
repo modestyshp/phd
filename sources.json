@@ -58,14 +58,14 @@
   "name": "Campus France scholarships",
   "country": "France",
   "type": "html",
-  "url": "https://www.campusfrance.org/en/scholarships-catalogue",
+  "url": "https://www.campusfrance.org/en",
   "match": "any"
  },
  {
   "name": "ABG offers",
   "country": "France",
   "type": "html",
-  "url": "https://www.abg.asso.fr/fr/candidatMissions/"
+  "url": "https://www.abg.asso.fr/"
  },
  {
   "name": "Swiss Excellence Scholarships",
@@ -85,7 +85,7 @@
   "name": "MEXT / Study in Japan",
   "country": "Japan",
   "type": "html",
-  "url": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-scholarship.html",
+  "url": "https://www.studyinjapan.go.jp/en/",
   "match": "any"
  },
  {
@@ -113,7 +113,7 @@
   "name": "Jobbnorge",
   "country": "Nordics",
   "type": "html",
-  "url": "https://www.jobbnorge.no/en/available-jobs",
+  "url": "https://www.jobbnorge.no/",
   "match": "field"
  },
  {
@@ -169,7 +169,7 @@
   "name": "VLIR-UOS",
   "country": "Belgium",
   "type": "html",
-  "url": "https://www.vliruos.be/en/scholarships/",
+  "url": "https://www.vliruos.be/en",
   "match": "any"
  },
  {
