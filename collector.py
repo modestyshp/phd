@@ -69,25 +69,25 @@ DOCS = {"CV": r"\bCV\b|curriculum vitae|resume", "Motivation letter": r"motivati
 
 class LLMError(Exception): pass
 
-_model = None
-def pick_model():
-    """Ask Google which models this key can use and pick a current Flash model."""
-    global _model
-    if _model: return _model
+_models = None
+def model_list():
+    """Ordered list of usable models: main one first, backups after."""
+    global _models
+    if _models: return _models
     if os.environ.get("GEMINI_MODEL"):
-        _model = os.environ["GEMINI_MODEL"]; return _model
+        _models = [os.environ["GEMINI_MODEL"]]; return _models
     r = requests.get("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200", headers={"x-goog-api-key": KEY}, timeout=30)
     if r.status_code != 200: raise LLMError(f"model list {r.status_code}: {r.text[:200]}")
     names = [m["name"].split("/")[-1] for m in r.json().get("models", []) if "generateContent" in m.get("supportedGenerationMethods", [])]
-    if "gemini-flash-latest" in names:
-        _model = "gemini-flash-latest"; return _model
     ver = lambda n: float(re.search(r"gemini-(\d+(?:\.\d+)?)", n).group(1)) if re.search(r"gemini-(\d+(?:\.\d+)?)", n) else 0
-    flash = [n for n in names if "flash" in n and not re.search(r"image|tts|live|audio|thinking|embed|8b|robotics", n)]
-    stable = [n for n in flash if not re.search(r"lite|preview|exp", n)]
-    pool = stable or flash or names
-    if not pool: raise LLMError("no usable model for this key")
-    _model = sorted(pool, key=ver, reverse=True)[0]
-    return _model
+    flash = [n for n in names if "flash" in n and not re.search(r"image|tts|live|audio|thinking|embed|8b|robotics|preview|exp", n)]
+    flash = sorted(flash, key=lambda n: (-ver(n), "lite" in n))
+    first = [n for n in ("gemini-flash-latest", "gemini-flash-lite-latest") if n in names]
+    _models = list(dict.fromkeys(first + flash))[:5] or names[:3]
+    if not _models: raise LLMError("no usable model for this key")
+    return _models
+
+def pick_model(): return model_list()[0]
 
 def page_text(url):
     r = fetch(url)
@@ -122,14 +122,20 @@ PAGE TEXT:
 def ask_llm(text):
     body = {"contents": [{"parts": [{"text": PROMPT % (TODAY.isoformat(), text)}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model()}:generateContent"
-    for i in range(3):
-        r = requests.post(url, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"}, json=body, timeout=90)
-        if r.status_code == 429: time.sleep(20 * (i + 1)); continue
-        if r.status_code != 200: raise LLMError(f"{r.status_code} {r.text[:200]}")
-        out = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        return json.loads(re.sub(r"^```(?:json)?|```$", "", out.strip()).strip())
-    raise LLMError("rate limited (free quota used up for now)")
+    last = "unknown"
+    for m in model_list():
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
+        for i, wait in enumerate((0, 15, 45)):
+            time.sleep(wait)
+            try: r = requests.post(url, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"}, json=body, timeout=90)
+            except requests.exceptions.RequestException as ex: last = f"{m} network {str(ex)[:80]}"; continue
+            if r.status_code in (429, 500, 502, 503, 504): last = f"{m} {r.status_code} busy"; continue
+            if r.status_code != 200: last = f"{m} {r.status_code} {r.text[:120]}"; break
+            try:
+                out = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+                return json.loads(re.sub(r"^```(?:json)?|```$", "", out.strip()).strip())
+            except Exception as ex: last = f"{m} bad reply {str(ex)[:60]}"; break
+    raise LLMError("all models busy or failing: " + last)
 
 def add_my_links(items, old):
     if not os.path.exists("my_links.txt"): return
@@ -144,7 +150,7 @@ def enrich(items, old, log):
         if not link.startswith("http") or BAD.search(link): del items[link]
     use_ai = bool(KEY)
     if use_ai:
-        try: log.append("MODEL " + pick_model())
+        try: log.append("MODELS " + ", ".join(model_list()))
         except Exception as ex: use_ai = False; log.append(f"MODEL ERROR {str(ex)[:200]}")
     def prio(l):
         o = items[l]; t = o["title"]
@@ -156,7 +162,7 @@ def enrich(items, old, log):
         inf = old.get(link, {}).get("info")
         if inf and (inf.get("ai") or not use_ai or (inf.get("retry") and inf["retry"] > TODAY.isoformat())):
             o["info"] = inf; continue
-        if done >= MAX_PAGES or ai_fail >= 3: continue
+        if done >= MAX_PAGES or ai_fail >= 6: continue
         done += 1
         try: text = page_text(link)
         except Exception as ex:
@@ -175,7 +181,7 @@ def enrich(items, old, log):
                 info["ai"] = True; ai_fail = 0; time.sleep(5)
             except Exception as ex:
                 ai_fail += 1; log.append(f"AIFAIL {link[:60]}: {str(ex)[:160]}")
-                if ai_fail >= 3: log.append("AI STOPPED after 3 errors in a row, see AIFAIL lines above")
+                if ai_fail >= 6: log.append("AI STOPPED after 6 failures in a row, see AIFAIL lines above")
                 continue
         o["info"] = info; n_ok += 1
     for link in list(items):
