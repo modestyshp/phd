@@ -1,0 +1,432 @@
+[
+ {
+  "country": "Hong Kong",
+  "name": "HK PhD Fellowship Scheme (HKPFS)",
+  "type": "Scholarship",
+  "window": "Initial application 1 Dec 2026 12:00 HKT; university form 1 Dec 2026 23:59 HKT",
+  "deadline": "2026-12-01",
+  "verified": true,
+  "link": "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/",
+  "note": "400 awards, up to 3 yrs, all nationalities, max 2 programmes. Education/language depts: HKU, CUHK, EdUHK, CityU"
+ },
+ {
+  "country": "Germany",
+  "name": "DAAD Doctoral Programmes in Germany",
+  "type": "Scholarship",
+  "window": "Deadline differs by country (Aug-Nov 2026 seen). Select Morocco in DAAD database",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
+  "note": "EUR 1,400/month, up to 4 yrs. Needs supervisor, proposal, DAAD recommendation form"
+ },
+ {
+  "country": "Germany",
+  "name": "University PhD jobs (Promotionsstellen)",
+  "type": "PhD job (paid)",
+  "window": "Year-round",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.academics.de",
+  "note": "Biggest source. Search: Angewandte Linguistik, Fremdsprachendidaktik, Educational Technology"
+ },
+ {
+  "country": "Germany",
+  "name": "Political foundations (KAS, Naumann, Böll, FES)",
+  "type": "Scholarship",
+  "window": "Varies, often spring and autumn",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.kas.de",
+  "note": "Some accept international PhD applicants. Check each"
+ },
+ {
+  "country": "France",
+  "name": "Doctoral contract (contrat doctoral)",
+  "type": "PhD job (paid)",
+  "window": "Doctoral school competitions, mostly Mar-Jun",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.abg.asso.fr",
+  "note": "3-year salaried. Need lab/supervisor first. Search: didactique des langues, sciences du langage, TICE"
+ },
+ {
+  "country": "France",
+  "name": "CIFRE (PhD with a company)",
+  "type": "PhD job (paid)",
+  "window": "Year-round",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.anrt.asso.fr",
+  "note": "Edtech companies are the fit"
+ },
+ {
+  "country": "France",
+  "name": "French Government / Campus France scholarships, Eiffel",
+  "type": "Scholarship",
+  "window": "Check Campus France Maroc",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.campusfrance.org",
+  "note": "Eiffel is applied for by the French institution"
+ },
+ {
+  "country": "France",
+  "name": "Cotutelle / PHC Toubkal (Morocco-France)",
+  "type": "Other",
+  "window": "Varies",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.campusfrance.org",
+  "note": "Needs a Moroccan and a French supervisor"
+ },
+ {
+  "country": "Belgium",
+  "name": "Assistant / aspirant posts",
+  "type": "Assistantship",
+  "window": "Year-round",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.euraxess.be",
+  "note": "UCLouvain, ULB, ULiège, Ghent, KU Leuven"
+ },
+ {
+  "country": "Belgium",
+  "name": "FWO / FNRS-FRIA fellowships",
+  "type": "Scholarship",
+  "window": "Usually spring or autumn via host university",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.fwo.be",
+  "note": "Competitive, needs host supervisor"
+ },
+ {
+  "country": "Belgium",
+  "name": "ARES / VLIR-UOS",
+  "type": "Scholarship",
+  "window": "Varies",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.ares-ac.be",
+  "note": "Development-cooperation scholarships"
+ },
+ {
+  "country": "Netherlands",
+  "name": "PhD positions (salaried)",
+  "type": "PhD job (paid)",
+  "window": "Year-round",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.academictransfer.com",
+  "note": "Search: applied linguistics, language education, educational technology"
+ },
+ {
+  "country": "Switzerland",
+  "name": "Swiss Government Excellence Scholarships",
+  "type": "Scholarship",
+  "window": "Usually autumn-winter via Swiss embassy",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.sbfi.admin.ch",
+  "note": "Check Morocco country page"
+ },
+ {
+  "country": "Switzerland",
+  "name": "SNSF-funded PhD posts",
+  "type": "PhD job (paid)",
+  "window": "Year-round",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.euraxess.ch",
+  "note": "TECFA Geneva is an edtech unit"
+ },
+ {
+  "country": "UK / Ireland",
+  "name": "ESRC DTP and university scholarships",
+  "type": "Scholarship",
+  "window": "Often Dec-Feb",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.findaphd.com",
+  "note": "Few places for international students"
+ },
+ {
+  "country": "Nordics",
+  "name": "Salaried PhD posts",
+  "type": "PhD job (paid)",
+  "window": "Year-round",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.jobbnorge.no",
+  "note": "Often in English"
+ },
+ {
+  "country": "Hungary / Poland / Czechia",
+  "name": "Stipendium Hungaricum / NAWA / Czech govt",
+  "type": "Scholarship",
+  "window": "Hungary usually Jan-Feb",
+  "deadline": "",
+  "verified": false,
+  "link": "https://stipendiumhungaricum.hu",
+  "note": "Open to Moroccans, check yearly"
+ },
+ {
+  "country": "Italy / Spain",
+  "name": "Funded PhD places (borse) / AECID",
+  "type": "Scholarship",
+  "window": "Italy usually spring-summer",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.universitaly.it",
+  "note": "Per-university calls"
+ },
+ {
+  "country": "EU-wide",
+  "name": "Marie Curie Doctoral Networks",
+  "type": "PhD job (paid)",
+  "window": "Varies",
+  "deadline": "",
+  "verified": false,
+  "link": "https://euraxess.ec.europa.eu",
+  "note": "Paid PhDs, search education/linguistics"
+ },
+ {
+  "country": "Canada",
+  "name": "Assistantships with admission",
+  "type": "Assistantship",
+  "window": "Usually Dec-Feb",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.educanada.ca",
+  "note": "Funding comes with offer. Also Vanier, Ontario Graduate Scholarship"
+ },
+ {
+  "country": "USA",
+  "name": "Assistantships with admission",
+  "type": "Assistantship",
+  "window": "Usually Dec to mid-Jan",
+  "deadline": "",
+  "verified": false,
+  "link": "https://educationusa.state.gov",
+  "note": "Target Applied Linguistics, Education, Second Language Studies"
+ },
+ {
+  "country": "USA",
+  "name": "Fulbright Foreign Student (Morocco)",
+  "type": "Scholarship",
+  "window": "Check Fulbright Morocco",
+  "deadline": "",
+  "verified": false,
+  "link": "https://foreign.fulbrightonline.org",
+  "note": "Via Fulbright Morocco commission"
+ },
+ {
+  "country": "Turkey",
+  "name": "Türkiye Burslari (graduate)",
+  "type": "Scholarship",
+  "window": "Usually Jan-Feb",
+  "deadline": "",
+  "verified": false,
+  "link": "https://turkiyeburslari.gov.tr",
+  "note": "Includes PhD"
+ },
+ {
+  "country": "Japan",
+  "name": "MEXT Government Scholarship",
+  "type": "Scholarship",
+  "window": "Spring or autumn via embassy",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.studyinjapan.go.jp",
+  "note": "Needs university contact"
+ },
+ {
+  "country": "Thailand",
+  "name": "University and Thai government scholarships",
+  "type": "Scholarship",
+  "window": "Varies",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.studyinthailand.org",
+  "note": "Least certain, check each university"
+ },
+ {
+  "country": "Gulf",
+  "name": "Qatar University / HBKU / King Saud funded PhDs",
+  "type": "PhD job (paid)",
+  "window": "Varies",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.qu.edu.qa",
+  "note": "Education PhDs are rarer"
+ },
+ {
+  "country": "Morocco",
+  "name": "CNRST doctoral scholarships (backup)",
+  "type": "Scholarship",
+  "window": "Check CNRST",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.cnrst.ma",
+  "note": "Domestic fallback"
+ },
+ {
+  "country": "China",
+  "name": "Chinese Government Scholarship (CSC), Type B via university",
+  "type": "Scholarship",
+  "window": "Deadlines set by each university, mostly Jan-Apr 2027",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.campuschina.org",
+  "note": "Needs supervisor acceptance letter. Check Chinese Embassy Rabat for any Morocco quota"
+ },
+ {
+  "country": "China",
+  "name": "CSC Type B: Zhejiang Normal University (education / linguistics fit)",
+  "type": "Scholarship",
+  "window": "Closing date seen on one aggregator site",
+  "deadline": "2027-02-20",
+  "verified": false,
+  "link": "https://www.campuschina.org",
+  "note": "Confirm on the university site"
+ },
+ {
+  "country": "China",
+  "name": "CSC Type B: Xi'an Jiaotong University",
+  "type": "Scholarship",
+  "window": "Closing date seen on one aggregator site",
+  "deadline": "2027-04-01",
+  "verified": false,
+  "link": "https://www.campuschina.org",
+  "note": "Confirm on the university site. Strongest in science and engineering"
+ },
+ {
+  "country": "South Korea",
+  "name": "Global Korea Scholarship (GKS/KGSP), graduate",
+  "type": "Scholarship",
+  "window": "Embassy track about Feb-Mar 2027 (one site); university track in autumn",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.studyinkorea.go.kr",
+  "note": "Via Korean Embassy in Rabat. Check which track suits you"
+ },
+ {
+  "country": "Singapore",
+  "name": "NUS Research Scholarship / NTU Research Scholarship (NIE for education)",
+  "type": "Scholarship",
+  "window": "Typically Dec-Jan for August intake",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.nie.edu.sg",
+  "note": "Admission and funding apply together. Check each university"
+ },
+ {
+  "country": "Singapore",
+  "name": "SINGA (A*STAR) PhD award",
+  "type": "Scholarship",
+  "window": "Usually two rounds a year",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.a-star.edu.sg",
+  "note": "Mostly science and engineering, low fit for ELT"
+ },
+ {
+  "country": "Taiwan",
+  "name": "Taiwan Scholarship (MOE) and ICDF",
+  "type": "Scholarship",
+  "window": "Usually March-April",
+  "deadline": "",
+  "verified": false,
+  "link": "https://taiwanscholarship.moe.gov.tw",
+  "note": "Graduate level includes PhD. Check programmes taught in English"
+ },
+ {
+  "country": "Australia",
+  "name": "Research Training Program (RTP) scholarships",
+  "type": "Scholarship",
+  "window": "Varies by university, many rounds mid-year and Aug-Oct",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.studyaustralia.gov.au",
+  "note": "Applied through the university with admission. Monash, Melbourne, Sydney, UQ, Macquarie"
+ },
+ {
+  "country": "New Zealand",
+  "name": "University doctoral scholarships (Auckland, Victoria, Otago, Waikato)",
+  "type": "Scholarship",
+  "window": "Often rolling or several rounds a year",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.studyinnewzealand.govt.nz",
+  "note": "Needs supervisor and admission first"
+ },
+ {
+  "country": "Austria",
+  "name": "OeAD scholarships and university PhD posts (FWF projects)",
+  "type": "PhD job (paid)",
+  "window": "Posts year-round; OeAD calls vary",
+  "deadline": "",
+  "verified": false,
+  "link": "https://oead.at/en",
+  "note": "Vienna, Graz, Innsbruck, Klagenfurt. Search applied linguistics, language education"
+ },
+ {
+  "country": "Luxembourg",
+  "name": "University of Luxembourg doctoral positions (FNR-funded)",
+  "type": "PhD job (paid)",
+  "window": "Year-round",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.uni.lu",
+  "note": "Salaried PhD posts, multilingual setting suits ELT"
+ },
+ {
+  "country": "Portugal",
+  "name": "FCT PhD grants and university positions",
+  "type": "Scholarship",
+  "window": "FCT calls usually in summer",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.fct.pt",
+  "note": "Check whether international applicants can apply in your call"
+ },
+ {
+  "country": "Mobility",
+  "name": "Erasmus+ international credit mobility for doctoral students",
+  "type": "Other",
+  "window": "Via your Moroccan university, usually spring-summer",
+  "deadline": "",
+  "verified": false,
+  "link": "https://erasmus-plus.ec.europa.eu",
+  "note": "Lets you spend a period abroad while enrolled in Morocco"
+ },
+ {
+  "country": "Mobility",
+  "name": "Cotutelle (joint supervision) with Europe",
+  "type": "Other",
+  "window": "Year-round, agreed between two universities",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.campusfrance.org",
+  "note": "Start in Morocco, spend time abroad"
+ },
+ {
+  "country": "Morocco",
+  "name": "Doctoral centre calls at Moulay Ismail University (CEDoc) and other Moroccan universities",
+  "type": "Other",
+  "window": "Check each year, usually summer-autumn",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.umi.ac.ma",
+  "note": "Fallback. Often combined with Erasmus+ or Cotutelle"
+ },
+ {
+  "country": "Worldwide",
+  "name": "AUF (Francophonie) research and mobility grants",
+  "type": "Scholarship",
+  "window": "Calls vary",
+  "deadline": "",
+  "verified": false,
+  "link": "https://www.auf.org",
+  "note": "Useful for French-speaking applicants"
+ }
+]
