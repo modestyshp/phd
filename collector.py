@@ -123,9 +123,9 @@ def ask_llm(text):
     body = {"contents": [{"parts": [{"text": PROMPT % (TODAY.isoformat(), text)}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
     last = "unknown"
-    for m in model_list():
+    for m in model_list()[:3]:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
-        for i, wait in enumerate((0, 15, 45)):
+        for i, wait in enumerate((0, 8, 20)):
             time.sleep(wait)
             try: r = requests.post(url, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"}, json=body, timeout=90)
             except requests.exceptions.RequestException as ex: last = f"{m} network {str(ex)[:80]}"; continue
@@ -162,7 +162,7 @@ def enrich(items, old, log):
         inf = old.get(link, {}).get("info")
         if inf and (inf.get("ai") or not use_ai or (inf.get("retry") and inf["retry"] > TODAY.isoformat())):
             o["info"] = inf; continue
-        if done >= MAX_PAGES or ai_fail >= 6: continue
+        if done >= MAX_PAGES or ai_fail >= 3: continue
         done += 1
         try: text = page_text(link)
         except Exception as ex:
@@ -181,7 +181,7 @@ def enrich(items, old, log):
                 info["ai"] = True; ai_fail = 0; time.sleep(5)
             except Exception as ex:
                 ai_fail += 1; log.append(f"AIFAIL {link[:60]}: {str(ex)[:160]}")
-                if ai_fail >= 6: log.append("AI STOPPED after 6 failures in a row, see AIFAIL lines above")
+                if ai_fail >= 3: log.append("AI STOPPED after 3 failures in a row, see AIFAIL lines above")
                 continue
         o["info"] = info; n_ok += 1
     for link in list(items):
