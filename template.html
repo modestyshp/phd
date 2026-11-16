@@ -38,8 +38,18 @@ function r(){const q=$('q').value.toLowerCase(),c=$('c').value,f=$('f').value;le
   .sort((x,y)=>(x.deadline||'9')>(y.deadline||'9')?1:-1);
   h=a.map(o=>`<div class="c"><a href="${E(o.link)}" target="_blank" rel="noopener">${E(o.name)}</a> <span class="tag">${E(o.country)}</span> <span class="tag">${E(o.type)}</span> ${o.verified?'<span class="tag ok">checked</span>':o.deadline?'<span class="tag">date from one site, confirm</span>':'<span class="tag">typical window, verify</span>'}
   <div class="m">${E(o.window)}</div><div>${dl(o.deadline)}</div><div class="m">${E(o.note)}</div></div>`).join('')}
- if(tab==='found'){const a=D.items.filter(o=>(!q||(o.title+o.source).toLowerCase().includes(q))&&(!c||o.country===c)&&(!f||o.fund===f)).sort((x,y)=>(x.deadline||'9')>(y.deadline||'9')?1:-1);
-  h=a.map(o=>{const nw=(now-new Date(o.first_seen))/864e5<=3;return`<div class="c"><a href="${E(o.link)}" target="_blank" rel="noopener">${E(o.title)}</a><div class="m">${E(o.country)} · ${E(o.source)}</div><span class="tag">${E(o.fund)}</span> ${nw?'<span class="tag ok">new</span>':''} ${o.deadline?dl(o.deadline):'<span class="m">deadline: open page to check</span>'}</div>`}).join('')||'<div class="c m">Nothing found yet. Check the log below.</div>'}
+ if(tab==='found'){const rank={high:0,medium:1,unknown:2,low:3};
+  let a=D.items.filter(o=>(!q||JSON.stringify(o).toLowerCase().includes(q))&&(!c||o.country===c)&&(!f||o.fund===f));
+  const hid=a.filter(o=>(o.info||{}).fit_elt_dt==='low').length;
+  if(!q)a=a.filter(o=>(o.info||{}).fit_elt_dt!=='low');
+  a.sort((x,y)=>(x.deadline||'9')>(y.deadline||'9')?1:(x.deadline||'9')<(y.deadline||'9')?-1:(rank[(x.info||{}).fit_elt_dt]??2)-(rank[(y.info||{}).fit_elt_dt]??2));
+  h=(hid&&!q?'<div class="m">'+hid+' low-fit results hidden. Type "low" in the search box to show them.</div>':'')+a.map(o=>{const i=o.info||{},nw=(now-new Date(o.first_seen))/864e5<=3,fit=i.fit_elt_dt;
+   const row=(k,v)=>v&&v!=='unknown'?`<div class="m"><b>${k}:</b> ${E(v)}</div>`:'';
+   return`<div class="c"><a href="${E(o.link)}" target="_blank" rel="noopener">${E(o.title)}</a><div class="m">${E(o.country||'')} · ${E(i.institution||o.source)}</div>
+   <span class="tag">${E(o.fund)}</span> ${fit&&fit!=='unknown'?'<span class="tag '+(fit==='high'?'ok':'')+'">ELT/DT fit: '+E(fit)+'</span>':''} ${nw?'<span class="tag ok">new</span>':''} ${o.deadline?dl(o.deadline):'<span class="m">deadline: not found, check page</span>'}
+   ${i.summary?'<div>'+E(i.summary)+'</div>':''}${row('Funding',i.funding_details)}${row('Who can apply',i.who_can_apply)}${row('Fields',i.eligible_fields)}${row('Fit reason',i.fit_reason)}
+   ${(i.requirements||[]).length?'<div class="m"><b>Requirements:</b> '+i.requirements.map(E).join(' · ')+'</div>':''}${row('How to apply',i.how_to_apply)}
+   <div class="m">${i.ai?'Read by AI from the page. Confirm on the official page before applying.':i.requirements?'Partly read by script, details not complete.':'Not read yet, will be read on a coming run.'}</div></div>`}).join('')||'<div class="c m">Nothing found yet. Check the log below.</div>'}
  if(tab==='uni'){for(const [k,v] of Object.entries(D.watch)){if(c&&k!==c)continue;
   h+='<h2>'+E(k)+'</h2><div class="c u">'+v.filter(u=>!q||u[0].toLowerCase().includes(q)).map(u=>{const s='site:'+u[1]+' PhD (linguistics OR "language education" OR "educational technology") funding';
   return`<a href="https://www.google.com/search?q=${encodeURIComponent(s)}" target="_blank" rel="noopener">${E(u[0])}</a>`}).join('')+'</div>'}

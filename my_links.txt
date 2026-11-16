@@ -1,0 +1,2 @@
+# Paste any PhD / funding page link here, one per line. The collector reads it and adds a full card.
+# Lines starting with # are ignored.

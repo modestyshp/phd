@@ -57,6 +57,98 @@ def from_html(src):
         out.append((t, urljoin(src["url"], a["href"]), ctx))
     return out
 
+
+# ---------- READING EACH PAGE (the part that replaces manual checking) ----------
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+KEY = os.environ.get("GEMINI_API_KEY", "")
+MAX_PAGES = int(os.environ.get("MAX_PAGES", "40"))
+DOCS = {"CV": r"\bCV\b|curriculum vitae|resume", "Motivation letter": r"motivation|cover letter|statement of purpose|lettre de motivation",
+        "Research proposal": r"research proposal|project proposal|research plan|projet de recherche",
+        "Transcripts": r"transcript|relev[ée]s de notes", "Recommendation letters": r"recommendation|reference letter|referee|lettre de recommandation",
+        "Passport / ID": r"passport|passeport", "Language test": r"IELTS|TOEFL|DELF|DALF|TCF|TestDaF|DSH|Cambridge|language (proficiency|certificate)"}
+
+def page_text(url):
+    r = fetch(url)
+    if "pdf" in r.headers.get("content-type", "").lower(): return ""
+    soup = BeautifulSoup(r.text, "html.parser")
+    for t in soup(["script", "style", "nav", "footer", "header", "noscript"]): t.decompose()
+    return " ".join(soup.get_text(" ").split())[:7000]
+
+def quick_facts(text):
+    docs = [k for k, rx in DOCS.items() if re.search(rx, text, re.I)]
+    amt = re.search(r"(?:€|\$|£|EUR|USD|GBP|CAD|HK\$)\s?[\d][\d,\. ]{2,}(?:\s?(?:per|/|a)\s?(?:month|year|annum))?", text)
+    return {"deadline": deadline(text), "requirements": docs, "funding_details": amt.group(0).strip() if amt else ""}
+
+PROMPT = """You read a web page about a PhD / doctoral funding opportunity for a Moroccan student holding a Master in ELT (English Language Teaching) and Digital Technology in education.
+Use ONLY the page text below. If something is not stated, write "unknown". Never guess dates or amounts. Today is %s.
+Return ONLY JSON with these keys:
+is_phd_funding (true/false: is this a PhD/doctoral position, scholarship, assistantship or fellowship, not a menu, news or master's page),
+country, institution,
+funding_type (one of: Scholarship, Assistantship, PhD job (paid), Other, unknown),
+funding_details (amount, duration, what is covered),
+deadline (YYYY-MM-DD or unknown),
+eligible_fields (subjects accepted),
+who_can_apply (nationality, degree, age or other limits),
+requirements (list of documents and language tests needed),
+fit_elt_dt (high, medium, low or unknown: would an applied linguistics / ELT / educational technology master's graduate be eligible),
+fit_reason (one short sentence),
+how_to_apply (one short sentence),
+summary (one short sentence).
+PAGE TEXT:
+%s"""
+
+def ask_llm(text):
+    body = {"contents": [{"parts": [{"text": PROMPT % (TODAY.isoformat(), text)}]}],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+    for i in range(3):
+        r = requests.post(url, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"}, json=body, timeout=90)
+        if r.status_code == 429: time.sleep(20 * (i + 1)); continue
+        r.raise_for_status()
+        out = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        return json.loads(re.sub(r"^```(?:json)?|```$", "", out.strip()).strip())
+    raise RuntimeError("rate limited")
+
+def add_my_links(items, old):
+    if not os.path.exists("my_links.txt"): return
+    for line in open("my_links.txt", encoding="utf-8"):
+        u = line.strip()
+        if u.startswith("http") and u not in items:
+            items[u] = {"title": u, "link": u, "country": "", "source": "My links", "fund": "unknown", "deadline": "",
+                        "first_seen": old.get(u, {}).get("first_seen", TODAY.isoformat())}
+
+def enrich(items, old, log):
+    done = n_ok = n_fail = 0
+    for link in list(items):
+        o = items[link]
+        if link in old and old[link].get("info"):
+            o["info"] = old[link]["info"]; continue
+        if done >= MAX_PAGES: continue
+        done += 1
+        try:
+            text = page_text(link)
+            info = quick_facts(text)
+            if len(text) < 300:
+                info["summary"] = "Page could not be read automatically (needs JavaScript). Open it and check."
+            elif KEY:
+                info.update({k: v for k, v in ask_llm(text).items() if v not in (None, "", [], "unknown")})
+                time.sleep(5)
+            info["ai"] = bool(KEY) and len(text) >= 300
+            o["info"] = info; n_ok += 1
+        except Exception as ex:
+            n_fail += 1; log.append(f"READFAIL {link[:80]}: {str(ex)[:100]}")
+    for link in list(items):
+        inf = items[link].get("info")
+        if not inf: continue
+        if inf.get("is_phd_funding") is False: del items[link]; continue
+        o = items[link]
+        for k in ("country",):
+            if inf.get(k) and not o.get(k): o[k] = inf[k]
+        if inf.get("funding_type") in ("Scholarship", "Assistantship", "PhD job (paid)", "Other"): o["fund"] = inf["funding_type"]
+        d = inf.get("deadline", "")
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(d)): o["deadline"] = d
+    log.append(f"READ  {n_ok} pages read this run, {n_fail} failed, AI {'ON' if KEY else 'OFF (no GEMINI_API_KEY)'}")
+
 def main():
     srcs = json.load(open("sources.json", encoding="utf-8"))
     old = {}
@@ -79,6 +171,8 @@ def main():
             log.append(f"OK    {s['name']}: {n} matches (of {len(rows)} links)")
         except Exception as ex:
             log.append(f"FAIL  {s['name']}: {ex}")
+    add_my_links(items, old)
+    enrich(items, old, log)
     keep = [o for o in items.values() if not o["deadline"] or o["deadline"] >= TODAY.isoformat()]
     os.makedirs("docs", exist_ok=True)
     data = {"updated": TODAY.isoformat(), "items": keep, "log": log,
