@@ -1,0 +1,754 @@
+{
+ "France": [
+  [
+   "Sorbonne Nouvelle",
+   "univ-paris3.fr"
+  ],
+  [
+   "Paris Nanterre",
+   "parisnanterre.fr"
+  ],
+  [
+   "Grenoble Alpes",
+   "univ-grenoble-alpes.fr"
+  ],
+  [
+   "Lyon 2",
+   "univ-lyon2.fr"
+  ],
+  [
+   "Rouen",
+   "univ-rouen.fr"
+  ],
+  [
+   "Lille",
+   "univ-lille.fr"
+  ],
+  [
+   "Strasbourg",
+   "unistra.fr"
+  ],
+  [
+   "Toulouse Jean Jaurès",
+   "univ-tlse2.fr"
+  ],
+  [
+   "Rennes 2",
+   "univ-rennes2.fr"
+  ],
+  [
+   "Nantes",
+   "univ-nantes.fr"
+  ]
+ ],
+ "Germany": [
+  [
+   "Tübingen",
+   "uni-tuebingen.de"
+  ],
+  [
+   "Hamburg",
+   "uni-hamburg.de"
+  ],
+  [
+   "Münster",
+   "uni-muenster.de"
+  ],
+  [
+   "Duisburg-Essen",
+   "uni-due.de"
+  ],
+  [
+   "Kassel",
+   "uni-kassel.de"
+  ],
+  [
+   "Frankfurt",
+   "uni-frankfurt.de"
+  ],
+  [
+   "Bremen",
+   "uni-bremen.de"
+  ],
+  [
+   "Giessen",
+   "uni-giessen.de"
+  ],
+  [
+   "Potsdam",
+   "uni-potsdam.de"
+  ]
+ ],
+ "Belgium": [
+  [
+   "UCLouvain",
+   "uclouvain.be"
+  ],
+  [
+   "ULB",
+   "ulb.be"
+  ],
+  [
+   "ULiège",
+   "uliege.be"
+  ],
+  [
+   "Ghent",
+   "ugent.be"
+  ],
+  [
+   "KU Leuven",
+   "kuleuven.be"
+  ],
+  [
+   "Antwerp",
+   "uantwerpen.be"
+  ],
+  [
+   "VUB",
+   "vub.be"
+  ],
+  [
+   "UMONS",
+   "umons.ac.be"
+  ]
+ ],
+ "Netherlands": [
+  [
+   "Utrecht",
+   "uu.nl"
+  ],
+  [
+   "Groningen",
+   "rug.nl"
+  ],
+  [
+   "Radboud",
+   "ru.nl"
+  ],
+  [
+   "Amsterdam",
+   "uva.nl"
+  ],
+  [
+   "VU Amsterdam",
+   "vu.nl"
+  ],
+  [
+   "Tilburg",
+   "tilburguniversity.edu"
+  ],
+  [
+   "Leiden",
+   "universiteitleiden.nl"
+  ],
+  [
+   "Open University NL",
+   "ou.nl"
+  ],
+  [
+   "Twente",
+   "utwente.nl"
+  ]
+ ],
+ "Switzerland": [
+  [
+   "Geneva (TECFA)",
+   "unige.ch"
+  ],
+  [
+   "Lausanne",
+   "unil.ch"
+  ],
+  [
+   "Neuchâtel",
+   "unine.ch"
+  ],
+  [
+   "Fribourg",
+   "unifr.ch"
+  ],
+  [
+   "Basel",
+   "unibas.ch"
+  ],
+  [
+   "Zurich",
+   "uzh.ch"
+  ]
+ ],
+ "UK / Ireland": [
+  [
+   "Lancaster",
+   "lancaster.ac.uk"
+  ],
+  [
+   "Warwick",
+   "warwick.ac.uk"
+  ],
+  [
+   "Open University",
+   "open.ac.uk"
+  ],
+  [
+   "Edinburgh",
+   "ed.ac.uk"
+  ],
+  [
+   "UCL IOE",
+   "ucl.ac.uk"
+  ],
+  [
+   "Cambridge",
+   "cam.ac.uk"
+  ],
+  [
+   "Oxford",
+   "ox.ac.uk"
+  ],
+  [
+   "Reading",
+   "reading.ac.uk"
+  ],
+  [
+   "Southampton",
+   "southampton.ac.uk"
+  ],
+  [
+   "Leeds",
+   "leeds.ac.uk"
+  ],
+  [
+   "Manchester",
+   "manchester.ac.uk"
+  ],
+  [
+   "Birmingham",
+   "birmingham.ac.uk"
+  ],
+  [
+   "Trinity Dublin",
+   "tcd.ie"
+  ],
+  [
+   "UCD",
+   "ucd.ie"
+  ],
+  [
+   "DCU",
+   "dcu.ie"
+  ]
+ ],
+ "Nordics": [
+  [
+   "Jyväskylä",
+   "jyu.fi"
+  ],
+  [
+   "Helsinki",
+   "helsinki.fi"
+  ],
+  [
+   "Oulu",
+   "oulu.fi"
+  ],
+  [
+   "Uppsala",
+   "uu.se"
+  ],
+  [
+   "Stockholm",
+   "su.se"
+  ],
+  [
+   "Gothenburg",
+   "gu.se"
+  ],
+  [
+   "Oslo",
+   "uio.no"
+  ],
+  [
+   "Bergen",
+   "uib.no"
+  ],
+  [
+   "Aarhus",
+   "au.dk"
+  ],
+  [
+   "Copenhagen",
+   "ku.dk"
+  ]
+ ],
+ "Canada": [
+  [
+   "Montréal",
+   "umontreal.ca"
+  ],
+  [
+   "Laval",
+   "ulaval.ca"
+  ],
+  [
+   "Sherbrooke",
+   "usherbrooke.ca"
+  ],
+  [
+   "UQAM",
+   "uqam.ca"
+  ],
+  [
+   "Ottawa",
+   "uottawa.ca"
+  ],
+  [
+   "Moncton",
+   "umoncton.ca"
+  ],
+  [
+   "Toronto OISE",
+   "oise.utoronto.ca"
+  ],
+  [
+   "UBC",
+   "ubc.ca"
+  ],
+  [
+   "McGill",
+   "mcgill.ca"
+  ],
+  [
+   "SFU",
+   "sfu.ca"
+  ],
+  [
+   "Concordia",
+   "concordia.ca"
+  ],
+  [
+   "York",
+   "yorku.ca"
+  ],
+  [
+   "Western",
+   "uwo.ca"
+  ]
+ ],
+ "USA": [
+  [
+   "Arizona State",
+   "asu.edu"
+  ],
+  [
+   "Iowa State",
+   "iastate.edu"
+  ],
+  [
+   "Michigan State",
+   "msu.edu"
+  ],
+  [
+   "Georgia State",
+   "gsu.edu"
+  ],
+  [
+   "Penn State",
+   "psu.edu"
+  ],
+  [
+   "Purdue",
+   "purdue.edu"
+  ],
+  [
+   "Northern Arizona",
+   "nau.edu"
+  ],
+  [
+   "UC Davis",
+   "ucdavis.edu"
+  ],
+  [
+   "Teachers College",
+   "tc.columbia.edu"
+  ],
+  [
+   "Boston University",
+   "bu.edu"
+  ],
+  [
+   "Georgetown",
+   "georgetown.edu"
+  ],
+  [
+   "Stanford GSE",
+   "ed.stanford.edu"
+  ],
+  [
+   "UIUC",
+   "illinois.edu"
+  ],
+  [
+   "Hawaii",
+   "hawaii.edu"
+  ],
+  [
+   "Ohio State",
+   "osu.edu"
+  ]
+ ],
+ "Turkey": [
+  [
+   "Boğaziçi",
+   "boun.edu.tr"
+  ],
+  [
+   "METU",
+   "metu.edu.tr"
+  ],
+  [
+   "Hacettepe",
+   "hacettepe.edu.tr"
+  ],
+  [
+   "Anadolu",
+   "anadolu.edu.tr"
+  ],
+  [
+   "Istanbul Univ.",
+   "istanbul.edu.tr"
+  ],
+  [
+   "Bilkent",
+   "bilkent.edu.tr"
+  ],
+  [
+   "Koç",
+   "ku.edu.tr"
+  ]
+ ],
+ "Japan": [
+  [
+   "Tokyo",
+   "u-tokyo.ac.jp"
+  ],
+  [
+   "Waseda",
+   "waseda.jp"
+  ],
+  [
+   "Kyoto",
+   "kyoto-u.ac.jp"
+  ],
+  [
+   "Kyushu",
+   "kyushu-u.ac.jp"
+  ]
+ ],
+ "Hong Kong": [
+  [
+   "HKU",
+   "hku.hk"
+  ],
+  [
+   "CUHK",
+   "cuhk.edu.hk"
+  ],
+  [
+   "EdUHK",
+   "eduhk.hk"
+  ],
+  [
+   "CityU",
+   "cityu.edu.hk"
+  ],
+  [
+   "PolyU",
+   "polyu.edu.hk"
+  ],
+  [
+   "HKUST",
+   "hkust.edu.hk"
+  ],
+  [
+   "HKBU",
+   "hkbu.edu.hk"
+  ],
+  [
+   "Lingnan",
+   "ln.edu.hk"
+  ]
+ ],
+ "Thailand": [
+  [
+   "Chulalongkorn",
+   "chula.ac.th"
+  ],
+  [
+   "Mahidol",
+   "mahidol.ac.th"
+  ],
+  [
+   "Chiang Mai",
+   "cmu.ac.th"
+  ],
+  [
+   "KMUTT",
+   "kmutt.ac.th"
+  ],
+  [
+   "Thammasat",
+   "tu.ac.th"
+  ],
+  [
+   "Prince of Songkla",
+   "psu.ac.th"
+  ]
+ ],
+ "Gulf": [
+  [
+   "HBKU Qatar",
+   "hbku.edu.qa"
+  ],
+  [
+   "Qatar University",
+   "qu.edu.qa"
+  ],
+  [
+   "King Saud",
+   "ksu.edu.sa"
+  ],
+  [
+   "King Abdulaziz",
+   "kau.edu.sa"
+  ]
+ ],
+ "Singapore": [
+  [
+   "NUS",
+   "nus.edu.sg"
+  ],
+  [
+   "NTU / NIE",
+   "nie.edu.sg"
+  ]
+ ],
+ "South Korea": [
+  [
+   "Seoul National",
+   "snu.ac.kr"
+  ],
+  [
+   "Korea University",
+   "korea.ac.kr"
+  ],
+  [
+   "Yonsei",
+   "yonsei.ac.kr"
+  ],
+  [
+   "KAIST",
+   "kaist.ac.kr"
+  ],
+  [
+   "HUFS",
+   "hufs.ac.kr"
+  ],
+  [
+   "Ewha",
+   "ewha.ac.kr"
+  ]
+ ],
+ "China": [
+  [
+   "Zhejiang Normal",
+   "zjnu.edu.cn"
+  ],
+  [
+   "Beijing Normal",
+   "bnu.edu.cn"
+  ],
+  [
+   "East China Normal",
+   "ecnu.edu.cn"
+  ],
+  [
+   "BFSU",
+   "bfsu.edu.cn"
+  ],
+  [
+   "SISU Shanghai",
+   "sisu.edu.cn"
+  ],
+  [
+   "South China Normal",
+   "scnu.edu.cn"
+  ],
+  [
+   "Central China Normal",
+   "ccnu.edu.cn"
+  ]
+ ],
+ "Taiwan": [
+  [
+   "NTNU",
+   "ntnu.edu.tw"
+  ],
+  [
+   "National Taiwan Univ.",
+   "ntu.edu.tw"
+  ],
+  [
+   "NCCU",
+   "nccu.edu.tw"
+  ],
+  [
+   "NYCU",
+   "nycu.edu.tw"
+  ]
+ ],
+ "Australia": [
+  [
+   "Monash",
+   "monash.edu"
+  ],
+  [
+   "Melbourne",
+   "unimelb.edu.au"
+  ],
+  [
+   "Sydney",
+   "sydney.edu.au"
+  ],
+  [
+   "UQ",
+   "uq.edu.au"
+  ],
+  [
+   "UNSW",
+   "unsw.edu.au"
+  ],
+  [
+   "Macquarie",
+   "mq.edu.au"
+  ],
+  [
+   "Curtin",
+   "curtin.edu.au"
+  ],
+  [
+   "Deakin",
+   "deakin.edu.au"
+  ],
+  [
+   "UTS",
+   "uts.edu.au"
+  ],
+  [
+   "ANU",
+   "anu.edu.au"
+  ]
+ ],
+ "New Zealand": [
+  [
+   "Auckland",
+   "auckland.ac.nz"
+  ],
+  [
+   "Victoria Wellington",
+   "wgtn.ac.nz"
+  ],
+  [
+   "Otago",
+   "otago.ac.nz"
+  ],
+  [
+   "Waikato",
+   "waikato.ac.nz"
+  ]
+ ],
+ "Austria": [
+  [
+   "Vienna",
+   "univie.ac.at"
+  ],
+  [
+   "Graz",
+   "uni-graz.at"
+  ],
+  [
+   "Innsbruck",
+   "uibk.ac.at"
+  ],
+  [
+   "Klagenfurt",
+   "aau.at"
+  ],
+  [
+   "Salzburg",
+   "plus.ac.at"
+  ]
+ ],
+ "Luxembourg": [
+  [
+   "Univ. of Luxembourg",
+   "uni.lu"
+  ]
+ ],
+ "Portugal": [
+  [
+   "Lisbon",
+   "ulisboa.pt"
+  ],
+  [
+   "Porto",
+   "up.pt"
+  ],
+  [
+   "Coimbra",
+   "uc.pt"
+  ],
+  [
+   "Aveiro",
+   "ua.pt"
+  ],
+  [
+   "Minho",
+   "uminho.pt"
+  ],
+  [
+   "Universidade Aberta",
+   "uab.pt"
+  ]
+ ],
+ "Morocco": [
+  [
+   "Moulay Ismail (ENS Meknes)",
+   "umi.ac.ma"
+  ],
+  [
+   "Mohammed V Rabat",
+   "um5.ac.ma"
+  ],
+  [
+   "Hassan II Casablanca",
+   "uh2c.ac.ma"
+  ],
+  [
+   "Sidi Mohamed Ben Abdellah Fès",
+   "usmba.ac.ma"
+  ],
+  [
+   "Ibn Tofail Kénitra",
+   "uit.ac.ma"
+  ],
+  [
+   "Cadi Ayyad Marrakech",
+   "uca.ma"
+  ],
+  [
+   "Abdelmalek Essaâdi",
+   "uae.ac.ma"
+  ]
+ ]
+}
