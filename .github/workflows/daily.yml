@@ -15,7 +15,8 @@ jobs:
           python-version: "3.12"
       - run: pip install requests feedparser beautifulsoup4 python-dateutil
       - run: python collector.py
-      - run: |
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}      - run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
           git add docs
