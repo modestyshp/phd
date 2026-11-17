@@ -2,6 +2,45 @@
  "updated": "2026-11-17",
  "items": [
   {
+   "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
+   "link": "https://euraxess.ec.europa.eu/jobs/480984",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job (paid)",
+   "deadline": "2026-12-01",
+   "first_seen": "2026-11-17",
+   "info": {
+    "deadline": "2026-12-01",
+    "requirements": [
+     "Bachelor Degree or equivalent",
+     "SPANISH"
+    ],
+    "funding_details": "amount: unknown; duration: unknown; what is covered: fixed-term employment predoctoral contract",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Spain",
+    "institution": "Universitat Politècnica de València (UPV)",
+    "funding_type": "PhD job (paid)",
+    "deadline_note": "Application deadline is 1 Dec 2026 - 23:59 (Europe/Madrid).",
+    "eligible_fields": "Civil engineering, Chemical engineering, Chemistry, Industrial technology, Agronomics, Forest sciences, Materials engineering, Architecture",
+    "who_can_apply": "Bachelor Degree or equivalent",
+    "fit_elt_dt": "low",
+    "fit_reason": "The position is strictly in engineering, chemistry, architecture, and related technical/agricultural sciences, excluding ELT and educational technology.",
+    "how_to_apply": "Apply online through the official UPV website provided in the offer description.",
+    "summary": "A paid predoctoral research position is available at Universitat Politècnica de València in Spain focusing on carbonaceous solid waste valorization.",
+    "v": 2
+   }
+  },
+  {
+   "title": "FCUP | One Research Grant – Master’s Degree - BTNature (B1)",
+   "link": "https://euraxess.ec.europa.eu/jobs/480978",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-17"
+  },
+  {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
    "country": "UK",
@@ -254,6 +293,15 @@
     "ai": false,
     "retry": "2026-11-24"
    }
+  },
+  {
+   "title": "Social Security for doctoral students and researchers Discover",
+   "link": "https://www.campusfrance.org/en/social-security-doctoral-students-researchers",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-17"
   },
   {
    "title": "Reception programmes and doctoral student associations",
@@ -946,6 +994,15 @@
    "first_seen": "2026-11-16"
   },
   {
+   "title": "Scholarships and Educational Exchanges for Development – Phase 2 (SEED-2)",
+   "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/seed-bpeed.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-17"
+  },
+  {
    "title": "Canadian International Development Scholarships 2030",
    "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
    "country": "Canada",
@@ -1478,9 +1535,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 109 links)",
-  "OK    EURAXESS (language education): 0 matches (of 109 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 109 links)",
+  "OK    EURAXESS (applied linguistics): 2 matches (of 106 links)",
+  "OK    EURAXESS (language education): 0 matches (of 106 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 106 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1517,7 +1574,8 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  10 pages read this run, 0 could not be opened, AI ON"
+  "AIFAIL https://www.educanada.ca/scholarships-bourses/can/institutio: all models busy or failing: gemini-3.8-flash 503 busy",
+  "READ  9 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
