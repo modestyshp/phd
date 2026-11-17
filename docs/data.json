@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "items": [
   {
    "title": "Research Scholarship_REGENSMART+_ BI_1",
@@ -252,40 +252,36 @@
    }
   },
   {
-   "title": "Scholarships for French students or students living in France",
-   "link": "https://www.campusfrance.org/en/node/2280",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Organising your stay as a scholarship holder",
-   "link": "https://www.campusfrance.org/en/organising-your-stay-as-a-scholarship-holder",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "What is involved in a Doctorate in France? Discover",
-   "link": "https://www.campusfrance.org/en/what-involved-Doctorate-France",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "How to enrol in a Doctorate Discover",
    "link": "https://www.campusfrance.org/en/how-to-enrol-Doctorate-France",
    "country": "France",
    "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "fund": "Other",
+   "deadline": "2026-12-15",
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "2026-12-15",
+    "requirements": [
+     "Master's degree or equivalent",
+     "Thesis topic and thesis supervisor found",
+     "Acceptance by a Doctoral school",
+     "Funding approval (if required by the doctoral school)"
+    ],
+    "funding_details": "amount: generally greater than €1,000/month for grants/salary; duration: 3 years for doctoral fellowships; what_codes_covered: living expenses (grants, salary) or specific funding programs",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "France",
+    "institution": "Campus France (French higher education institutions)",
+    "funding_type": "Other",
+    "deadline_note": "Various general university procedures have deadlines like December 2026 or April/May 2027, but specific PhD application deadlines depend on the doctoral school or supervisor.",
+    "eligible_fields": "social sciences and humanities, natural and technological sciences",
+    "who_can_apply": "Moroccan citizens (Morocco is listed under the Etudes en France procedure countries), holders of a Master's degree or equivalent",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "An ELT and digital technology master's graduate falls well within the social sciences, humanities, or educational research fields suitable for a French doctorate.",
+    "how_to_apply": "Find a thesis supervisor and subject, then apply through the Campus France platform and complete the Etudes en France procedure if applicable.",
+    "summary": "This page outlines the general steps, requirements, and funding landscape for enrolling in a PhD in France for international students, including Moroccans."
+   }
   },
   {
    "title": "Doctoral Schools directory",
@@ -294,61 +290,12 @@
    "source": "Campus France scholarships",
    "fund": "PhD job / position",
    "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Pre-Doctorate programmes",
-   "link": "https://www.campusfrance.org/en/pre-Doctorate-programme-France",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "How to finance your Doctorat (PhD)",
-   "link": "https://www.campusfrance.org/en/how-to-finance-Doctorate-France",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "FAQ – Doing my Doctorate in France",
-   "link": "https://www.campusfrance.org/en/FAQ-Doctorate-France-questions",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Post-Doctorate Discover",
-   "link": "https://www.campusfrance.org/en/post-doctorate-France",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Social Security for doctoral students and researchers Discover",
-   "link": "https://www.campusfrance.org/en/social-security-doctoral-students-researchers",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Reception programmes and doctoral student associations",
-   "link": "https://www.campusfrance.org/en/reception-programmes-doctoral-student-associations",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-11-24"
+   }
   },
   {
    "title": "Research scholarships",
@@ -357,7 +304,37 @@
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Master's degree or equivalent completed by 31 July 2027 (for ETH Zurich: 30 June 2027)",
+     "Date of birth after 31 December 1991",
+     "Detailed research plan with a timeline specifying key milestones and activities",
+     "Letter of support from an academic supervisor in Switzerland including a short CV",
+     "Complete CV including educational background, degrees, awards, positions, publications, teaching and practical experience",
+     "Letter of motivation (max. 2 pages)",
+     "Research proposal on FCS/ESKAS form (max. 5 pages including summary for non-specialists)",
+     "Short CV (max. 2 pages) of the academic supervisor at the home university",
+     "E-mail addresses of two different professors in the relevant academic field for recommendation letters",
+     "Copies of certificates and transcripts from previous universities with certified translations if not in English, French, Italian, or German",
+     "Copy of passport",
+     "Copy of residence permit or registration confirmation if already residing in Switzerland"
+    ],
+    "funding_details": "amount: CHF 2,450 per month; duration: Maximum of 12 months (6 months at minimum); what_is_covered: Basic living expenses for one person",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Switzerland",
+    "institution": "Swiss higher education institutions or recognised research institutes",
+    "funding_type": "Scholarship",
+    "deadline_note": "No specific application deadline dates are stated in the text.",
+    "eligible_fields": "Any discipline / all academic fields",
+    "who_can_apply": "Highly qualified early-career researchers from all academic fields who are pursuing a PhD in a country other than Switzerland, date of birth after 31 December 1991, Master's degree or equivalent completed by 31 July 2027 (for ETH Zurich: 30 June 2027)",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship is open to all academic fields for researchers pursuing a PhD, which covers English Language Teaching and Digital Technology.",
+    "how_to_apply": "Find an academic supervisor in Switzerland to support the project and apply online via the Swiss Government scholarship system.",
+    "summary": "The Swiss Government Excellence Scholarships offer 12-month research fellowships for foreign PhD students across all academic fields to conduct research at Swiss higher education institutions."
+   }
   },
   {
    "title": "Art scholarships",
@@ -366,16 +343,41 @@
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "E2-news: Scholarships as a career booster",
-   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Master's degree or equivalent completed by 31 July 2027 (30 June 2027 for ETH Zurich)",
+     "Date of birth after 31 December 1991",
+     "Must be pursuing a PhD in a country other than Switzerland",
+     "Endorsement and letter of support from an academic supervisor in Switzerland",
+     "Short CV (max. 2 pages) of the academic supervisor in Switzerland",
+     "Short CV of the academic supervisor at the home university",
+     "Complete CV (including educational background, degrees, awards, positions, publications, teaching and practical experience)",
+     "Letter of motivation (max. 2 pages)",
+     "Research proposal with timeline specifying key milestones on FCS/ESKAS form (max. 5 pages including non-specialist summary)",
+     "Email addresses of two professors in the relevant academic field for recommendation letters via FCS/ESKAS form",
+     "Copies of certificates and transcripts from previous universities (with certified translations if not in English, French, Italian, or German)",
+     "Copy of passport (both passports for dual citizens)",
+     "Copy of registration confirmation or residence permit if already residing in Switzerland (date of entry not earlier than 1 August 2026)",
+     "Must not have lived, studied, or worked in Switzerland for more than 13 months before the start date",
+     "Must not have previously received a Swiss Government Excellence Scholarship",
+     "No simultaneous multiple applications"
+    ],
+    "funding_details": "CHF 2,450 per month to cover basic living expenses for one person; duration of 6 to 12 months (no extensions possible); start date 1 September 2027",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Switzerland",
+    "institution": "Swiss cantonal universities, universities of applied sciences, ETHZ, EPFL, or ETH Domain research institutes (PSI, WSL, Empa, Eawag)",
+    "funding_type": "Scholarship",
+    "deadline_note": "No application deadline is stated; master's completion is required by 31 July 2027 (30 June 2027 for ETH Zurich) with a start date of 1 September 2027.",
+    "eligible_fields": "All academic fields / any discipline",
+    "who_can_apply": "Highly qualified early-career researchers pursuing a PhD in a country other than Switzerland; born after 31 December 1991; holding a master's degree or equivalent completed by 31 July 2027 (30 June 2027 for ETH Zurich); if already residing in Switzerland, entry not earlier than 1 August 2026",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship is open to postgraduate and doctoral researchers from all academic fields and any discipline.",
+    "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
+    "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
+   }
   },
   {
    "title": "Research scholarships",
@@ -1164,7 +1166,8 @@
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  12 pages read this run, 0 could not be opened, AI ON"
+  "READFAIL https://doctorat.campusfrance.org/phd/dschools/main: 403 Client Error: Forbidden for url: https://doctorat.campusfrance.org",
+  "READ  16 pages read this run, 1 could not be opened, AI ON"
  ],
  "programmes": [
   {
