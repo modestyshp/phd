@@ -2,48 +2,6 @@
  "updated": "2026-11-17",
  "items": [
   {
-   "title": "Research Scholarship_REGENSMART+_ BI_1",
-   "link": "https://euraxess.ec.europa.eu/jobs/480722",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "Scholarship",
-   "deadline": "2026-11-30",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "2026-11-30",
-    "requirements": {
-     "documents": [
-      "application documents (implied by call for application)"
-     ],
-     "language_tests": []
-    },
-    "funding_details": {
-     "amount": "1359,64€ per month",
-     "duration": "29 months initial duration, renewable up to a maximum total of 33 months",
-     "what_is_covered": "Monthly maintenance allowance"
-    },
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Portugal",
-    "institution": "Universidade Católica Portuguesa - Porto",
-    "funding_type": "Scholarship",
-    "eligible_fields": [
-     "Biotechnology",
-     "Bioengineering",
-     "related areas"
-    ],
-    "who_can_apply": {
-     "nationality": "unknown",
-     "degree": "Master's degree in Biotechnology, Bioengineering, or related fields",
-     "age_or_other_limits": "Must be enrolled or present a commitment to enroll in a Doctoral degree in Biotechnology or related areas"
-    },
-    "fit_elt_dt": "low",
-    "fit_reason": "The PhD position requires a master's degree in biotechnology, bioengineering, or related fields rather than ELT or educational technology.",
-    "how_to_apply": "Apply online through the EURAXESS or institution's application portal by the specified deadline.",
-    "summary": "A PhD research scholarship in Biotechnology is available at Universidade Católica Portuguesa in Porto, funded for up to 33 months."
-   }
-  },
-  {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
    "country": "UK",
@@ -386,7 +344,28 @@
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Must have already completed a Master's degree",
+     "Must be backed by an academic supervisor in Switzerland who is willing to direct and guide the proposed research"
+    ],
+    "funding_details": "amount: CHF 2450.--/month; duration: unknown; what_is_covered: unknown",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Switzerland",
+    "institution": "Swiss cantonal universities, universities of applied sciences, federal institutes of technology (ETHZ or EPFL), or research institutes within the ETH Domain",
+    "funding_type": "Scholarship",
+    "deadline_note": "Applications opened starting August 20, 2026, and information on country-specific deadlines was published in August 2026.",
+    "eligible_fields": "any discipline",
+    "who_can_apply": "nationality: applicants from over 180 countries (exact list dependent on country of origin); degree: Master's degree; age_limit: max. age: 35",
+    "fit_elt_dt": "high",
+    "fit_reason": "The research scholarship is open to postgraduate researchers in any discipline who hold a Master's degree.",
+    "how_to_apply": "Applications are submitted to Swiss diplomatic representations.",
+    "summary": "The Swiss Government Excellence Scholarships offer research funding for early career postgraduate researchers with a Master's degree to conduct research in Switzerland.",
+    "v": 2
+   }
   },
   {
    "title": "Art scholarships",
@@ -395,7 +374,28 @@
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Master's degree completed",
+     "Academic supervisor in Switzerland willing to direct and guide the proposed research"
+    ],
+    "funding_details": "amount: CHF 2450.--/month; duration: unknown; what_is_covered: unknown",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Switzerland",
+    "institution": "Swiss cantonal universities, universities of applied sciences, federal institutes of technology (ETHZ or EPFL), or ETH Domain research institutes",
+    "funding_type": "Scholarship",
+    "deadline_note": "Applications opened starting August 20, 2026, and 2028-2029 scholarships will be advertised online from August 2027.",
+    "eligible_fields": "any discipline",
+    "who_can_apply": "Applicants from over 183 countries who have already completed a Master's degree and are maximum age 35.",
+    "fit_elt_dt": "high",
+    "fit_reason": "The research scholarships are available to postgraduate researchers in any discipline who have completed a Master's degree.",
+    "how_to_apply": "Applications are submitted to Swiss diplomatic representations.",
+    "summary": "The Swiss Government Excellence Scholarships offer research fellowships for postgraduate researchers holding a Master's degree to conduct research in Switzerland.",
+    "v": 2
+   }
   },
   {
    "title": "Applying for a Swiss Government Excellence Scholarship",
@@ -404,7 +404,29 @@
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Completed a Master's degree",
+     "Backed by an academic supervisor in Switzerland willing to direct and guide the proposed research"
+    ],
+    "funding_details": "amount: CHF 2450.--/month; duration: unknown; what_is_covered: unknown",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Switzerland",
+    "institution": "Swiss cantonal universities, universities of applied sciences, federal institutes of technology (ETHZ, EPFL), or ETH Domain research institutes",
+    "funding_type": "Scholarship",
+    "deadline_note": "Applications opened starting August 20, 2026, and the text only shows past or ongoing dates without specific future deadlines.",
+    "eligible_fields": "any discipline",
+    "who_can_apply": "nationality: applicants from over 180 countries (including Morocco implicitly as part of the 183 countries); degree: Master's degree; age_or_other_limits: maximum age 35 (born after 31 December 1991 usually, but exact birth year not stated)",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "Research scholarships are available for postgraduate researchers in any discipline who have completed a Master's degree.",
+    "how_to_apply": "Applications are submitted to Swiss diplomatic representations.",
+    "summary": "The Swiss Government Excellence Scholarships offer research funding of CHF 2450 per month for postgraduate researchers with a Master's degree from over 180 countries.",
+    "v": 2
+   }
   },
   {
    "title": "More about «Swiss Government Excellence Scholarships at a Glance»",
@@ -413,7 +435,37 @@
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Master's degree or equivalent completed by 31 July 2027 (for ETH Zurich: 30 June 2027)",
+     "Date of birth after 31 December 1991",
+     "Detailed research plan with a timeline specifying key milestones and activities",
+     "Letter of support from an academic supervisor in Switzerland including a short CV",
+     "Complete CV including educational background, degrees, awards, positions, publications, teaching and practical experience",
+     "Letter of motivation (max. 2 pages)",
+     "Research proposal on FCS/ESKAS form (max. 5 pages including a summary for non-specialists)",
+     "Short CV (max. 2 pages) of the academic supervisor at the home university",
+     "E-mail addresses of two different professors in the relevant academic field for recommendation letters",
+     "Copies of certificates and transcripts from previous universities with certified translations if not in English, French, Italian or German",
+     "Copy of passport",
+     "Copy of residence permit or registration confirmation if already residing in Switzerland"
+    ],
+    "funding_details": "amount: CHF 2,450 per month; duration: Maximum of 12 months (6 months at minimum); what_is_covered: Basic living expenses for one person",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Switzerland",
+    "institution": "Swiss Government (Swiss cantonal universities, universities of applied sciences, ETHZ, EPFL, ETH Domain research institutes)",
+    "funding_type": "Scholarship",
+    "eligible_fields": "all academic fields",
+    "who_can_apply": "Highly qualified early-career researchers from all academic fields who are pursuing a PhD in a country other than Switzerland, date of birth after 31 December 1991, Master's degree or equivalent completed by 31 July 2027 (for ETH Zurich: 30 June 2027)",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship is open to all academic fields for postgraduate researchers conducting research as part of their doctoral studies.",
+    "how_to_apply": "Find an academic supervisor in Switzerland to endorse the research project, obtain a letter of support, and submit the application online via the FCS/ESKAS application system.",
+    "summary": "The Swiss Government Excellence Scholarship offers a 12-month research fellowship for international PhD researchers to carry out research at a Swiss higher education institution, providing CHF 2,450 per month.",
+    "v": 2
+   }
   },
   {
    "title": "Swiss Government Excellence Scholarships",
@@ -422,16 +474,29 @@
    "source": "Swiss Excellence Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Türkiye Scholarships",
-   "link": "https://turkiyeburslari.gov.tr/about",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Completed Master's degree",
+     "Academic supervisor in Switzerland willing to direct and guide the proposed research",
+     "Application submitted to Swiss diplomatic representations"
+    ],
+    "funding_details": "amount: CHF 2450.--/month; duration: unknown; what_is_covered: Monthly stipend (CHF 2450)",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Switzerland",
+    "institution": "Federal Commission for Scholarships for Foreign Students (FCS / ESKAS)",
+    "funding_type": "Scholarship",
+    "deadline_note": "Applications opened August 20, 2026, but no specific closing date is stated.",
+    "eligible_fields": "any discipline",
+    "who_can_apply": "Applicants from over 180 countries who have already completed a Master's degree and are max. age 35",
+    "fit_elt_dt": "high",
+    "fit_reason": "Research scholarships are available in any discipline for postgraduate researchers holding a Master's degree.",
+    "how_to_apply": "Applications are submitted to Swiss diplomatic representations starting August 20, 2026.",
+    "summary": "The Swiss Government Excellence Scholarships offer monthly funding of CHF 2,450 for postgraduate researchers up to age 35 to conduct research in Switzerland, requiring a confirmed academic supervisor.",
+    "v": 2
+   }
   },
   {
    "title": "Media & Promotion",
@@ -443,22 +508,42 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "TÜRKİYE SCHOLARSHIPS",
-   "link": "https://turkiyeburslari.gov.tr/",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Why Türkiye Scholarships?",
    "link": "https://turkiyeburslari.gov.tr/whyturkiyescholarships",
    "country": "Turkey",
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "A valid identity document, ID card or passport",
+     "A photograph of the candidate taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "International exam results (GRE, GMAT, SAT, etc.) if required by the chosen university or program",
+     "International language test results such as TOEFL if required by the chosen university or program",
+     "A proposal for a research topic and a written example of the research you have carried out (only for PhD applications)",
+     "Minimum academic achievement of 75% for graduate candidates"
+    ],
+    "funding_details": "Covers tuition fees, 1-year Turkish language course, accommodation, once-off flight ticket, general health insurance, and a monthly stipend of 13.000 TL at the PhD level.",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Turkey",
+    "institution": "Turkish universities participating in Türkiye Scholarships",
+    "funding_type": "Scholarship",
+    "deadline_note": "General application period is January 10 – February 20, but the upcoming date is past or requires verification.",
+    "eligible_fields": "All fields available under participating Turkish universities, including programs related to ELT and digital technology.",
+    "who_can_apply": "Citizens of all countries, being under the age of 35 for PhD programs, and graduates or those who will graduate at the end of the current academic year (before August).",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "An applicant with a Master's in ELT and Digital Technology meets the graduate background criteria and can apply for relevant doctoral programs.",
+    "how_to_apply": "Apply online through the Türkiye Scholarships Application System (TBBS) by uploading the required documents and selecting program choices.",
+    "summary": "Türkiye Scholarships provides a fully funded PhD program covering tuition, living stipends, accommodation, health insurance, flights, and a Turkish language year for eligible international students.",
+    "v": 2
+   }
   },
   {
    "title": "Criteria & Scholarship Programs",
@@ -467,7 +552,34 @@
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "A valid identity document, ID card or passport",
+     "A photograph of the candidate taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "International exam results (GRE, GMAT, SAT, etc.) if required by the chosen university or program",
+     "International language test results such as TOEFL if required by the chosen university or program",
+     "A proposal for a research topic and a written example of the research carried out (only for PhD applications)"
+    ],
+    "funding_details": "amount: unknown; duration: unknown; what_covered: unknown",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Turkey",
+    "institution": "Turkish Universities via Türkiye Scholarships",
+    "funding_type": "Scholarship",
+    "deadline_note": "General application period was listed as January 10 – February 20, but since today is 2026-11-17, this is a past date.",
+    "who_can_apply": "Citizens of all countries, under the age of 35 for PhD programs, graduates or those who will graduate at the end of the current academic year.",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The applicant holds a relevant Master's in ELT and Digital Technology, fitting graduate-level programs offered at Turkish universities.",
+    "how_to_apply": "Apply online through the Türkiye Scholarships Application System (TBBS) during the application period.",
+    "summary": "Türkiye Scholarships offers a government-funded scholarship program for international students, including PhD studies, subject to academic and age criteria.",
+    "v": 2
+   }
   },
   {
    "title": "Scholarship Procedures",
@@ -1128,9 +1240,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 2 matches (of 88 links)",
-  "OK    EURAXESS (language education): 0 matches (of 88 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 88 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 110 links)",
+  "OK    EURAXESS (language education): 0 matches (of 110 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 110 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1165,9 +1277,9 @@
   "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
+  "FAIL  ABG discipline pages: 404 Client Error: Not Found for url: https://abg.asso.fr/fr/recrutement/sujet-de-these",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READFAIL https://doctorat.campusfrance.org/phd/dschools/main: 403 Client Error: Forbidden for url: https://doctorat.campusfrance.org",
-  "READ  16 pages read this run, 1 could not be opened, AI ON"
+  "READ  21 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
