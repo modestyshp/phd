@@ -1,14 +1,14 @@
 """PhD collector: no AI, no tokens. Reads sources.json, finds matching
 opportunities, writes docs/data.json and docs/index.html."""
 import json, re, datetime as dt, os, time
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 import requests, feedparser
 from bs4 import BeautifulSoup
 from dateutil import parser as dp
 
 TODAY = dt.date.today()
 START = time.time()
-BUDGET = int(os.environ.get("BUDGET_SECONDS", "600"))
+BUDGET = int(os.environ.get("BUDGET_SECONDS", "900"))
 H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
      "Accept": "text/html,application/xhtml+xml,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9,fr;q=0.8"}
 
@@ -62,7 +62,7 @@ def from_html(src):
 
 # ---------- READING EACH PAGE (the part that replaces manual checking) ----------
 KEY = os.environ.get("GEMINI_API_KEY", "")
-MAX_PAGES = int(os.environ.get("MAX_PAGES", "30"))
+MAX_PAGES = int(os.environ.get("MAX_PAGES", "60"))
 BAD = re.compile(r"youtube\.com|youtu\.be|twitter\.com|//x\.com|facebook\.com|instagram\.com|linkedin\.com|admin\.ch/opc|\.pdf(\?|$)", re.I)
 DOCS = {"CV": r"\bCV\b|curriculum vitae|resume", "Motivation letter": r"motivation|cover letter|statement of purpose|lettre de motivation",
         "Research proposal": r"research proposal|project proposal|research plan|projet de recherche",
@@ -91,12 +91,27 @@ def model_list():
 
 def pick_model(): return model_list()[0]
 
-def page_text(url):
+SUB = re.compile(r"apply|application|criteria|eligib|deadline|requirement|procedure|calendar|how[- ]to|when|candidat|admission|condition|document|dates|timeline|call", re.I)
+
+def page_text(url, deep=True):
+    """Read a page AND the 3 most relevant pages it links to (apply, criteria, deadlines...)."""
     r = fetch(url)
     if "pdf" in r.headers.get("content-type", "").lower(): return ""
     soup = BeautifulSoup(r.text, "html.parser")
+    subs = []
+    if deep:
+        host = urlparse(url).netloc
+        for a in soup.find_all("a", href=True):
+            u = urljoin(url, a["href"]).split("#")[0]
+            label = " ".join(a.get_text().split()) + " " + u
+            if urlparse(u).netloc == host and u != url and u not in subs and not BAD.search(u) and SUB.search(label):
+                subs.append(u)
     for t in soup(["script", "style", "nav", "footer", "header", "noscript"]): t.decompose()
-    return " ".join(soup.get_text(" ").split())[:7000]
+    text = " ".join(soup.get_text(" ").split())[:6000]
+    for u in subs[:3]:
+        try: text += " --- LINKED PAGE " + u + " --- " + page_text(u, deep=False)[:4000]
+        except Exception: pass
+    return text
 
 def quick_facts(text):
     docs = [k for k, rx in DOCS.items() if re.search(rx, text, re.I)]
@@ -104,22 +119,37 @@ def quick_facts(text):
     return {"deadline": deadline(text), "requirements": docs, "funding_details": amt.group(0).strip() if amt else ""}
 
 PROMPT = """You read a web page about a PhD / doctoral funding opportunity for a Moroccan student holding a Master in ELT (English Language Teaching) and Digital Technology in education.
-Use ONLY the page text below. If something is not stated, write "unknown". Never guess dates or amounts. Today is %s.
+The text may contain the main page plus several linked pages of the same website (marked LINKED PAGE): combine them. Use ONLY the text below. If something is not stated, write "unknown". Never guess dates or amounts. Today is %s.
 Return ONLY JSON with these keys:
 is_phd_funding (true/false: is this a PhD/doctoral position, scholarship, assistantship or fellowship, not a menu, news or master's page),
 country, institution,
 funding_type (one of: Scholarship, Assistantship, PhD job (paid), Other, unknown),
 funding_details (amount, duration, what is covered),
-deadline (YYYY-MM-DD or unknown),
+deadline (the NEXT upcoming application deadline as YYYY-MM-DD; if the page only shows past dates write unknown),
+deadline_note (one short sentence: all dates mentioned, e.g. opening date, rounds, or "last year was X, expected similar"),
 eligible_fields (subjects accepted),
 who_can_apply (nationality, degree, age or other limits),
-requirements (list of documents and language tests needed),
+requirements (list EVERY document, language test score and eligibility condition the page names, each as a short string),
+morocco_eligible (yes, no or unknown: can a Moroccan citizen apply),
 fit_elt_dt (high, medium, low or unknown: would an applied linguistics / ELT / educational technology master's graduate be eligible),
 fit_reason (one short sentence),
 how_to_apply (one short sentence),
 summary (one short sentence).
 PAGE TEXT:
 %s"""
+
+def flat(v):
+    if isinstance(v, dict): return "; ".join(f"{k}: {flat(x)}" for k, x in v.items() if x not in (None, ""))
+    if isinstance(v, list): return ", ".join(flat(x) for x in v)
+    return v
+
+def clean(got):
+    out = {}
+    for k, v in got.items():
+        if isinstance(v, bool): out[k] = v
+        elif k == "requirements": out[k] = [str(flat(x)) for x in (v if isinstance(v, list) else [v])]
+        else: out[k] = flat(v)
+    return out
 
 def ask_llm(text):
     body = {"contents": [{"parts": [{"text": PROMPT % (TODAY.isoformat(), text)}]}],
@@ -158,13 +188,14 @@ def enrich(items, old, log):
         o = items[l]; t = o["title"]
         if o["source"] == "My links": return (-1, -1)
         return (0 if FIELD.search(t) else 1, 0 if re.search(r"phd|doctor|studentship|fellowship|scholarship", t, re.I) else 1)
+    t0 = time.time()
     done = n_ok = n_fail = ai_fail = 0
     for link in sorted(items, key=prio):
         o = items[link]
         inf = old.get(link, {}).get("info")
         if inf and (inf.get("ai") or not use_ai or (inf.get("retry") and inf["retry"] > TODAY.isoformat())):
             o["info"] = inf; continue
-        if done >= MAX_PAGES or ai_fail >= 3 or time.time() - START > BUDGET: continue
+        if done >= MAX_PAGES or ai_fail >= 3 or time.time() - t0 > BUDGET: continue
         done += 1
         try: text = page_text(link)
         except Exception as ex:
@@ -178,7 +209,7 @@ def enrich(items, old, log):
             info["retry"] = (TODAY + dt.timedelta(days=14)).isoformat()
         elif use_ai:
             try:
-                got = ask_llm(text)
+                got = clean(ask_llm(text))
                 info.update({k: v for k, v in got.items() if v not in (None, "", [], "unknown")})
                 info["ai"] = True; ai_fail = 0; time.sleep(5)
             except Exception as ex:
