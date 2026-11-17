@@ -121,7 +121,7 @@ def quick_facts(text):
 PROMPT = """You read a web page about a PhD / doctoral funding opportunity for a Moroccan student holding a Master in ELT (English Language Teaching) and Digital Technology in education.
 The text may contain the main page plus several linked pages of the same website (marked LINKED PAGE): combine them. Use ONLY the text below. If something is not stated, write "unknown". Never guess dates or amounts. Today is %s.
 Return ONLY JSON with these keys:
-is_phd_funding (true/false: is this a PhD/doctoral position, scholarship, assistantship or fellowship, not a menu, news or master's page),
+is_phd_funding (true ONLY if this page is a specific PhD position/thesis topic, or a specific named scholarship or funding programme with its own application call. false for general guides, descriptions of a platform or website, news, menus, promotional pages and master's pages),
 country, institution,
 funding_type (one of: Scholarship, Assistantship, PhD job (paid), Other, unknown),
 funding_details (amount, duration, what is covered),
@@ -169,6 +169,34 @@ def ask_llm(text):
             except Exception as ex: last = f"{m} bad reply {str(ex)[:60]}"; break
     raise LLMError("all models busy or failing: " + last)
 
+ABG_INDEX = "https://www.abg.asso.fr/fr/recrutement/sujet-de-these"
+ABG_FIELDS = re.compile(r"lang|linguist|educ|sciences-humaines|sciences-sociales|sociolog|psycholog|informatique|numerique|litterat|lettres|communication", re.I)
+
+def abg_offers(items, old, log):
+    """Individual French PhD offers from ABG discipline pages (language, education, humanities, computing)."""
+    try:
+        soup = BeautifulSoup(fetch(ABG_INDEX).text, "html.parser")
+        cats = []
+        for a in soup.find_all("a", href=True):
+            u = urljoin(ABG_INDEX, a["href"]).split("#")[0].split("?")[0]
+            if "/recrutement/sujet-de-these/" in u and ABG_FIELDS.search(u.split("/sujet-de-these/")[-1]) and u not in cats: cats.append(u)
+        n = 0
+        for cu in cats[:12]:
+            time.sleep(1.5)
+            s2 = BeautifulSoup(fetch(cu).text, "html.parser")
+            for a in s2.find_all("a", href=True):
+                m = re.search(r"/candidatOffres/show/id_offre/(\d+)", a["href"])
+                if not m: continue
+                link = "https://www.abg.asso.fr/fr/candidatOffres/show/id_offre/" + m.group(1)
+                if link in items: continue
+                t = " ".join(a.get_text().split()) or "ABG thesis offer " + m.group(1)
+                items[link] = {"title": t[:160], "link": link, "country": "France", "source": "ABG (France)", "fund": "PhD job / position",
+                               "deadline": "", "first_seen": old.get(link, {}).get("first_seen", TODAY.isoformat())}
+                n += 1
+        log.append(f"OK    ABG discipline pages: {n} thesis offers from {len(cats)} categories" if cats else "FAIL  ABG discipline pages: no categories found on the index page")
+    except Exception as ex:
+        log.append(f"FAIL  ABG discipline pages: {str(ex)[:120]}")
+
 def add_my_links(items, old):
     if not os.path.exists("my_links.txt"): return
     for line in open("my_links.txt", encoding="utf-8"):
@@ -186,21 +214,22 @@ def enrich(items, old, log):
         except Exception as ex: use_ai = False; log.append(f"MODEL ERROR {str(ex)[:200]}")
     def prio(l):
         o = items[l]; t = o["title"]
-        if o["source"] == "My links": return (-1, -1)
-        return (0 if FIELD.search(t) else 1, 0 if re.search(r"phd|doctor|studentship|fellowship|scholarship", t, re.I) else 1)
+        if o["source"] == "My links": return (-1, 0, 0)
+        return (1 if old.get(l, {}).get("info") else 0, 0 if FIELD.search(t) else 1, 0 if re.search(r"phd|doctor|studentship|fellowship|scholarship", t, re.I) else 1)
     t0 = time.time()
     done = n_ok = n_fail = ai_fail = 0
     for link in sorted(items, key=prio):
         o = items[link]
         inf = old.get(link, {}).get("info")
-        if inf and (inf.get("ai") or not use_ai or (inf.get("retry") and inf["retry"] > TODAY.isoformat())):
+        if inf and ((inf.get("ai") and inf.get("v") == 2) or not use_ai or (inf.get("retry") and inf["retry"] > TODAY.isoformat())):
             o["info"] = inf; continue
+        if inf: o["info"] = inf   # keep what we already know unless a re-read succeeds
         if done >= MAX_PAGES or ai_fail >= 3 or time.time() - t0 > BUDGET: continue
         done += 1
         try: text = page_text(link)
         except Exception as ex:
             n_fail += 1; log.append(f"READFAIL {link[:70]}: {str(ex)[:70]}")
-            o["info"] = {"summary": "The script could not open this page. Open it and check.", "ai": False,
+            if not inf: o["info"] = {"summary": "The script could not open this page. Open it and check.", "ai": False,
                          "retry": (TODAY + dt.timedelta(days=7)).isoformat()}
             continue
         info = quick_facts(text); info["ai"] = False
@@ -211,7 +240,7 @@ def enrich(items, old, log):
             try:
                 got = clean(ask_llm(text))
                 info.update({k: v for k, v in got.items() if v not in (None, "", [], "unknown")})
-                info["ai"] = True; ai_fail = 0; time.sleep(5)
+                info["ai"] = True; info["v"] = 2; ai_fail = 0; time.sleep(5)
             except Exception as ex:
                 ai_fail += 1; log.append(f"AIFAIL {link[:60]}: {str(ex)[:160]}")
                 if ai_fail >= 3: log.append("AI STOPPED after 3 failures in a row, see AIFAIL lines above")
@@ -250,6 +279,7 @@ def main():
             log.append(f"OK    {s['name']}: {n} matches (of {len(rows)} links)")
         except Exception as ex:
             log.append(f"FAIL  {s['name']}: {ex}")
+    abg_offers(items, old, log)
     add_my_links(items, old)
     enrich(items, old, log)
     keep = [o for o in items.values() if not o["deadline"] or o["deadline"] >= TODAY.isoformat()]
