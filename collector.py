@@ -169,33 +169,32 @@ def ask_llm(text):
             except Exception as ex: last = f"{m} bad reply {str(ex)[:60]}"; break
     raise LLMError("all models busy or failing: " + last)
 
-ABG_INDEX = "https://www.abg.asso.fr/fr/recrutement/sujet-de-these"
-ABG_FIELDS = re.compile(r"lang|linguist|educ|sciences-humaines|sciences-sociales|sociolog|psycholog|informatique|numerique|litterat|lettres|communication", re.I)
+ABG_BASE = "https://www.abg.asso.fr/fr/recrutement/sujet-de-these/"
+ABG_SLUGS = ["sociologie-anthropologie-sciences-de-l-education", "informatique", "psychologie-neurosciences",
+             "histoire-histoire-de-l-art-et-civilisations", "sciences-du-langage", "langues-et-litteratures",
+             "litterature-langues-et-civilisations", "sciences-de-l-education", "sciences-humaines-et-sociales",
+             "sciences-de-l-information-et-de-la-communication"]
+ABG_REL = re.compile(r"langu|linguis|langag|educat|[ée]ducat|learn|apprentissage|teach|enseign|p[ée]dagog|discours|discourse|didact|multiling|plurilin|literac|digital|num[ée]rique|conversational|chatbot|corpora|genai", re.I)
 
 def abg_offers(items, old, log):
-    """Individual French PhD offers from ABG discipline pages (language, education, humanities, computing)."""
-    try:
-        soup = BeautifulSoup(fetch(ABG_INDEX).text, "html.parser")
-        cats = []
+    """Individual French PhD offers from ABG discipline pages; only topics related to language, education or digital learning."""
+    n = ok = 0
+    for slug in ABG_SLUGS:
+        time.sleep(1.5)
+        try: soup = BeautifulSoup(fetch(ABG_BASE + slug).text, "html.parser")
+        except Exception: continue
+        ok += 1
         for a in soup.find_all("a", href=True):
-            u = urljoin(ABG_INDEX, a["href"]).split("#")[0].split("?")[0]
-            if "/recrutement/sujet-de-these/" in u and ABG_FIELDS.search(u.split("/sujet-de-these/")[-1]) and u not in cats: cats.append(u)
-        n = 0
-        for cu in cats[:12]:
-            time.sleep(1.5)
-            s2 = BeautifulSoup(fetch(cu).text, "html.parser")
-            for a in s2.find_all("a", href=True):
-                m = re.search(r"/candidatOffres/show/id_offre/(\d+)", a["href"])
-                if not m: continue
-                link = "https://www.abg.asso.fr/fr/candidatOffres/show/id_offre/" + m.group(1)
-                if link in items: continue
-                t = " ".join(a.get_text().split()) or "ABG thesis offer " + m.group(1)
-                items[link] = {"title": t[:160], "link": link, "country": "France", "source": "ABG (France)", "fund": "PhD job / position",
-                               "deadline": "", "first_seen": old.get(link, {}).get("first_seen", TODAY.isoformat())}
-                n += 1
-        log.append(f"OK    ABG discipline pages: {n} thesis offers from {len(cats)} categories" if cats else "FAIL  ABG discipline pages: no categories found on the index page")
-    except Exception as ex:
-        log.append(f"FAIL  ABG discipline pages: {str(ex)[:120]}")
+            m = re.search(r"/candidatOffres/show/id_offre/(\d+)", a["href"])
+            if not m: continue
+            link = "https://www.abg.asso.fr/fr/candidatOffres/show/id_offre/" + m.group(1)
+            ctx = " ".join((a.find_parent(["li", "article", "div", "tr"]) or a).get_text().split())[:600]
+            if link in items or not ABG_REL.search(ctx + " " + a["href"]): continue
+            t = " ".join(a.get_text().split()) or "ABG thesis offer " + m.group(1)
+            items[link] = {"title": t[:160], "link": link, "country": "France", "source": "ABG (France)", "fund": "PhD job / position",
+                           "deadline": "", "first_seen": old.get(link, {}).get("first_seen", TODAY.isoformat())}
+            n += 1
+    log.append(f"OK    ABG thesis offers: {n} relevant offers from {ok} of {len(ABG_SLUGS)} discipline pages" if ok else "FAIL  ABG thesis offers: no discipline page could be opened")
 
 def add_my_links(items, old):
     if not os.path.exists("my_links.txt"): return
