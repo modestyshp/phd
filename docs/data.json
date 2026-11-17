@@ -499,6 +499,46 @@
    }
   },
   {
+   "title": "Türkiye Scholarships",
+   "link": "https://turkiyeburslari.gov.tr/about",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "2027-02-20",
+   "first_seen": "2026-11-17",
+   "info": {
+    "deadline": "2027-02-20",
+    "requirements": [
+     "A valid identity document, ID card or passport",
+     "A photograph taken within the last 1 year",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "Minimum 75% academic achievement for graduate candidates",
+     "Under 35 years of age for PhD programs",
+     "A proposal for a research topic and a written example of research carried out (only for PhD applications)",
+     "National exam results (if any)",
+     "International exam results (GRE, GMAT, etc.) if required by the chosen university or program",
+     "International language test results (e.g., TOEFL) if required by the chosen university or program",
+     "Must attend a 1-year Turkish Language Course and attain C1 Level Certificate by the end of the academic year if not already certified"
+    ],
+    "funding_details": "Covers university and department placement, monthly scholarships, tuition fees, health insurance, accommodation, Turkish language course, flight tickets, and free academic and cultural programs.",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Türkiye",
+    "institution": "Presidency for Turks Abroad and Related Communities (YTB)",
+    "funding_type": "Scholarship",
+    "deadline_note": "The General Application Period runs from January 10 to February 20, followed by interviews from April to June and results in early August.",
+    "eligible_fields": "All fields offered at Turkish universities (including arts, health sciences, and general graduate programs)",
+    "who_can_apply": "Citizens of all countries (excluding Turkish citizens) who are graduates or will graduate before August, under the age of 35 for PhD programs, with at least 75% academic achievement, and not currently enrolled in a Turkish university at the PhD level.",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship is open to international applicants across all disciplines, including ELT and educational technology programs in Turkish universities.",
+    "how_to_apply": "Submit an online application through the Türkiye Scholarships Application System (TBBS) with all required documents.",
+    "summary": "Türkiye Scholarships is a government-funded full scholarship program for international students pursuing PhD degrees at Turkish universities, covering tuition, accommodation, stipend, insurance, flights, and language training.",
+    "v": 2
+   }
+  },
+  {
    "title": "Media & Promotion",
    "link": "https://turkiyeburslari.gov.tr/about/mediaandpresentation",
    "country": "Turkey",
@@ -506,6 +546,46 @@
    "fund": "PhD job / position",
    "deadline": "",
    "first_seen": "2026-11-16"
+  },
+  {
+   "title": "TÜRKİYE SCHOLARSHIPS",
+   "link": "https://turkiyeburslari.gov.tr/",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-17",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Valid identity document, ID card or passport",
+     "Photograph of the candidate taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "Proposal for a research topic and a written example of research carried out (for PhD applications)",
+     "Minimum 75% academic achievement for graduate candidates",
+     "Being under the age of 35 for PhD programs",
+     "International exam results (GRE, GMAT, etc.) if required by chosen university or program",
+     "International language test results (TOEFL, etc.) if required by chosen university or program",
+     "Attainment of C1 Level Certificate for Turkish Proficiency via 1-year Turkish Language Course if not already possessed"
+    ],
+    "funding_details": "Covers financial support, university placement, and a 1-year Turkish Language Course; exact monthly stipend and duration are unknown",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Türkiye",
+    "institution": "Türkiye Scholarships",
+    "funding_type": "Scholarship",
+    "deadline_note": "General applications run January 10 – February 20, but the page references the 2026 application period which has passed as of November 2026.",
+    "eligible_fields": "Educational Sciences, Comparative Education, Languages, Linguistics, Teacher Education, Informatics, Computer Engineering, and numerous other fields across social sciences, humanities, natural sciences, and engineering",
+    "who_can_apply": "Citizens of all countries (except Turkish citizens or those who lost Turkish citizenship), graduates or graduating by August, under 35 years of age for PhD programs, with a minimum 75% academic achievement, and not currently enrolled in a Turkish university at the PhD level",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "Programs are offered in relevant fields including Linguistics, Languages, Educational Sciences, Teacher Education, and Informatics.",
+    "how_to_apply": "Apply online free of charge through the Türkiye Scholarships Application System (TBBS) by submitting required documents and research proposal.",
+    "summary": "Türkiye Scholarships provides government-funded scholarships and university placement for international students to pursue PhD studies in Türkiye across various disciplines.",
+    "v": 2
+   }
   },
   {
    "title": "Why Türkiye Scholarships?",
@@ -588,7 +668,37 @@
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Minimum 75% academic achievement for graduate candidates",
+     "Under 35 years of age for PhD programs",
+     "A valid identity document, ID card or passport",
+     "A photograph of the candidate taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "International exam results (GRE, GMAT, etc.) if required by chosen university or program",
+     "International language test results (TOEFL, DELF, etc.) if required by chosen university or program",
+     "A proposal for a research topic and a written example of research carried out (PhD applications only)",
+     "Attend 1-year Turkish Language Course and attain C1 Level Certificate by end of academic year (for awardees without C1 proficiency)"
+    ],
+    "funding_details": "",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Türkiye",
+    "institution": "Türkiye Scholarships",
+    "funding_type": "Scholarship",
+    "deadline_note": "General application period runs from January 10 to February 20 without specified years.",
+    "who_can_apply": "Citizens of all countries under 35 years of age for PhD programs who are graduates or will graduate before August (excluding Turkish citizens and those currently enrolled in Turkish universities at the application level).",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship is open to citizens of all countries across diverse degree programs at Turkish universities, accommodating education and technology fields.",
+    "how_to_apply": "Submit an online application and upload all required documents through the Türkiye Scholarships Application System (TBBS).",
+    "summary": "Türkiye Scholarships offers fully supported PhD scholarships across Turkish universities for international students under 35 with at least 75% academic achievement.",
+    "v": 2
+   }
   },
   {
    "title": "YTB–IsDB Joint Scholarship Program Meeting",
@@ -597,7 +707,37 @@
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Valid identity document, ID card or passport",
+     "Photograph of the candidate taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript showing minimum 75% academic achievement for graduate candidates (90% for Health Sciences)",
+     "A proposal for a research topic and a written example of carried-out research (PhD candidates only)",
+     "International exam results (GRE, GMAT, SAT, etc.) if required by the chosen university or program",
+     "International language test results (such as TOEFL, DELF) if required by the chosen university or program",
+     "Age under 35 for PhD programs (under 50 for Research Scholarship)",
+     "Attendance of 1-year Turkish Language Course to attain C1 Level Certificate if not already certified"
+    ],
+    "funding_details": "Includes a 1-year Turkish language course for grantees lacking C1 proficiency; specific stipend amounts, duration, and other coverage are unknown",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Türkiye",
+    "institution": "Türkiye Scholarships",
+    "funding_type": "Scholarship",
+    "deadline_note": "The general application period runs from January 10 to February 20, while research scholarships have four application periods throughout the year.",
+    "eligible_fields": "All fields, including Health Sciences, arts, and all academic departments offered by Turkish universities",
+    "who_can_apply": "Citizens of all countries (except Turkish citizens) under 35 years old for PhD programs with at least 75% minimum academic achievement, who are graduates or will graduate before August, and not currently enrolled in a Turkish university at the same level",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship is open to international applicants across all disciplines offered by Turkish universities, including education and language teaching.",
+    "how_to_apply": "Apply online by submitting the required application documents through the Türkiye Scholarships Application System (TBBS).",
+    "summary": "Türkiye Scholarships is a government-funded scholarship programme offering full-time PhD and research opportunities in Turkish universities for international students under 35.",
+    "v": 2
+   }
   },
   {
    "title": "YTB – Islamic Development Bank (ISDB) Joint Scholarship Program 2026 Applicaiton Period",
@@ -606,7 +746,38 @@
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Under 35 years of age for PhD programs",
+     "Minimum academic achievement of 75% for graduate candidates",
+     "Must be a graduate or graduating before August of the application year",
+     "Valid identity document, ID card, or passport",
+     "Candidate photograph taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "International exam results (GRE, GMAT, etc.) if required by the chosen program",
+     "International language test results (e.g., TOEFL) if required by the chosen program",
+     "Proposal for a research topic and a written example of research carried out (for PhD)",
+     "Must attend a 1-year Turkish Language Course to attain a C1 Level Certificate unless already certified"
+    ],
+    "funding_details": "Covers a monthly stipend, accommodation support, tuition fees, health insurance, a one-year Turkish language course, and a one-time round-trip airfare; duration is unknown.",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Türkiye",
+    "institution": "Presidency for Turks Abroad and Related Communities (YTB) and Islamic Development Bank (IsDB)",
+    "funding_type": "Scholarship",
+    "deadline_note": "Application period for 2026 ran from 10 January to 20 February 2026.",
+    "eligible_fields": "Fields aligned with the Sustainable Development Goals (specific field list unknown)",
+    "who_can_apply": "High-achieving students from IsDB member countries and Muslim communities worldwide; must be under 35 years of age for PhD programs; minimum 75% academic achievement for graduate applicants; Turkish citizens and those currently enrolled in Turkish universities at the same level are ineligible.",
+    "morocco_eligible": "yes",
+    "fit_reason": "The scholarship funds programs aligned with Sustainable Development Goals (which include education), but the specific list of accepted fields is not detailed.",
+    "how_to_apply": "Apply online through the Türkiye Scholarships Application System (TBBS) and select 'Yes' under the 'Joint Scholarship Programs' section.",
+    "summary": "The YTB–IsDB Joint Scholarship Program provides fully funded PhD scholarships in Türkiye covering stipend, tuition, housing, health insurance, language training, and travel for students from IsDB member countries and Muslim communities.",
+    "v": 2
+   }
   },
   {
    "title": "Türkiye Scholarships 2026 Applications",
@@ -615,7 +786,30 @@
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Citizenship of any country other than Türkiye",
+     "Under 35 years of age for PhD programs",
+     "Minimum academic achievement of 75% for graduate candidates (90% for Health Sciences: Medicine, Dentistry, Pharmacy)",
+     "Graduation before August of the academic year",
+     "Not currently enrolled in a Turkish university program at the PhD level"
+    ],
+    "funding_details": "University placement, monthly stipend, tuition fee, accommodation/dormitory, health insurance, round-trip flight ticket, and free professional and academic programs",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Türkiye",
+    "funding_type": "Scholarship",
+    "deadline_note": "Applications for 2026 were open from 10 January to 20 February 2026.",
+    "who_can_apply": "Citizens of all countries (except Turkish citizens or individuals who lost Turkish citizenship) under the age of 35 for PhD programs, who are graduates or will graduate before August; not currently enrolled in Turkish universities at the same degree level",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship program funds full-time doctoral study across disciplines at top Turkish universities.",
+    "how_to_apply": "Submit an online application through the Türkiye Scholarships portal via the 'Apply Now!' link.",
+    "summary": "A comprehensive Turkish government-funded scholarship offering university placement, tuition, monthly stipend, accommodation, flights, and health insurance for doctoral and other degree studies.",
+    "v": 2
+   }
   },
   {
    "title": "YTB-IsDB Joint Scholarship Program 2025 Applications",
@@ -624,7 +818,33 @@
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "From an IsDB member country",
+     "Under the age of 35 for PhD programs",
+     "Minimum academic achievement of 75% for graduate candidates",
+     "Graduates or those who will graduate at the end of the current academic year (before August)",
+     "Not holding Turkish citizenship or having lost it",
+     "Not currently enrolled in a Turkish university at the PhD level",
+     "Online application submitted via the Türkiye Scholarships website (TBBS)"
+    ],
+    "funding_details": "University admission and full scholarship",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Türkiye",
+    "institution": "YTB and Islamic Development Bank (IsDB)",
+    "funding_type": "Scholarship",
+    "deadline_note": "Applications were open from 10 March 2025 to 20 March 2025, with an application period noted on 29 January 2026.",
+    "eligible_fields": "Science and Technology subjects for development",
+    "who_can_apply": "Students and scholars from IsDB member countries; under 35 years of age for PhD programs; graduates or graduating before August; minimum academic achievement of 75% for graduate candidates",
+    "fit_elt_dt": "low",
+    "fit_reason": "Scholarships are targeted specifically at Science and Technology subjects for development.",
+    "how_to_apply": "Submit applications online through the Türkiye Scholarships website (TBBS) in any of the 8 available languages.",
+    "summary": "The YTB-IsDB Joint Scholarship Program offers full doctoral scholarships and university admission in Türkiye for candidates from IsDB member countries in Science and Technology subjects for development.",
+    "v": 2
+   }
   },
   {
    "title": "How do I apply for Türkiye Scholarships?",
@@ -1240,9 +1460,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 110 links)",
-  "OK    EURAXESS (language education): 0 matches (of 110 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 110 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 109 links)",
+  "OK    EURAXESS (language education): 0 matches (of 109 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 109 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1277,9 +1497,9 @@
   "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
-  "FAIL  ABG discipline pages: 404 Client Error: Not Found for url: https://abg.asso.fr/fr/recrutement/sujet-de-these",
+  "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  21 pages read this run, 0 could not be opened, AI ON"
+  "READ  19 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
