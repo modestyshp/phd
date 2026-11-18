@@ -1,44 +1,37 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "items": [
   {
-   "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
-   "link": "https://euraxess.ec.europa.eu/jobs/480984",
+   "title": "PhD student in Chemistry – specializing in Molecular Biomimetics",
+   "link": "https://euraxess.ec.europa.eu/jobs/481050",
    "country": "Europe",
    "source": "EURAXESS (applied linguistics)",
    "fund": "PhD job (paid)",
-   "deadline": "2026-12-01",
-   "first_seen": "2026-11-17",
+   "deadline": "2026-12-14",
+   "first_seen": "2026-11-18",
    "info": {
-    "deadline": "2026-12-01",
+    "deadline": "2026-12-14",
     "requirements": [
-     "Bachelor Degree or equivalent",
-     "SPANISH"
+     "second-cycle degree in biochemistry, biophysics, biotechnology, or equivalent (or 240 higher education credits with 60 at Master's level including a 15-credit independent project)",
+     "experience in protein production and isolation",
+     "very good oral and written proficiency in English"
     ],
-    "funding_details": "amount: unknown; duration: unknown; what is covered: fixed-term employment predoctoral contract",
+    "funding_details": "amount: unknown; duration: temporary position; what_is_covered: full-time employment (100%)",
     "ai": true,
     "is_phd_funding": true,
-    "country": "Spain",
-    "institution": "Universitat Politècnica de València (UPV)",
+    "country": "Sweden",
+    "institution": "Uppsala Universitet",
     "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 1 Dec 2026 - 23:59 (Europe/Madrid).",
-    "eligible_fields": "Civil engineering, Chemical engineering, Chemistry, Industrial technology, Agronomics, Forest sciences, Materials engineering, Architecture",
-    "who_can_apply": "Bachelor Degree or equivalent",
+    "deadline_note": "Application deadline is 14 December 2026.",
+    "eligible_fields": "Chemistry, Molecular Biomimetics, Biochemistry, Biophysics, Biotechnology",
+    "who_can_apply": "Moroccan citizens are eligible as it is an open international call, Holder of a second-cycle degree in biochemistry, biophysics, biotechnology, or equivalent, or at least 240 higher education credits with 60 at Master's level including an independent project worth at least 15 credits",
+    "morocco_eligible": "yes",
     "fit_elt_dt": "low",
-    "fit_reason": "The position is strictly in engineering, chemistry, architecture, and related technical/agricultural sciences, excluding ELT and educational technology.",
-    "how_to_apply": "Apply online through the official UPV website provided in the offer description.",
-    "summary": "A paid predoctoral research position is available at Universitat Politècnica de València in Spain focusing on carbonaceous solid waste valorization.",
+    "fit_reason": "The PhD position requires a background in biochemistry, biophysics, or biotechnology, not ELT or digital technology in education.",
+    "how_to_apply": "Apply online via the university's recruitment portal using the provided application link.",
+    "summary": "A fully funded PhD student position in Chemistry focusing on Molecular Biomimetics at Uppsala University, Sweden, with a deadline of 14 December 2026.",
     "v": 2
    }
-  },
-  {
-   "title": "FCUP | One Research Grant – Master’s Degree - BTNature (B1)",
-   "link": "https://euraxess.ec.europa.eu/jobs/480978",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-17"
   },
   {
    "title": "Linguistics MPhil/PhD",
@@ -292,6 +285,48 @@
     "summary": "The script could not open this page. Open it and check.",
     "ai": false,
     "retry": "2026-11-24"
+   }
+  },
+  {
+   "title": "Pre-Doctorate programmes",
+   "link": "https://www.campusfrance.org/en/pre-Doctorate-programme-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-18",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-11-25"
+   }
+  },
+  {
+   "title": "Post-Doctorate Discover",
+   "link": "https://www.campusfrance.org/en/post-doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-18",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-11-25"
+   }
+  },
+  {
+   "title": "Social Security for doctoral students and researchers Discover",
+   "link": "https://www.campusfrance.org/en/social-security-doctoral-students-researchers",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-18",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-11-25"
    }
   },
   {
@@ -851,35 +886,52 @@
    }
   },
   {
-   "title": "Türkiye Scholarships 2025 Applications Are Closed!",
-   "link": "https://turkiyeburslari.gov.tr/announcements/turkiye-scholarships-2025-applications-are-closed-115",
+   "title": "How do I apply for Türkiye Scholarships?",
+   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=28",
    "country": "Turkey",
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-17",
+   "first_seen": "2026-11-18",
    "info": {
     "deadline": "",
     "requirements": [
-     "Minimum academic achievement of 75% for graduate candidates",
-     "Being under the age of 35 for PhD programs",
-     "Graduation or pending graduation by the end of the current academic year (before August)"
+     "Minimum 75% academic achievement for graduate candidates",
+     "Under 35 years of age for PhD programs",
+     "A valid identity document, ID card or passport",
+     "A photograph of the candidate taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "International exam results (GRE, GMAT, etc.) if required by the chosen university or program",
+     "International language test results (such as TOEFL, DELF) if required by the chosen university or program",
+     "A proposal for a research topic and a written example of the research carried out (only for PhD applications)",
+     "Compulsory 1-year Turkish Language Course to attain C1 Level Certificate if lacking C1 proficiency"
     ],
-    "funding_details": "amount: unknown; duration: unknown; what_is_covered: unknown",
+    "funding_details": "Covers a 1-year Turkish Language Course; full monetary amounts and other covered expenses are unknown",
     "ai": true,
     "is_phd_funding": true,
-    "country": "Turkey",
+    "country": "Türkiye",
     "institution": "Türkiye Scholarships",
     "funding_type": "Scholarship",
-    "deadline_note": "The page mentions past and recent application periods such as 2025 and 2026, but no upcoming active deadline date is provided.",
-    "who_can_apply": "Citizens of all countries (except Turkey), graduates or those graduating before August, under the age of 35 for PhD programs",
+    "deadline_note": "General Application Period runs January 10 – February 20 without specified years, and International Student Academy deadline was October 10, 2021.",
+    "who_can_apply": "Citizens of all countries (excluding Turkish citizens and individuals enrolled in Turkish universities at the application level), under the age of 35 for PhD programs, who have graduated or will graduate before August.",
     "morocco_eligible": "yes",
-    "fit_elt_dt": "medium",
-    "fit_reason": "The scholarship program supports PhD studies generally, but specific eligibility for ELT and digital technology fields is not detailed on the page.",
-    "how_to_apply": "Applications are submitted online through the Türkiye Scholarships platform during open application periods.",
-    "summary": "Türkiye Scholarships offers funded PhD opportunities for international students under 35 with a minimum academic achievement of 75%, though current deadlines are not stated.",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship is open to citizens of all countries across general academic fields with a minimum 75% graduate grade average.",
+    "how_to_apply": "Apply online through the Türkiye Scholarships Application System (TBBS) at www.tbbs.turkiyeburslari.gov.tr.",
+    "summary": "Türkiye Scholarships offers full-time PhD scholarships in Turkish universities for international students under 35 years of age.",
     "v": 2
    }
+  },
+  {
+   "title": "What does Türkiye Scholarships cover?",
+   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=30",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-18"
   },
   {
    "title": "Search for scholarships",
@@ -934,6 +986,44 @@
    "fund": "Scholarship",
    "deadline": "",
    "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Scholarships and Educational Exchanges for Development – Phase 2 (SEED-2)",
+   "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/seed-bpeed.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-18",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Citizenship of an eligible ASEAN Member State, Pacific Island Country, or Mongolia",
+     "Full-time enrollment at a post-secondary institution in an eligible country",
+     "Paying tuition fees to home institution at application and during exchange",
+     "Must not hold or have a pending application for Canadian citizenship or permanent residency",
+     "Must not be participating in another Government of Canada-funded scholarship program",
+     "Must not be enrolled in a degree, diploma, or certificate program at a Canadian institution",
+     "Must not have previously received a Canada-ASEAN SEED scholarship",
+     "Application must be submitted by a Canadian Designated Learning Institution (DLI) on the student's behalf",
+     "Upload required supporting documents (under 5 MB in accepted formats)"
+    ],
+    "funding_details": "$10,200 for 4 months or $12,700 for 5-6 months for graduate students (Masters and PhD); covers visa/permit fees, airfare, health insurance, living expenses, ground transportation, and books/supplies, alongside mandatory tuition fee waiver by the Canadian institution.",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Canada",
+    "institution": "Global Affairs Canada",
+    "funding_type": "Scholarship",
+    "deadline_note": "The application deadline for 2026-27 was March 24, 2026 at 11:59 p.m. EDT, and the application period is closed.",
+    "eligible_fields": "Areas that contribute to the implementation of the 2030 Agenda for Sustainable Development (Sustainable Development Goals / SDGs)",
+    "who_can_apply": "Full-time enrolled students paying tuition at post-secondary institutions who are citizens of ASEAN Member States, Pacific Island Countries, or Mongolia; cannot hold/have pending Canadian citizenship or permanent residency, nor already be enrolled in Canada.",
+    "morocco_eligible": "no",
+    "fit_elt_dt": "low",
+    "fit_reason": "Morocco is not an eligible country, as the scholarship is strictly limited to citizens of ASEAN Member States, Pacific Island Countries, and Mongolia.",
+    "how_to_apply": "Canadian partner post-secondary institutions must apply on behalf of eligible candidates via the My EduCanada online portal.",
+    "summary": "The SEED-2 program provides short-term study or research exchange scholarships of up to $12,700 in Canada for post-secondary students from ASEAN, Pacific Island Countries, and Mongolia.",
+    "v": 2
+   }
   },
   {
    "title": "Canadian International Development Scholarships 2030",
@@ -1314,6 +1404,15 @@
    }
   },
   {
+   "title": "Oct 2026 Jan. 2027 Studentship Fulbright Research Fellowship with support from FCT – Fulbright Portugal Other Calls",
+   "link": "https://www.fulbright.pt/bolsas/bolsa-fulbright-para-investigacao-com-o-apoio-da-fundacao-para-a-ciencia-e-a-tecnologia-i-p-fct/",
+   "country": "Portugal",
+   "source": "FCT",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-18"
+  },
+  {
    "title": "The Australia Awards Scholarships (AAS)",
    "link": "https://www.dfat.gov.au/people-to-people/australia-awards",
    "country": "Australia",
@@ -1468,9 +1567,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 2 matches (of 106 links)",
-  "OK    EURAXESS (language education): 0 matches (of 106 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 106 links)",
+  "OK    EURAXESS (applied linguistics): 1 matches (of 101 links)",
+  "OK    EURAXESS (language education): 0 matches (of 101 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 101 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1500,14 +1599,17 @@
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
   "OK    OeAD: 7 matches (of 308 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
-  "OK    FCT: 2 matches (of 54 links)",
+  "OK    FCT: 3 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
   "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  16 pages read this run, 0 could not be opened, AI ON"
+  "READFAIL https://www.campusfrance.org/en/pre-Doctorate-programme-France: HTTPSConnectionPool(host='www.campusfrance.org', port=443): Read timed",
+  "READFAIL https://www.campusfrance.org/en/post-doctorate-France: HTTPSConnectionPool(host='www.campusfrance.org', port=443): Read timed",
+  "READFAIL https://www.campusfrance.org/en/social-security-doctoral-students-rese: 503 Server Error: Service Unavailable for url: https://www.campusfranc",
+  "READ  13 pages read this run, 3 could not be opened, AI ON"
  ],
  "programmes": [
   {
