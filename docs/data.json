@@ -2,38 +2,6 @@
  "updated": "2026-11-18",
  "items": [
   {
-   "title": "PhD student in Chemistry – specializing in Molecular Biomimetics",
-   "link": "https://euraxess.ec.europa.eu/jobs/481050",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2026-12-14",
-   "first_seen": "2026-11-18",
-   "info": {
-    "deadline": "2026-12-14",
-    "requirements": [
-     "second-cycle degree in biochemistry, biophysics, biotechnology, or equivalent (or 240 higher education credits with 60 at Master's level including a 15-credit independent project)",
-     "experience in protein production and isolation",
-     "very good oral and written proficiency in English"
-    ],
-    "funding_details": "amount: unknown; duration: temporary position; what_is_covered: full-time employment (100%)",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Sweden",
-    "institution": "Uppsala Universitet",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 14 December 2026.",
-    "eligible_fields": "Chemistry, Molecular Biomimetics, Biochemistry, Biophysics, Biotechnology",
-    "who_can_apply": "Moroccan citizens are eligible as it is an open international call, Holder of a second-cycle degree in biochemistry, biophysics, biotechnology, or equivalent, or at least 240 higher education credits with 60 at Master's level including an independent project worth at least 15 credits",
-    "morocco_eligible": "yes",
-    "fit_elt_dt": "low",
-    "fit_reason": "The PhD position requires a background in biochemistry, biophysics, or biotechnology, not ELT or digital technology in education.",
-    "how_to_apply": "Apply online via the university's recruitment portal using the provided application link.",
-    "summary": "A fully funded PhD student position in Chemistry focusing on Molecular Biomimetics at Uppsala University, Sweden, with a deadline of 14 December 2026.",
-    "v": 2
-   }
-  },
-  {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
    "country": "UK",
@@ -886,6 +854,37 @@
    }
   },
   {
+   "title": "YTB-IsDB Joint Scholarship Program 2025 Applications",
+   "link": "https://turkiyeburslari.gov.tr/announcements/ytbisdb-joint-scholarship-program-2025-applications-116",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-18",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Submit applications via Türkiye Scholarships website",
+     "Minimum academic achievement of 75% for graduate candidates",
+     "Being under the age of 35 for PhD programs"
+    ],
+    "funding_details": "amount: unknown; duration: unknown; what_is_covered: university admission and full scholarship",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Türkiye",
+    "institution": "Türkiye Scholarships / IsDB",
+    "funding_type": "Scholarship",
+    "deadline_note": "Application dates for the mentioned call were 10 March 2025 - 20 March 2025, which are in the past.",
+    "eligible_fields": "Science and Technology subjects for development",
+    "who_can_apply": "Citizens of IsDB member countries, graduates or those who will graduate by August, being under the age of 35 for PhD programs",
+    "fit_elt_dt": "low",
+    "fit_reason": "The scholarship is restricted to Science and Technology subjects for development, while ELT and digital technology in education fall under humanities or social sciences.",
+    "how_to_apply": "Potential applicants should submit their applications via the Türkiye Scholarships website.",
+    "summary": "The YTB-IsDB Joint Scholarship Program offers full scholarships for PhD degrees in Science and Technology subjects for development at universities in Türkiye, with past application dates in March 2025.",
+    "v": 2
+   }
+  },
+  {
    "title": "How do I apply for Türkiye Scholarships?",
    "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=28",
    "country": "Turkey",
@@ -1567,9 +1566,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 1 matches (of 101 links)",
-  "OK    EURAXESS (language education): 0 matches (of 101 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 101 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 99 links)",
+  "OK    EURAXESS (language education): 0 matches (of 99 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 99 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1593,11 +1592,11 @@
   "OK    HKPFS (RGC): 1 matches (of 5 links)",
   "OK    Fulbright Foreign Student: 0 matches (of 30 links)",
   "OK    VLIR-UOS: 1 matches (of 51 links)",
-  "OK    NAWA: 18 matches (of 926 links)",
+  "OK    NAWA: 18 matches (of 930 links)",
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
   "OK    Study in Korea (GKS): 5 matches (of 143 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
-  "OK    OeAD: 7 matches (of 308 links)",
+  "OK    OeAD: 7 matches (of 306 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
   "OK    FCT: 3 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
@@ -1606,10 +1605,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READFAIL https://www.campusfrance.org/en/pre-Doctorate-programme-France: HTTPSConnectionPool(host='www.campusfrance.org', port=443): Read timed",
-  "READFAIL https://www.campusfrance.org/en/post-doctorate-France: HTTPSConnectionPool(host='www.campusfrance.org', port=443): Read timed",
-  "READFAIL https://www.campusfrance.org/en/social-security-doctoral-students-rese: 503 Server Error: Service Unavailable for url: https://www.campusfranc",
-  "READ  13 pages read this run, 3 could not be opened, AI ON"
+  "READ  10 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
