@@ -2,6 +2,36 @@
  "updated": "2026-11-18",
  "items": [
   {
+   "title": "CALL FOR RESEARCH FELLOWSHIP | Lugus 1253535 | GreenFibers",
+   "link": "https://euraxess.ec.europa.eu/jobs/481319",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job (paid)",
+   "deadline": "2026-12-04",
+   "first_seen": "2026-11-18",
+   "info": {
+    "deadline": "2026-12-04",
+    "requirements": [
+     "Students enrolled in a doctoral degree in the scientific area of Chemical Engineering OR Master’s degree holders in the scientific area of Chemical Engineering, enrolled in a non-degree-granting course"
+    ],
+    "funding_details": "1359,64€ monthly grant amount, initial duration of 12 months with possibility of renewal, includes voluntary social security (SSV) and mandatory personal accident insurance",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Portugal",
+    "institution": "Universidade de Coimbra",
+    "funding_type": "PhD job (paid)",
+    "deadline_note": "Application deadline is 4 Dec 2026 - 23:59 (Europe/Lisbon).",
+    "eligible_fields": "Chemical Engineering",
+    "who_can_apply": "Nationals of third countries, Portuguese nationals, EU Member States, stateless persons, or political refugees; students enrolled in a doctoral degree in Chemical Engineering or Master's degree holders in Chemical Engineering enrolled in a non-degree-granting course",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "low",
+    "fit_reason": "The position specifically requires a background in Chemical Engineering, making an ELT and digital technology profile ineligible.",
+    "how_to_apply": "Apply online through the University of Coimbra application portal (https://apply.uc.pt/).",
+    "summary": "Universidade de Coimbra in Portugal offers a paid research fellowship in Chemical Engineering for doctoral or master's students under the GreenFibers project, with a deadline of 4 December 2026.",
+    "v": 2
+   }
+  },
+  {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
    "country": "UK",
@@ -933,6 +963,15 @@
    "first_seen": "2026-11-18"
   },
   {
+   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
+   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-18"
+  },
+  {
    "title": "International scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
    "country": "Canada",
@@ -1277,15 +1316,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "PhD PrepTalk: European University Institute (EUI)",
-   "link": "https://oead.at/en/events/event/2026/11/18/default-d7c0496dfbb767170ef585a83096e45f-1",
-   "country": "Austria",
-   "source": "OeAD",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Doctoral Grant for the European University Institute (EUI)",
    "link": "https://grants.at/en/?=NDI2NzFfMF8w",
    "country": "Austria",
@@ -1539,9 +1569,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 94 links)",
-  "OK    EURAXESS (language education): 0 matches (of 94 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 94 links)",
+  "OK    EURAXESS (applied linguistics): 1 matches (of 92 links)",
+  "OK    EURAXESS (language education): 0 matches (of 92 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 92 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1569,7 +1599,7 @@
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
   "OK    Study in Korea (GKS): 5 matches (of 143 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
-  "OK    OeAD: 7 matches (of 312 links)",
+  "OK    OeAD: 6 matches (of 312 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
   "OK    FCT: 3 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
