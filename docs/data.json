@@ -924,40 +924,13 @@
    }
   },
   {
-   "title": "What does Türkiye Scholarships cover?",
-   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=30",
+   "title": "When can I apply for the Türkiye Scholarships?",
+   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=29",
    "country": "Turkey",
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
    "first_seen": "2026-11-18"
-  },
-  {
-   "title": "Search for scholarships",
-   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
-   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
-   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
   },
   {
    "title": "International scholarships",
@@ -1566,9 +1539,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 99 links)",
-  "OK    EURAXESS (language education): 0 matches (of 99 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 99 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 94 links)",
+  "OK    EURAXESS (language education): 0 matches (of 94 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 94 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1596,7 +1569,7 @@
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
   "OK    Study in Korea (GKS): 5 matches (of 143 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
-  "OK    OeAD: 7 matches (of 306 links)",
+  "OK    OeAD: 7 matches (of 312 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
   "OK    FCT: 3 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
@@ -1605,7 +1578,8 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  10 pages read this run, 0 could not be opened, AI ON"
+  "AIFAIL https://turkiyeburslari.gov.tr/FAQ/Category/7?q=29: 'list' object has no attribute 'items'",
+  "READ  12 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
