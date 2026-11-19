@@ -2,36 +2,6 @@
  "updated": "2026-11-19",
  "items": [
   {
-   "title": "CALL FOR RESEARCH FELLOWSHIP | Lugus 1253535 | GreenFibers",
-   "link": "https://euraxess.ec.europa.eu/jobs/481319",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2026-12-04",
-   "first_seen": "2026-11-18",
-   "info": {
-    "deadline": "2026-12-04",
-    "requirements": [
-     "Students enrolled in a doctoral degree in the scientific area of Chemical Engineering OR Master’s degree holders in the scientific area of Chemical Engineering, enrolled in a non-degree-granting course"
-    ],
-    "funding_details": "1359,64€ monthly grant amount, initial duration of 12 months with possibility of renewal, includes voluntary social security (SSV) and mandatory personal accident insurance",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Portugal",
-    "institution": "Universidade de Coimbra",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 4 Dec 2026 - 23:59 (Europe/Lisbon).",
-    "eligible_fields": "Chemical Engineering",
-    "who_can_apply": "Nationals of third countries, Portuguese nationals, EU Member States, stateless persons, or political refugees; students enrolled in a doctoral degree in Chemical Engineering or Master's degree holders in Chemical Engineering enrolled in a non-degree-granting course",
-    "morocco_eligible": "yes",
-    "fit_elt_dt": "low",
-    "fit_reason": "The position specifically requires a background in Chemical Engineering, making an ELT and digital technology profile ineligible.",
-    "how_to_apply": "Apply online through the University of Coimbra application portal (https://apply.uc.pt/).",
-    "summary": "Universidade de Coimbra in Portugal offers a paid research fellowship in Chemical Engineering for doctoral or master's students under the GreenFibers project, with a deadline of 4 December 2026.",
-    "v": 2
-   }
-  },
-  {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
    "country": "UK",
@@ -300,6 +270,15 @@
    }
   },
   {
+   "title": "FAQ – Doing my Doctorate in France",
+   "link": "https://www.campusfrance.org/en/FAQ-Doctorate-France-questions",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-19"
+  },
+  {
    "title": "Post-Doctorate Discover",
    "link": "https://www.campusfrance.org/en/post-doctorate-France",
    "country": "France",
@@ -326,6 +305,15 @@
     "ai": false,
     "retry": "2026-11-25"
    }
+  },
+  {
+   "title": "Reception programmes and doctoral student associations",
+   "link": "https://www.campusfrance.org/en/reception-programmes-doctoral-student-associations",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-19"
   },
   {
    "title": "Research scholarships",
@@ -408,6 +396,15 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
+  },
+  {
+   "title": "E2-news: Scholarships as a career booster",
+   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
+   "country": "Switzerland",
+   "source": "Swiss Excellence Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-19"
   },
   {
    "title": "Research scholarships",
@@ -952,6 +949,60 @@
     "summary": "Türkiye Scholarships offers full-time PhD scholarships in Turkish universities for international students under 35 years of age.",
     "v": 2
    }
+  },
+  {
+   "title": "When can I apply for the Türkiye Scholarships?",
+   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=29",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "title": "What does Türkiye Scholarships cover?",
+   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=30",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "title": "Search for scholarships",
+   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
+   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
+   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "title": "International scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-19"
   },
   {
    "title": "Search for scholarships",
@@ -1551,9 +1602,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 1 matches (of 92 links)",
-  "OK    EURAXESS (language education): 0 matches (of 92 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 92 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 93 links)",
+  "OK    EURAXESS (language education): 0 matches (of 93 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 93 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1590,7 +1641,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  14 pages read this run, 0 could not be opened, AI ON"
+  "READ  5 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
