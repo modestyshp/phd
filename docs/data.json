@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "items": [
   {
    "title": "CALL FOR RESEARCH FELLOWSHIP | Lugus 1253535 | GreenFibers",
@@ -954,33 +954,6 @@
    }
   },
   {
-   "title": "When can I apply for the Türkiye Scholarships?",
-   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=29",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-18"
-  },
-  {
-   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
-   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-18"
-  },
-  {
-   "title": "International scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Search for scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
    "country": "Canada",
@@ -1415,6 +1388,15 @@
    "first_seen": "2026-11-18"
   },
   {
+   "title": "Oct 2026 Jan. 2027 Studentship Fulbright Ph.D. Fellowship with Support from FCT – Fulbright Portugal Other Calls",
+   "link": "https://www.fulbright.pt/bolsas/bolsa-fulbright-para-doutoramento-com-o-apoio-da-fundacao-para-a-ciencia-e-a-tecnologia-i-p-fct/",
+   "country": "Portugal",
+   "source": "FCT",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-19"
+  },
+  {
    "title": "The Australia Awards Scholarships (AAS)",
    "link": "https://www.dfat.gov.au/people-to-people/australia-awards",
    "country": "Australia",
@@ -1601,15 +1583,14 @@
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
   "OK    OeAD: 6 matches (of 312 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
-  "OK    FCT: 3 matches (of 54 links)",
+  "OK    FCT: 4 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
   "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "AIFAIL https://turkiyeburslari.gov.tr/FAQ/Category/7?q=29: 'list' object has no attribute 'items'",
-  "READ  12 pages read this run, 0 could not be opened, AI ON"
+  "READ  14 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
