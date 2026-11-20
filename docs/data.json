@@ -2,79 +2,38 @@
  "updated": "2026-11-20",
  "items": [
   {
-   "title": "Call for Applications for the Award of a two Research Grant PhD Students. IMS_BOLSA_CHOICE_2026_02",
-   "link": "https://euraxess.ec.europa.eu/jobs/481963",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "Scholarship",
-   "deadline": "2026-12-07",
-   "first_seen": "2026-11-20",
-   "info": {
-    "deadline": "2026-12-07",
-    "requirements": [
-     "Master’s degree in data science and behavioral sciences",
-     "Enrollment in PhD program in Information Management",
-     "Solid knowledge of qualitative and quantitative data analysis, including experience with surveys, experimental studies, interviews and/or focus groups",
-     "Solid knowledge in the field of health and Behavioral Sciences",
-     "Experience in the development of interactive digital tools or educational platforms (valued but not mandatory)",
-     "Fluency in English (spoken and written)",
-     "Experience in international collaborative projects"
-    ],
-    "funding_details": "",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Portugal",
-    "institution": "NOVA Information Management School (NOVA IMS)",
-    "funding_type": "Scholarship",
-    "deadline_note": "Application deadline is 7 Dec 2026 at 20:00 (Europe/Lisbon).",
-    "eligible_fields": "Information Management",
-    "who_can_apply": "National citizens or citizens of other member states of the European Union, Citizens of third States, Stateless persons, Citizens enjoying political refugee status",
-    "morocco_eligible": "yes",
-    "fit_elt_dt": "medium",
-    "fit_reason": "The call requires a Master's in data science and behavioral sciences and health/behavioral sciences knowledge, though digital tool/educational platform experience is valued.",
-    "how_to_apply": "Apply online through the EURAXESS or institution application link provided in the call using reference IMS_BOLSA_CHOICE_2026_02.",
-    "summary": "NOVA IMS in Portugal offers two PhD research scholarships in Information Management for the CHOICE project, open to international applicants with a relevant master's degree.",
-    "v": 2
-   }
-  },
-  {
-   "title": "CALL FOR RECRUITMENT OF ONE PHD RESEARCHER| ERASMUS OINOVATE| Agricultural Sciences.",
-   "link": "https://euraxess.ec.europa.eu/jobs/481960",
+   "title": "NOTICE OF CALL FOR APPLICATIONS | NOVAFCTBI | BI NOVATWIN",
+   "link": "https://euraxess.ec.europa.eu/jobs/482037",
    "country": "Europe",
    "source": "EURAXESS (applied linguistics)",
    "fund": "PhD job (paid)",
-   "deadline": "2026-12-07",
+   "deadline": "2026-11-30",
    "first_seen": "2026-11-20",
    "info": {
-    "deadline": "2026-12-07",
+    "deadline": "2026-11-30",
     "requirements": [
-     "Hold a PhD degree in Agricultural Sciences, Viticulture and Oenology or a related field",
-     "Research and/or technical-scientific development experience in viticulture, oenology, wine, vitivinicultural systems, sustainability, innovation, wine tourism or the enhancement of vitivinicultural heritage",
-     "Experience participating in national or European research projects",
-     "Experience in scientific production and dissemination, including publications and conference presentations",
-     "Proficiency in Portuguese and ability to communicate in English",
-     "Recognition of foreign doctorate by a foreign higher education institution complying with Decree-Law no. 66/2018 if applicable"
+     "Hold a master’s degree in the Social Sciences, Environmental Sciences or Engineering, Sustainability or related fields",
+     "Be enrolled in a doctoral programme in Environment and Sustainability or a related field"
     ],
-    "funding_details": "",
+    "funding_details": "amount: 2 159.64 € per month; duration: Initial duration of up to 12 months, renewable up to a maximum total duration of 36 months; what_is_covered: Monthly stipend",
     "ai": true,
     "is_phd_funding": true,
     "country": "Portugal",
-    "institution": "Faculty of Sciences of the University of Porto",
+    "institution": "Faculdade de Ciências e Tecnologia (NOVA FCT), Universidade NOVA de Lisboa",
     "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 7 Dec 2026.",
-    "eligible_fields": "Agricultural Sciences, Viticulture and Oenology, or a related field",
-    "who_can_apply": "Any nationals, foreigners and stateless people who hold a PhD degree in the specified scientific area",
-    "morocco_eligible": "yes",
+    "deadline_note": "Application deadline is 30 Nov 2026 at 23:59 (Europe/Lisbon).",
+    "eligible_fields": "Social Sciences, Environmental Sciences or Engineering, Sustainability",
+    "who_can_apply": "nationality: unknown, degree: Master's degree in Social Sciences, Environmental Sciences or Engineering, Sustainability or related fields",
     "fit_elt_dt": "low",
-    "fit_reason": "The position requires a completed PhD in Agricultural Sciences or Viticulture and Oenology, not a Master's in ELT or Digital Technology.",
-    "how_to_apply": "Apply online through the EURAXESS or University of Porto application portal by the specified deadline.",
-    "summary": "The Faculty of Sciences of the University of Porto offers a paid PhD researcher position in Agricultural Sciences and Viticulture under the ERASMUS OINOVATE project.",
+    "fit_reason": "The call requires a master's degree in Social Sciences, Environmental Sciences, Engineering, or Sustainability, rather than ELT or educational technology.",
+    "how_to_apply": "Apply online through the provided application link on the EURAXESS platform before the deadline.",
+    "summary": "NOVA FCT in Portugal is offering a paid Research Fellowship for a doctoral student in Environment and Sustainability under the Horizon Europe project NOVATWIN, with an application deadline of 30 November 2026.",
     "v": 2
    }
   },
   {
-   "title": "Erratum to the Notice concerning the period between 23 July and 7 August 2026",
-   "link": "https://euraxess.ec.europa.eu/jobs/funding/erratum-notice-concerning-period-between-23-july-and-7-august-2026",
+   "title": "Research Grant – “A Global Optical Network: seamless integration of Fiber and SatCom” Project",
+   "link": "https://euraxess.ec.europa.eu/jobs/482035",
    "country": "Europe",
    "source": "EURAXESS (applied linguistics)",
    "fund": "Scholarship",
@@ -304,15 +263,6 @@
    }
   },
   {
-   "title": "What is involved in a Doctorate in France? Discover",
-   "link": "https://www.campusfrance.org/en/what-involved-Doctorate-France",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
    "title": "How to enrol in a Doctorate Discover",
    "link": "https://www.campusfrance.org/en/how-to-enrol-Doctorate-France",
    "country": "France",
@@ -490,15 +440,6 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
-  },
-  {
-   "title": "E2-news: Scholarships as a career booster",
-   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
   },
   {
    "title": "Research scholarships",
@@ -974,15 +915,6 @@
    }
   },
   {
-   "title": "Türkiye Scholarships 2025 Applications Are Closed!",
-   "link": "https://turkiyeburslari.gov.tr/announcements/turkiye-scholarships-2025-applications-are-closed-115",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
    "title": "How do I apply for Türkiye Scholarships?",
    "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=28",
    "country": "Turkey",
@@ -1065,52 +997,35 @@
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "title": "Search for scholarships",
-   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
-   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
-   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "title": "International scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "title": "Search for scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
+   "first_seen": "2026-11-20",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "A valid identity document, ID card or passport",
+     "A photograph of the candidate taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "International exam results (GRE, GMAT, SAT, etc.) if required by the chosen university or program",
+     "International language test results such as TOEFL, DELF if required by the chosen university or program",
+     "A proposal for a research topic and a written example of the research you have carried out (only for PhD applications)",
+     "Minimum 75% academic achievement for graduate candidates"
+    ],
+    "funding_details": "amount: unknown; duration: unknown; what is covered: unknown",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Turkey",
+    "institution": "Turkish Universities via Türkiye Scholarships",
+    "funding_type": "Scholarship",
+    "deadline_note": "General application period was January 10 – February 20; all specific dates shown on the page are past dates.",
+    "who_can_apply": "Citizens of all countries, Graduates or those who will graduate at the end of the current academic year, Candidates for PhD programs must be under the age of 35",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship program covers PhD studies across various fields including education and digital technology for international graduates.",
+    "how_to_apply": "Applications are submitted online through the Türkiye Scholarships Information System (www.tbbs.turkiyeburslari.gov.tr).",
+    "summary": "Türkiye Scholarships offer government-funded scholarships for international students pursuing PhD degrees in Turkey, subject to age and academic criteria.",
+    "v": 2
+   }
   },
   {
    "title": "Study in Canada Scholarships",
@@ -1665,9 +1580,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 5 matches (of 89 links)",
-  "OK    EURAXESS (language education): 0 matches (of 89 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 89 links)",
+  "OK    EURAXESS (applied linguistics): 2 matches (of 92 links)",
+  "OK    EURAXESS (language education): 0 matches (of 92 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 92 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 42 links)",
@@ -1693,7 +1608,7 @@
   "OK    VLIR-UOS: 1 matches (of 51 links)",
   "OK    NAWA: 18 matches (of 930 links)",
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
-  "OK    Study in Korea (GKS): 5 matches (of 143 links)",
+  "OK    Study in Korea (GKS): 5 matches (of 142 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
   "OK    OeAD: 6 matches (of 322 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
@@ -1704,8 +1619,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "AIFAIL https://www.campusfrance.org/en/what-involved-Doctorate-Fran: all models busy or failing: gemini-3.8-flash 429 busy",
-  "READ  10 pages read this run, 0 could not be opened, AI ON"
+  "READ  16 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
