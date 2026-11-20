@@ -2,83 +2,6 @@
  "updated": "2026-11-20",
  "items": [
   {
-   "title": "Ph.D. Student in Informatics in the field of game development",
-   "link": "https://euraxess.ec.europa.eu/jobs/481690",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "title": "Employment as a doctoral student in education",
-   "link": "https://euraxess.ec.europa.eu/jobs/481691",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2027-01-15",
-   "first_seen": "2026-11-20",
-   "info": {
-    "deadline": "2027-01-15",
-    "requirements": [
-     "Second-cycle qualification (at least 240 credits total, with at least 60 credits at the second-cycle level)",
-     "Independent project of at least 15 credits at the second-cycle level in Education or equivalent knowledge",
-     "Research plan for the proposed doctoral project",
-     "Ability to communicate effectively, both in writing and orally"
-    ],
-    "funding_details": "amount: unknown; duration: unknown; what is covered: Employment as a doctoral student (salaried position)",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Sweden",
-    "institution": "Malmö University",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "The application deadline is 15 Jan 2027 at 12:00 UTC.",
-    "eligible_fields": "Education, Educational sciences",
-    "who_can_apply": "All nationalities (open to international applicants), Holders of a second-cycle qualification (Master's degree) comprising at least 240 credits with at least 60 second-cycle credits, or equivalent",
-    "morocco_eligible": "yes",
-    "fit_elt_dt": "medium",
-    "fit_reason": "An ELT and digital technology master's graduate meets general second-cycle requirements, but specific entry requirements demand a background in Education (pedagogik) or equivalent.",
-    "how_to_apply": "Apply online through the EURAXESS / Malmö University portal by clicking 'Apply now'.",
-    "summary": "Malmö University in Sweden is offering a paid doctoral student position in Education, with an application deadline of 15 January 2027.",
-    "v": 2
-   }
-  },
-  {
-   "title": "PhD student in Reactive Multiphase Flow modeling with AI integration",
-   "link": "https://euraxess.ec.europa.eu/jobs/481692",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2026-12-30",
-   "first_seen": "2026-11-20",
-   "info": {
-    "deadline": "2026-12-30",
-    "requirements": [
-     "completed a second-cycle (Master's level) degree",
-     "completed course requirements of at least 240 higher education credits, of which at least at second-cycle level",
-     "degree or equivalent studies at second-cycle level in an engineering or natural sciences field/discipline relevant to the project",
-     "relevant academic background in mechanical engineering, energy engineering, chemical engineering, physics or a related field",
-     "coursework or project work relevant to fluid mechanics and transport phenomena",
-     "knowledge of fluid mechanics, heat and mass transfer, thermodynamics and multiphase flow"
-    ],
-    "funding_details": "amount: unknown; duration: four years; what is covered: full-time employment as a doctoral student for the duration of the education",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Sweden",
-    "institution": "Mälardalens universitet",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "Closing date for application is 2026-12-30 (another date mentions 18 Dec 2026).",
-    "eligible_fields": "Energy and environmental science, mechanical engineering, energy engineering, chemical engineering, physics, related field",
-    "who_can_apply": "international applicants holding a second-cycle (Master's level) degree or equivalent",
-    "morocco_eligible": "yes",
-    "fit_elt_dt": "low",
-    "fit_reason": "The position requires an engineering or natural sciences background in fields such as mechanical, energy, or chemical engineering, not ELT or educational technology.",
-    "how_to_apply": "Apply online through the platform using the 'Apply now' button before the closing date.",
-    "summary": "A fully funded 4-year PhD position in Reactive Multiphase Flow modeling with AI integration is available at Mälardalens universitet, Sweden, requiring an engineering or natural sciences background.",
-    "v": 2
-   }
-  },
-  {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
    "country": "UK",
@@ -389,8 +312,8 @@
    }
   },
   {
-   "title": "Reception programmes and doctoral student associations",
-   "link": "https://www.campusfrance.org/en/reception-programmes-doctoral-student-associations",
+   "title": "Chile-Colombia: The 2026 Campus France Tour Confirms the Growing Appeal of Studying in France With more than 2,500 visitors in total and numerous institutional ",
+   "link": "https://www.campusfrance.org/en/chile-colombia-the-2026-campus-france-tour-confirms-the-growing-appeal-of-studying-in-france",
    "country": "France",
    "source": "Campus France scholarships",
    "fund": "PhD job / position",
@@ -478,15 +401,6 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
-  },
-  {
-   "title": "E2-news: Scholarships as a career booster",
-   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
   },
   {
    "title": "Research scholarships",
@@ -931,38 +845,6 @@
    }
   },
   {
-   "title": "Türkiye Scholarships 2026 Applications",
-   "link": "https://turkiyeburslari.gov.tr/announcements/turkiye-scholarships-2026-applications-121",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "",
-    "requirements": [
-     "Citizenship of any country other than Türkiye",
-     "Under 35 years of age for PhD programs",
-     "Minimum academic achievement of 75% for graduate candidates (90% for Health Sciences: Medicine, Dentistry, Pharmacy)",
-     "Graduation before August of the academic year",
-     "Not currently enrolled in a Turkish university program at the PhD level"
-    ],
-    "funding_details": "University placement, monthly stipend, tuition fee, accommodation/dormitory, health insurance, round-trip flight ticket, and free professional and academic programs",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Türkiye",
-    "funding_type": "Scholarship",
-    "deadline_note": "Applications for 2026 were open from 10 January to 20 February 2026.",
-    "who_can_apply": "Citizens of all countries (except Turkish citizens or individuals who lost Turkish citizenship) under the age of 35 for PhD programs, who are graduates or will graduate before August; not currently enrolled in Turkish universities at the same degree level",
-    "morocco_eligible": "yes",
-    "fit_elt_dt": "high",
-    "fit_reason": "The scholarship program funds full-time doctoral study across disciplines at top Turkish universities.",
-    "how_to_apply": "Submit an online application through the Türkiye Scholarships portal via the 'Apply Now!' link.",
-    "summary": "A comprehensive Turkish government-funded scholarship offering university placement, tuition, monthly stipend, accommodation, flights, and health insurance for doctoral and other degree studies.",
-    "v": 2
-   }
-  },
-  {
    "title": "YTB-IsDB Joint Scholarship Program 2025 Applications",
    "link": "https://turkiyeburslari.gov.tr/announcements/ytbisdb-joint-scholarship-program-2025-applications-116",
    "country": "Turkey",
@@ -1039,16 +921,35 @@
    "source": "Turkiye Scholarships",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "title": "What does Türkiye Scholarships cover?",
-   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=30",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
+   "first_seen": "2026-11-20",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "A valid identity document, ID card or passport",
+     "A photograph taken within the last 1 year",
+     "National exam results (if any)",
+     "Diploma or temporary graduation certificate",
+     "Transcript",
+     "International exam results (GRE, GMAT, SAT, etc.) if required",
+     "International language test results such as TOEFL, DELF if required",
+     "A proposal for a research topic and a written example of the research carried out (only for PhD applications)",
+     "Minimum academic achievement of 75% for graduate candidates"
+    ],
+    "funding_details": "amount: unknown; duration: unknown; what_is_covered: unknown",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Turkey",
+    "institution": "Türkiye Scholarships",
+    "funding_type": "Scholarship",
+    "deadline_note": "General application period mentioned as January 10 – February 20, but specific upcoming date for 2026 is unknown.",
+    "who_can_apply": "Citizens of all countries (except Turkey), Graduates or those who will graduate at the end of the current academic year, Under the age of 35 for PhD programs",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship program supports graduate studies including PhD level across various fields, which can accommodate educational and language teaching disciplines.",
+    "how_to_apply": "Applications are submitted online through the Türkiye Scholarships Information System (TBBS).",
+    "summary": "Türkiye Scholarships offers a fully-funded government scholarship program for international students, including PhD opportunities for eligible foreign nationals under 35.",
+    "v": 2
+   }
   },
   {
    "title": "Search for scholarships",
@@ -1593,6 +1494,15 @@
    "first_seen": "2026-11-16"
   },
   {
+   "title": "Résultats du concours d’accès au cycle doctoral du CEDoc LSHASE – Année universitaire 2026-2027",
+   "link": "https://www.umi.ac.ma/resultats-du-concours-dacces-au-cycle-doctoral-du-cedoc-lshase-annee-universitaire-2026-2027/",
+   "country": "Morocco",
+   "source": "UMI (Moulay Ismail)",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
    "title": "Résultats du concours d’accès au cycle doctoral – Année universitaire 2026-2027",
    "link": "https://www.umi.ac.ma/%d8%a7%d9%84%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d8%a6%d9%8a%d8%a9-%d9%84%d9%85%d8%a8%d8%a7%d8%b1%d9%8a%d8%a7%d8%aa-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a7%d9%84%d8%a3%d8%b7-4/",
    "country": "Morocco",
@@ -1629,15 +1539,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Journée doctorale | CEDoc LSHASE",
-   "link": "https://www.umi.ac.ma/journee-doctorale-cedoc-lshase/",
-   "country": "Morocco",
-   "source": "UMI (Moulay Ismail)",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Appel à candidature pour bourses de mobilité Erasmus+ (KA 171) à l’Université Degli Studi di Napoli Federico II Italie",
    "link": "https://www.umi.ac.ma/appel-a-candidature-pour-bourses-de-mobilite-erasmus-ka-171-a-luniversite-degli-studi-di-napoli-federico-ii-italie/",
    "country": "Morocco",
@@ -1648,16 +1549,16 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 3 matches (of 89 links)",
-  "OK    EURAXESS (language education): 0 matches (of 89 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 89 links)",
+  "OK    EURAXESS (applied linguistics): 1 matches (of 98 links)",
+  "OK    EURAXESS (language education): 0 matches (of 98 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 98 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 42 links)",
   "OK    AcademicTransfer: 0 matches (of 6 links)",
   "FAIL  Academic Positions (education): 403 Client Error: Forbidden for url: https://academicpositions.com/find-jobs?keywords=education+phd",
   "FAIL  DAAD scholarship database: 403 Client Error: Forbidden for url: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
-  "OK    Campus France scholarships: 12 matches (of 154 links)",
+  "OK    Campus France scholarships: 14 matches (of 154 links)",
   "OK    ABG offers: 0 matches (of 73 links)",
   "OK    Swiss Excellence Scholarships: 13 matches (of 23 links)",
   "OK    Turkiye Scholarships: 13 matches (of 53 links)",
@@ -1678,7 +1579,7 @@
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
   "OK    Study in Korea (GKS): 5 matches (of 143 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
-  "OK    OeAD: 6 matches (of 310 links)",
+  "OK    OeAD: 6 matches (of 316 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
   "OK    FCT: 3 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
@@ -1687,7 +1588,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  7 pages read this run, 0 could not be opened, AI ON"
+  "READ  12 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
