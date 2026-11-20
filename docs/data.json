@@ -1,6 +1,83 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "items": [
+  {
+   "title": "Ph.D. Student in Informatics in the field of game development",
+   "link": "https://euraxess.ec.europa.eu/jobs/481690",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "title": "Employment as a doctoral student in education",
+   "link": "https://euraxess.ec.europa.eu/jobs/481691",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job (paid)",
+   "deadline": "2027-01-15",
+   "first_seen": "2026-11-20",
+   "info": {
+    "deadline": "2027-01-15",
+    "requirements": [
+     "Second-cycle qualification (at least 240 credits total, with at least 60 credits at the second-cycle level)",
+     "Independent project of at least 15 credits at the second-cycle level in Education or equivalent knowledge",
+     "Research plan for the proposed doctoral project",
+     "Ability to communicate effectively, both in writing and orally"
+    ],
+    "funding_details": "amount: unknown; duration: unknown; what is covered: Employment as a doctoral student (salaried position)",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Sweden",
+    "institution": "Malmö University",
+    "funding_type": "PhD job (paid)",
+    "deadline_note": "The application deadline is 15 Jan 2027 at 12:00 UTC.",
+    "eligible_fields": "Education, Educational sciences",
+    "who_can_apply": "All nationalities (open to international applicants), Holders of a second-cycle qualification (Master's degree) comprising at least 240 credits with at least 60 second-cycle credits, or equivalent",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "medium",
+    "fit_reason": "An ELT and digital technology master's graduate meets general second-cycle requirements, but specific entry requirements demand a background in Education (pedagogik) or equivalent.",
+    "how_to_apply": "Apply online through the EURAXESS / Malmö University portal by clicking 'Apply now'.",
+    "summary": "Malmö University in Sweden is offering a paid doctoral student position in Education, with an application deadline of 15 January 2027.",
+    "v": 2
+   }
+  },
+  {
+   "title": "PhD student in Reactive Multiphase Flow modeling with AI integration",
+   "link": "https://euraxess.ec.europa.eu/jobs/481692",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job (paid)",
+   "deadline": "2026-12-30",
+   "first_seen": "2026-11-20",
+   "info": {
+    "deadline": "2026-12-30",
+    "requirements": [
+     "completed a second-cycle (Master's level) degree",
+     "completed course requirements of at least 240 higher education credits, of which at least at second-cycle level",
+     "degree or equivalent studies at second-cycle level in an engineering or natural sciences field/discipline relevant to the project",
+     "relevant academic background in mechanical engineering, energy engineering, chemical engineering, physics or a related field",
+     "coursework or project work relevant to fluid mechanics and transport phenomena",
+     "knowledge of fluid mechanics, heat and mass transfer, thermodynamics and multiphase flow"
+    ],
+    "funding_details": "amount: unknown; duration: four years; what is covered: full-time employment as a doctoral student for the duration of the education",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Sweden",
+    "institution": "Mälardalens universitet",
+    "funding_type": "PhD job (paid)",
+    "deadline_note": "Closing date for application is 2026-12-30 (another date mentions 18 Dec 2026).",
+    "eligible_fields": "Energy and environmental science, mechanical engineering, energy engineering, chemical engineering, physics, related field",
+    "who_can_apply": "international applicants holding a second-cycle (Master's level) degree or equivalent",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "low",
+    "fit_reason": "The position requires an engineering or natural sciences background in fields such as mechanical, energy, or chemical engineering, not ELT or educational technology.",
+    "how_to_apply": "Apply online through the platform using the 'Apply now' button before the closing date.",
+    "summary": "A fully funded 4-year PhD position in Reactive Multiphase Flow modeling with AI integration is available at Mälardalens universitet, Sweden, requiring an engineering or natural sciences background.",
+    "v": 2
+   }
+  },
   {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
@@ -312,6 +389,15 @@
    }
   },
   {
+   "title": "Reception programmes and doctoral student associations",
+   "link": "https://www.campusfrance.org/en/reception-programmes-doctoral-student-associations",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
    "title": "Research scholarships",
    "link": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships-at-a-glance#Research-scholarships",
    "country": "Switzerland",
@@ -392,6 +478,15 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
+  },
+  {
+   "title": "E2-news: Scholarships as a career booster",
+   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
+   "country": "Switzerland",
+   "source": "Swiss Excellence Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-20"
   },
   {
    "title": "Research scholarships",
@@ -936,6 +1031,69 @@
     "summary": "Türkiye Scholarships offers full-time PhD scholarships in Turkish universities for international students under 35 years of age.",
     "v": 2
    }
+  },
+  {
+   "title": "When can I apply for the Türkiye Scholarships?",
+   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=29",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "title": "What does Türkiye Scholarships cover?",
+   "link": "https://turkiyeburslari.gov.tr/FAQ/Category/7?q=30",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "title": "Search for scholarships",
+   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
+   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
+   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "title": "International scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "title": "Search for scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-20"
   },
   {
    "title": "Study in Canada Scholarships",
@@ -1490,12 +1648,12 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 95 links)",
-  "OK    EURAXESS (language education): 0 matches (of 95 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 95 links)",
+  "OK    EURAXESS (applied linguistics): 3 matches (of 89 links)",
+  "OK    EURAXESS (language education): 0 matches (of 89 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 89 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
-  "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
+  "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 42 links)",
   "OK    AcademicTransfer: 0 matches (of 6 links)",
   "FAIL  Academic Positions (education): 403 Client Error: Forbidden for url: https://academicpositions.com/find-jobs?keywords=education+phd",
   "FAIL  DAAD scholarship database: 403 Client Error: Forbidden for url: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
@@ -1520,7 +1678,7 @@
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
   "OK    Study in Korea (GKS): 5 matches (of 143 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
-  "OK    OeAD: 6 matches (of 309 links)",
+  "OK    OeAD: 6 matches (of 310 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
   "OK    FCT: 3 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
@@ -1529,8 +1687,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READFAIL https://www.campusfrance.org/en/organising-your-stay-as-a-scholarship-: 502 Server Error: Bad Gateway for url: https://www.campusfrance.org/en",
-  "READ  14 pages read this run, 1 could not be opened, AI ON"
+  "READ  7 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
