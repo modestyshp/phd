@@ -2,45 +2,6 @@
  "updated": "2026-11-21",
  "items": [
   {
-   "title": "NOTICE OF CALL FOR APPLICATIONS | NOVAFCTBI | BI NOVATWIN",
-   "link": "https://euraxess.ec.europa.eu/jobs/482037",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2026-11-30",
-   "first_seen": "2026-11-20",
-   "info": {
-    "deadline": "2026-11-30",
-    "requirements": [
-     "Hold a master’s degree in the Social Sciences, Environmental Sciences or Engineering, Sustainability or related fields",
-     "Be enrolled in a doctoral programme in Environment and Sustainability or a related field"
-    ],
-    "funding_details": "amount: 2 159.64 € per month; duration: Initial duration of up to 12 months, renewable up to a maximum total duration of 36 months; what_is_covered: Monthly stipend",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Portugal",
-    "institution": "Faculdade de Ciências e Tecnologia (NOVA FCT), Universidade NOVA de Lisboa",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 30 Nov 2026 at 23:59 (Europe/Lisbon).",
-    "eligible_fields": "Social Sciences, Environmental Sciences or Engineering, Sustainability",
-    "who_can_apply": "nationality: unknown, degree: Master's degree in Social Sciences, Environmental Sciences or Engineering, Sustainability or related fields",
-    "fit_elt_dt": "low",
-    "fit_reason": "The call requires a master's degree in Social Sciences, Environmental Sciences, Engineering, or Sustainability, rather than ELT or educational technology.",
-    "how_to_apply": "Apply online through the provided application link on the EURAXESS platform before the deadline.",
-    "summary": "NOVA FCT in Portugal is offering a paid Research Fellowship for a doctoral student in Environment and Sustainability under the Horizon Europe project NOVATWIN, with an application deadline of 30 November 2026.",
-    "v": 2
-   }
-  },
-  {
-   "title": "Research Grant – “A Global Optical Network: seamless integration of Fiber and SatCom” Project",
-   "link": "https://euraxess.ec.europa.eu/jobs/482035",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-20"
-  },
-  {
    "title": "Linguistics MPhil/PhD",
    "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
    "country": "UK",
@@ -884,6 +845,38 @@
    }
   },
   {
+   "title": "Türkiye Scholarships 2026 Applications",
+   "link": "https://turkiyeburslari.gov.tr/announcements/turkiye-scholarships-2026-applications-121",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-21",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Minimum academic achievement of 75% for graduate candidates",
+     "Being under the age of 35 for PhD programs",
+     "Must not be a Turkish citizen or have lost Turkish citizenship",
+     "Must not be currently enrolled in programs in Turkish universities at the level of education to apply"
+    ],
+    "funding_details": "Includes financial support, tuition fee, accommodation, health insurance, university placement, and academic, social and cultural facilities.",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Turkey",
+    "institution": "Top universities in Türkiye",
+    "funding_type": "Scholarship",
+    "deadline_note": "Application dates for 2026 were 10 January – 20 February 2026, which have passed.",
+    "who_can_apply": "Citizens of all countries, graduates or those graduating by August, and individuals under 35 years of age for PhD programs.",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship program is open to doctoral degrees and international students from all countries, accommodating master's graduates in relevant fields.",
+    "how_to_apply": "Applications are submitted online through the Türkiye Scholarships application system during the open application period.",
+    "summary": "Türkiye Scholarships is a government-funded program offering full-time and short-term scholarships including doctoral studies for international students worldwide.",
+    "v": 2
+   }
+  },
+  {
    "title": "YTB-IsDB Joint Scholarship Program 2025 Applications",
    "link": "https://turkiyeburslari.gov.tr/announcements/ytbisdb-joint-scholarship-program-2025-applications-116",
    "country": "Turkey",
@@ -1026,6 +1019,15 @@
     "summary": "Türkiye Scholarships offer government-funded scholarships for international students pursuing PhD degrees in Turkey, subject to age and academic criteria.",
     "v": 2
    }
+  },
+  {
+   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
+   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-21"
   },
   {
    "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
@@ -1607,9 +1609,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 2 matches (of 92 links)",
-  "OK    EURAXESS (language education): 0 matches (of 92 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 92 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 119 links)",
+  "OK    EURAXESS (language education): 0 matches (of 119 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 119 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1646,7 +1648,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  11 pages read this run, 0 could not be opened, AI ON"
+  "READ  10 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
