@@ -1021,33 +1021,6 @@
    }
   },
   {
-   "title": "International scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "title": "Search for scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "title": "Study in Canada Scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Scholarships and Educational Exchanges for Development – Phase 2 (SEED-2)",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/seed-bpeed.aspx?lang=eng",
    "country": "Canada",
@@ -1086,31 +1059,33 @@
    }
   },
   {
-   "title": "Canadian International Development Scholarships 2030",
-   "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Organization of American States Academic Scholarships Program",
-   "link": "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Scholarship Holders",
    "link": "https://stipendiumhungaricum.hu/scholarship-holders",
    "country": "Hungary",
    "source": "Stipendium Hungaricum",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "online application submission through Tempus Public Foundation system",
+     "statement of the Supervisor (if required by the proposed Doctoral School)",
+     "mandatory medical certificate form"
+    ],
+    "funding_details": "amount: unknown; duration: unknown; what_is_covered: monthly stipend and accommodation contribution",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Hungary",
+    "institution": "Tempus Public Foundation / Hungarian higher education institutions",
+    "funding_type": "Scholarship",
+    "deadline_note": "All mentioned application deadlines (such as 2026-01-15, 2026-02-28, 2026-03-15, 2026-05-23, 2026-06-30, 2026-08-15, 2026-09-15, and 2026-09-30) are in the past relative to today's date of 2026-11-21.",
+    "fit_elt_dt": "medium",
+    "fit_reason": "The scholarship is open for doctoral studies generally, but specific eligibility for ELT and digital technology depends on the chosen doctoral school.",
+    "how_to_apply": "Submit the application through the online application system of the Tempus Public Foundation.",
+    "summary": "Stipendium Hungaricum Scholarship provides funding opportunities for doctoral studies in Hungary with application deadlines listed in the past.",
+    "v": 2
+   }
   },
   {
    "title": "ABOUT STIPENDIUM HUNGARICUM",
@@ -1128,16 +1103,15 @@
    "source": "HKPFS (RGC)",
    "fund": "PhD job / position",
    "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "/get-funded/study-scholarships",
-   "link": "https://www.vliruos.be/get-funded/study-scholarships",
-   "country": "Belgium",
-   "source": "VLIR-UOS",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [],
+    "funding_details": "",
+    "ai": false,
+    "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
+    "retry": "2026-12-05"
+   }
   },
   {
    "title": "Applying for admission to doctoral schools",
@@ -1630,7 +1604,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  11 pages read this run, 0 could not be opened, AI ON"
+  "READ  19 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
