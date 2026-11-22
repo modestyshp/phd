@@ -403,15 +403,6 @@
    }
   },
   {
-   "title": "E2-news: Scholarships as a career booster",
-   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-22"
-  },
-  {
    "title": "Research scholarships",
    "link": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html#Research-scholarships",
    "country": "Switzerland",
@@ -854,38 +845,6 @@
    }
   },
   {
-   "title": "Türkiye Scholarships 2026 Applications",
-   "link": "https://turkiyeburslari.gov.tr/announcements/turkiye-scholarships-2026-applications-121",
-   "country": "Turkey",
-   "source": "Turkiye Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-21",
-   "info": {
-    "deadline": "",
-    "requirements": [
-     "Minimum academic achievement of 75% for graduate candidates",
-     "Being under the age of 35 for PhD programs",
-     "Must not be a Turkish citizen or have lost Turkish citizenship",
-     "Must not be currently enrolled in programs in Turkish universities at the level of education to apply"
-    ],
-    "funding_details": "Includes financial support, tuition fee, accommodation, health insurance, university placement, and academic, social and cultural facilities.",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Turkey",
-    "institution": "Top universities in Türkiye",
-    "funding_type": "Scholarship",
-    "deadline_note": "Application dates for 2026 were 10 January – 20 February 2026, which have passed.",
-    "who_can_apply": "Citizens of all countries, graduates or those graduating by August, and individuals under 35 years of age for PhD programs.",
-    "morocco_eligible": "yes",
-    "fit_elt_dt": "high",
-    "fit_reason": "The scholarship program is open to doctoral degrees and international students from all countries, accommodating master's graduates in relevant fields.",
-    "how_to_apply": "Applications are submitted online through the Türkiye Scholarships application system during the open application period.",
-    "summary": "Türkiye Scholarships is a government-funded program offering full-time and short-term scholarships including doctoral studies for international students worldwide.",
-    "v": 2
-   }
-  },
-  {
    "title": "YTB-IsDB Joint Scholarship Program 2025 Applications",
    "link": "https://turkiyeburslari.gov.tr/announcements/ytbisdb-joint-scholarship-program-2025-applications-116",
    "country": "Turkey",
@@ -1030,51 +989,6 @@
    }
   },
   {
-   "title": "Search for scholarships",
-   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-22"
-  },
-  {
-   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
-   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-22"
-  },
-  {
-   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
-   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-22"
-  },
-  {
-   "title": "International scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-22"
-  },
-  {
-   "title": "Search for scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-22"
-  },
-  {
    "title": "Study in Canada Scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
    "country": "Canada",
@@ -1145,24 +1059,6 @@
     "summary": "The SEED-2 program provides short-term study or research exchange scholarships of up to $12,700 in Canada for post-secondary students from ASEAN, Pacific Island Countries, and Mongolia.",
     "v": 2
    }
-  },
-  {
-   "title": "Canadian International Development Scholarships 2030",
-   "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-22"
-  },
-  {
-   "title": "Organization of American States Academic Scholarships Program",
-   "link": "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-22"
   },
   {
    "title": "Scholarship Holders",
@@ -1719,7 +1615,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  7 pages read this run, 0 could not be opened, AI ON"
+  "READ  16 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
