@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "items": [
   {
    "title": "Linguistics MPhil/PhD",
@@ -1021,6 +1021,40 @@
    }
   },
   {
+   "title": "Study in Canada Scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-22",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Must be a citizen of an eligible country (includes Morocco)",
+     "Must be enrolled full-time at a post-secondary institution in an eligible country",
+     "Must be paying tuition fees to home institution at the time of application and during mobility",
+     "Must not hold or have a pending application for Canadian citizenship or permanent residency",
+     "Must not hold another grant or source of funding from GAC, DFATD, or Canadian federal granting agencies (NSERC, SSHRC, CIHR)",
+     "Must not be already enrolled in a degree, diploma or certificate program at a Canadian post-secondary institution"
+    ],
+    "funding_details": "$10,200 for 4 months or one academic term for graduate level (Masters and PhD); $14,000 for 5 to 6 months for graduate level (Masters and PhD). Tuition fees must be waived by the Canadian institution.",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Canada",
+    "institution": "Canadian post-secondary institutions (Designated Learning Institutions)",
+    "funding_type": "Scholarship",
+    "deadline_note": "The application period is now closed and no specific upcoming deadline date is stated.",
+    "who_can_apply": "Citizens of eligible countries including Morocco; enrolled full-time at a post-secondary institution in an eligible country/territory; paying tuition fees to that institution.",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "medium",
+    "fit_reason": "The scholarship supports graduate-level research exchanges (including PhD) for students from eligible countries, though specific eligible fields are not detailed in the text.",
+    "how_to_apply": "Direct applications from individuals are not accepted; eligible Canadian institutions apply on behalf of students through the My EduCanada Portal.",
+    "summary": "The Study in Canada Scholarships program provides short-term study or research exchange funding for graduate students from eligible countries, including Morocco, via Canadian post-secondary institutions.",
+    "v": 2
+   }
+  },
+  {
    "title": "Scholarships and Educational Exchanges for Development – Phase 2 (SEED-2)",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/seed-bpeed.aspx?lang=eng",
    "country": "Canada",
@@ -1112,15 +1146,6 @@
     "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
     "retry": "2026-12-05"
    }
-  },
-  {
-   "title": "Applying for admission to doctoral schools",
-   "link": "https://nawa.gov.pl/en/recognition/recognition-for-academic-purposes/applying-for-admission-to-doctoral-studies",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16"
   },
   {
    "title": "Promotional and informational materials",
@@ -1565,9 +1590,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 119 links)",
-  "OK    EURAXESS (language education): 0 matches (of 119 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 119 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 101 links)",
+  "OK    EURAXESS (language education): 0 matches (of 101 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 101 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1604,7 +1629,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  19 pages read this run, 0 could not be opened, AI ON"
+  "READ  18 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
