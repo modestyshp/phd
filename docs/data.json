@@ -210,6 +210,20 @@
    }
   },
   {
+   "title": "Scholarships programmes",
+   "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-22",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-11-29"
+   }
+  },
+  {
    "title": "Organising your stay as a scholarship holder",
    "link": "https://www.campusfrance.org/en/organising-your-stay-as-a-scholarship-holder",
    "country": "France",
@@ -319,6 +333,20 @@
    "fund": "PhD job / position",
    "deadline": "",
    "first_seen": "2026-11-20"
+  },
+  {
+   "title": "Scientific positions and research institutions: a major career path for PhD holders “Scientific Employment in Research Organizations in 2025.” This is the title",
+   "link": "https://www.campusfrance.org/en/scientific-positions-and-research-institutions-a-major-career-path-for-phd-holders",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-22",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-11-29"
+   }
   },
   {
    "title": "Research scholarships",
@@ -845,6 +873,37 @@
    }
   },
   {
+   "title": "Türkiye Scholarships 2026 Applications",
+   "link": "https://turkiyeburslari.gov.tr/announcements/turkiye-scholarships-2026-applications-121",
+   "country": "Turkey",
+   "source": "Turkiye Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-22",
+   "info": {
+    "deadline": "",
+    "requirements": [
+     "Being under the age of 35 for PhD programs",
+     "Minimum academic achievement of 75% for graduate candidates",
+     "Graduated or will graduate at the end of the current academic year (before August)"
+    ],
+    "funding_details": "Financial support, tuition fee, accommodation, health insurance, university placement, academic, social and cultural facilities, and round-trip flight ticket (amounts and duration unknown).",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Turkey",
+    "institution": "Top universities in Türkiye",
+    "funding_type": "Scholarship",
+    "deadline_note": "The application window for 2026 was 10 January – 20 February 2026, which has passed.",
+    "who_can_apply": "Citizens of all countries, graduates or those graduating before August, under the age of 35 for PhD programs.",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "high",
+    "fit_reason": "The scholarship program is open to doctoral degrees, making a Master's graduate in ELT and digital technology eligible to apply.",
+    "how_to_apply": "Apply online through the Türkiye Scholarships application system during the open application dates.",
+    "summary": "Türkiye Scholarships is a government-funded scholarship program supporting international students for full-time or short-term programs including doctoral degrees in Turkey.",
+    "v": 2
+   }
+  },
+  {
    "title": "YTB-IsDB Joint Scholarship Program 2025 Applications",
    "link": "https://turkiyeburslari.gov.tr/announcements/ytbisdb-joint-scholarship-program-2025-applications-116",
    "country": "Turkey",
@@ -1114,15 +1173,6 @@
     "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
     "retry": "2026-12-05"
    }
-  },
-  {
-   "title": "/get-funded/study-scholarships",
-   "link": "https://www.vliruos.be/get-funded/study-scholarships",
-   "country": "Belgium",
-   "source": "VLIR-UOS",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-22"
   },
   {
    "title": "Applying for admission to doctoral schools",
@@ -1576,9 +1626,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 119 links)",
-  "OK    EURAXESS (language education): 0 matches (of 119 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 119 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 101 links)",
+  "OK    EURAXESS (language education): 0 matches (of 101 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 101 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 43 links)",
@@ -1615,7 +1665,9 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  16 pages read this run, 0 could not be opened, AI ON"
+  "READFAIL https://www.campusfrance.org/en/bursaries-foreign-students: HTTPSConnectionPool(host='www.campusfrance.org', port=443): Read timed",
+  "READFAIL https://www.campusfrance.org/en/scientific-positions-and-research-inst: 503 Server Error: Service Unavailable for url: https://www.campusfranc",
+  "READ  15 pages read this run, 2 could not be opened, AI ON"
  ],
  "programmes": [
   {
