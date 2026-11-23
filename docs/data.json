@@ -2,38 +2,22 @@
  "updated": "2026-11-23",
  "items": [
   {
-   "title": "PhD student (M/F) : Machine-learning-driven molecular simulation of mineral carbonation",
-   "link": "https://euraxess.ec.europa.eu/jobs/482232",
+   "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
+   "link": "https://euraxess.ec.europa.eu/jobs/482353",
    "country": "Europe",
    "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2026-12-13",
-   "first_seen": "2026-11-23",
-   "info": {
-    "deadline": "2026-12-13",
-    "requirements": [
-     "Research Field: Engineering",
-     "Education Level: PhD or equivalent",
-     "Research Field: Physics",
-     "Education Level: PhD or equivalent",
-     "Languages: FRENCH Level Basic",
-     "Years of Research Experience: None"
-    ],
-    "funding_details": "amount: unknown; duration: unknown; what is covered: unknown",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "France",
-    "institution": "CNRS - National Center for Scientific Research / Laboratoire Navier",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 13 Dec 2026 - 23:59 (UTC).",
-    "eligible_fields": "Engineering, Physics",
-    "who_can_apply": "nationality: unknown, degree: PhD or equivalent",
-    "fit_elt_dt": "low",
-    "fit_reason": "The PhD position focuses on machine-learning-driven molecular simulation of mineral carbonation in engineering and physics, not ELT or digital technology in education.",
-    "how_to_apply": "Apply via the official website provided at https://emploi.cnrs.fr/Offres/Doctorant/UMR8205-XINZHU-002/Default.aspx.",
-    "summary": "A fully funded PhD position in machine-learning-driven molecular simulation of mineral carbonation at CNRS / Laboratoire Navier in France, with a deadline of December 13, 2026.",
-    "v": 2
-   }
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
+   "link": "https://euraxess.ec.europa.eu/jobs/482348",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-23"
   },
   {
    "title": "Scholarships programmes",
@@ -50,6 +34,15 @@
    }
   },
   {
+   "title": "Scholarships for French students or students living in France",
+   "link": "https://www.campusfrance.org/en/node/2280",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
    "title": "Organising your stay as a scholarship holder",
    "link": "https://www.campusfrance.org/en/organising-your-stay-as-a-scholarship-holder",
    "country": "France",
@@ -62,6 +55,15 @@
     "ai": false,
     "retry": "2026-11-26"
    }
+  },
+  {
+   "title": "What is involved in a Doctorate in France? Discover",
+   "link": "https://www.campusfrance.org/en/what-involved-Doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-23"
   },
   {
    "title": "How to enrol in a Doctorate Discover",
@@ -124,6 +126,24 @@
    }
   },
   {
+   "title": "How to finance your Doctorat (PhD)",
+   "link": "https://www.campusfrance.org/en/how-to-finance-Doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "title": "FAQ – Doing my Doctorate in France",
+   "link": "https://www.campusfrance.org/en/FAQ-Doctorate-France-questions",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
    "title": "Post-Doctorate Discover",
    "link": "https://www.campusfrance.org/en/post-doctorate-France",
    "country": "France",
@@ -150,6 +170,15 @@
     "ai": false,
     "retry": "2026-11-25"
    }
+  },
+  {
+   "title": "Reception programmes and doctoral student associations",
+   "link": "https://www.campusfrance.org/en/reception-programmes-doctoral-student-associations",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-23"
   },
   {
    "title": "Chile-Colombia: The 2026 Campus France Tour Confirms the Growing Appeal of Studying in France With more than 2,500 visitors in total and numerous institutional ",
@@ -255,6 +284,15 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
+  },
+  {
+   "title": "E2-news: Scholarships as a career booster",
+   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
+   "country": "Switzerland",
+   "source": "Swiss Excellence Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
   },
   {
    "title": "Research scholarships",
@@ -1524,17 +1562,17 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 1 matches (of 97 links)",
-  "OK    EURAXESS (language education): 0 matches (of 97 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 97 links)",
+  "OK    EURAXESS (applied linguistics): 2 matches (of 104 links)",
+  "OK    EURAXESS (language education): 0 matches (of 104 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 104 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
-  "FAIL  jobs.ac.uk (linguistics PhD): 504 Server Error: Gateway Time-out for url: https://www.jobs.ac.uk/search/?keywords=linguistics+phd",
+  "FAIL  jobs.ac.uk (linguistics PhD): 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/search/?keywords=linguistics+phd",
   "OK    AcademicTransfer: 0 matches (of 6 links)",
   "FAIL  Academic Positions (education): 403 Client Error: Forbidden for url: https://academicpositions.com/find-jobs?keywords=education+phd",
   "FAIL  DAAD scholarship database: 403 Client Error: Forbidden for url: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
   "OK    Campus France scholarships: 14 matches (of 154 links)",
-  "OK    ABG offers: 0 matches (of 73 links)",
+  "FAIL  ABG offers: HTTPSConnectionPool(host='www.abg.asso.fr', port=443): Read timed out. (read timeout=30)",
   "OK    Swiss Excellence Scholarships: 13 matches (of 23 links)",
   "OK    Turkiye Scholarships: 13 matches (of 53 links)",
   "OK    MEXT / Study in Japan: 3 matches (of 75 links)",
@@ -1554,7 +1592,7 @@
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
   "OK    Study in Korea (GKS): 5 matches (of 142 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
-  "OK    OeAD: 6 matches (of 322 links)",
+  "OK    OeAD: 6 matches (of 323 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
   "OK    FCT: 3 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
@@ -1563,7 +1601,11 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  7 pages read this run, 0 could not be opened, AI ON"
+  "AIFAIL https://euraxess.ec.europa.eu/jobs/482353: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://euraxess.ec.europa.eu/jobs/482348: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://www.campusfrance.org/en/node/2280: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AI STOPPED after 3 failures in a row, see AIFAIL lines above",
+  "READ  0 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
