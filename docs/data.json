@@ -2,211 +2,37 @@
  "updated": "2026-11-23",
  "items": [
   {
-   "title": "Linguistics MPhil/PhD",
-   "link": "https://www.jobs.ac.uk/job/DTI702/linguistics-mphil-phd",
-   "country": "UK",
-   "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "PhD job / position",
-   "deadline": "2027-01-20",
-   "first_seen": "2026-11-16",
+   "title": "PhD student (M/F) : Machine-learning-driven molecular simulation of mineral carbonation",
+   "link": "https://euraxess.ec.europa.eu/jobs/482232",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job (paid)",
+   "deadline": "2026-12-13",
+   "first_seen": "2026-11-23",
    "info": {
-    "deadline": "2027-01-20",
-    "requirements": {
-     "documents_needed": "unknown",
-     "language_tests_needed": "unknown"
-    },
-    "funding_details": {
-     "amount": "Not Specified",
-     "duration": "unknown",
-     "what_is_covered": "unknown"
-    },
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "UK",
-    "institution": "University of Warwick",
-    "eligible_fields": [
-     "Linguistics",
-     "Applied Linguistics"
-    ],
-    "who_can_apply": {
-     "nationality": "unknown",
-     "degree": "unknown",
-     "age_or_other_limits": "unknown"
-    },
-    "fit_elt_dt": "high",
-    "fit_reason": "The PhD is in Applied Linguistics at the University of Warwick, which aligns well with an ELT master's background.",
-    "how_to_apply": "Click the 'Apply' button on the advert page for more information and to apply.",
-    "summary": "The University of Warwick offers an MPhil/PhD in Linguistics and Applied Linguistics with funding amount not specified and an application deadline of 20th January 2027."
-   }
-  },
-  {
-   "title": "Applied Linguistics MPhil/PhD",
-   "link": "https://www.jobs.ac.uk/job/DTF907/applied-linguistics-mphil-phd",
-   "country": "UK",
-   "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "",
-    "requirements": [],
-    "funding_details": "",
-    "ai": false,
-    "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
-    "retry": "2026-11-30"
-   }
-  },
-  {
-   "title": "PhD Studentship: Linguistics and Bilingualism: Fully funded PhD Scholarship in the ESRC Welsh Graduate School for the Social Sciences (WGSSS) Linguistics and Bi",
-   "link": "https://www.jobs.ac.uk/job/DTO516/phd-studentship-linguistics-and-bilingualism-fully-funded-phd-scholarship-in-the-esrc-welsh-graduate-school-for-the-social-sciences-wgsss-linguistics-and-bilingualism",
-   "country": "UK",
-   "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "",
-    "requirements": [],
-    "funding_details": "",
-    "ai": false,
-    "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
-    "retry": "2026-11-30"
-   }
-  },
-  {
-   "title": "Intercultural Communication MPhil/PhD",
-   "link": "https://www.jobs.ac.uk/job/DTI693/intercultural-communication-mphil-phd",
-   "country": "UK",
-   "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "PhD job / position",
-   "deadline": "2027-01-20",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "2027-01-20",
-    "requirements": {
-     "documents": [],
-     "language_tests": []
-    },
-    "funding_details": {
-     "amount": "Not Specified",
-     "duration": "unknown",
-     "what_is_covered": "unknown"
-    },
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "UK",
-    "institution": "University of Warwick",
-    "eligible_fields": [
-     "Intercultural Communication",
-     "Applied Linguistics",
-     "culture, language and communication"
-    ],
-    "who_can_apply": {
-     "nationality": "unknown",
-     "degree": "unknown",
-     "age_or_other_limits": "unknown"
-    },
-    "fit_elt_dt": "high",
-    "fit_reason": "The PhD is in Intercultural Communication within the Department of Applied Linguistics, which aligns well with an ELT background.",
-    "how_to_apply": "Click the 'Apply' button on the page to proceed.",
-    "summary": "The University of Warwick offers an Intercultural Communication MPhil/PhD in the Department of Applied Linguistics with funding amount not specified and an application deadline of 20th January 2027."
-   }
-  },
-  {
-   "title": "Discourse Studies MPhil/PhD",
-   "link": "https://www.jobs.ac.uk/job/DTG046/discourse-studies-mphil-phd",
-   "country": "UK",
-   "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "PhD job / position",
-   "deadline": "2027-01-15",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "2027-01-15",
-    "requirements": [],
-    "funding_details": "Funding amount: Not Specified",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "UK",
-    "institution": "University of Warwick",
-    "eligible_fields": "Discourse Studies, Applied Linguistics, language, communication and discourse",
-    "fit_elt_dt": "high",
-    "fit_reason": "The program is in Applied Linguistics and focuses on discourse studies, matching an ELT and digital technology background.",
-    "how_to_apply": "Click the 'Apply' button on the page.",
-    "summary": "The University of Warwick offers an MPhil/PhD in Discourse Studies within the Department of Applied Linguistics."
-   }
-  },
-  {
-   "title": "English Language Teaching MPhil/PhD",
-   "link": "https://www.jobs.ac.uk/job/DTH184/english-language-teaching-mphil-phd",
-   "country": "UK",
-   "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "PhD job / position",
-   "deadline": "2027-01-15",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "2027-01-15",
-    "requirements": {
-     "documents": "unknown",
-     "language_tests": "unknown"
-    },
-    "funding_details": {
-     "amount": "Not Specified",
-     "duration": "unknown",
-     "what_is_covered": "unknown"
-    },
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "UK",
-    "institution": "University of Warwick",
-    "eligible_fields": [
-     "English Language Teaching",
-     "Applied Linguistics"
-    ],
-    "who_can_apply": {
-     "nationality": "unknown",
-     "degree": "unknown",
-     "age_or_other_limits": "unknown"
-    },
-    "fit_elt_dt": "high",
-    "fit_reason": "The program is an English Language Teaching MPhil/PhD in the Department of Applied Linguistics, matching an ELT background.",
-    "how_to_apply": "Click the 'Apply' button on the page to proceed with the application.",
-    "summary": "The University of Warwick offers an English Language Teaching MPhil/PhD in Applied Linguistics with an application deadline of January 15, 2027."
-   }
-  },
-  {
-   "title": "Magdalen Vernon PhD Studentship in Psychology, Neuroscience, Psycholinguistics, or Clinical Language Science",
-   "link": "https://www.jobs.ac.uk/job/DTB024/magdalen-vernon-phd-studentship-in-psychology-neuroscience-psycholinguistics-or-clinical-language-science",
-   "country": "UK",
-   "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "Scholarship",
-   "deadline": "2026-12-04",
-   "first_seen": "2026-11-16",
-   "info": {
-    "deadline": "2026-12-04",
+    "deadline": "2026-12-13",
     "requirements": [
-     "CV",
-     "Academic transcripts and certificates",
-     "Research proposal of 500-700 words (excluding references)",
-     "Online application for PhD study",
-     "Magdalen Vernon PhD Studentship Application Form"
+     "Research Field: Engineering",
+     "Education Level: PhD or equivalent",
+     "Research Field: Physics",
+     "Education Level: PhD or equivalent",
+     "Languages: FRENCH Level Basic",
+     "Years of Research Experience: None"
     ],
-    "funding_details": "Maintenance allowance/stipend of £21,805 per year, Research Training Support Grant of £1,000 per year, and Home/UK/Republic of Ireland tuition fees covered for a fixed period of 3 years starting September 2027.",
+    "funding_details": "amount: unknown; duration: unknown; what is covered: unknown",
     "ai": true,
     "is_phd_funding": true,
-    "country": "UK",
-    "institution": "University of Reading",
-    "funding_type": "Scholarship",
-    "eligible_fields": [
-     "Psychology",
-     "Neuroscience",
-     "Psycholinguistics",
-     "Clinical Language Science"
-    ],
-    "who_can_apply": "Candidates who qualify for Home fee status only; requires a good first degree in psychology, neuroscience, linguistics, language therapy or related subject, with a master's degree in a relevant discipline being beneficial.",
+    "country": "France",
+    "institution": "CNRS - National Center for Scientific Research / Laboratoire Navier",
+    "funding_type": "PhD job (paid)",
+    "deadline_note": "Application deadline is 13 Dec 2026 - 23:59 (UTC).",
+    "eligible_fields": "Engineering, Physics",
+    "who_can_apply": "nationality: unknown, degree: PhD or equivalent",
     "fit_elt_dt": "low",
-    "fit_reason": "The studentship is restricted to candidates who qualify for Home fee status only and requires specific subjects like psychology, neuroscience, psycholinguistics, or clinical language science.",
-    "how_to_apply": "Submit an online application for PhD study quoting reference DRC27-001 and complete the Magdalen Vernon PhD Studentship Application Form.",
-    "summary": "The University of Reading offers the Magdalen Vernon PhD Studentship in Psychology, Neuroscience, Psycholinguistics, or Clinical Language Science for Home fee status candidates starting in September 2027."
+    "fit_reason": "The PhD position focuses on machine-learning-driven molecular simulation of mineral carbonation in engineering and physics, not ELT or digital technology in education.",
+    "how_to_apply": "Apply via the official website provided at https://emploi.cnrs.fr/Offres/Doctorant/UMR8205-XINZHU-002/Default.aspx.",
+    "summary": "A fully funded PhD position in machine-learning-driven molecular simulation of mineral carbonation at CNRS / Laboratoire Navier in France, with a deadline of December 13, 2026.",
+    "v": 2
    }
   },
   {
@@ -1048,6 +874,51 @@
    }
   },
   {
+   "title": "Search for scholarships",
+   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
+   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
+   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "title": "International scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "title": "Search for scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
    "title": "Study in Canada Scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
    "country": "Canada",
@@ -1120,6 +991,24 @@
    }
   },
   {
+   "title": "Canadian International Development Scholarships 2030",
+   "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "title": "Organization of American States Academic Scholarships Program",
+   "link": "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
    "title": "Scholarship Holders",
    "link": "https://stipendiumhungaricum.hu/scholarship-holders",
    "country": "Hungary",
@@ -1173,6 +1062,24 @@
     "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
     "retry": "2026-12-05"
    }
+  },
+  {
+   "title": "/get-funded/study-scholarships",
+   "link": "https://www.vliruos.be/get-funded/study-scholarships",
+   "country": "Belgium",
+   "source": "VLIR-UOS",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "title": "Applying for admission to doctoral schools",
+   "link": "https://nawa.gov.pl/en/recognition/recognition-for-academic-purposes/applying-for-admission-to-doctoral-studies",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-23"
   },
   {
    "title": "Promotional and informational materials",
@@ -1617,12 +1524,12 @@
   }
  ],
  "log": [
-  "FAIL  EURAXESS (applied linguistics): HTTPSConnectionPool(host='euraxess.ec.europa.eu', port=443): Read timed out. (read timeout=30)",
-  "FAIL  EURAXESS (language education): HTTPSConnectionPool(host='euraxess.ec.europa.eu', port=443): Read timed out. (read timeout=30)",
-  "FAIL  EURAXESS (educational technology): HTTPSConnectionPool(host='euraxess.ec.europa.eu', port=443): Read timed out. (read timeout=30)",
+  "OK    EURAXESS (applied linguistics): 1 matches (of 97 links)",
+  "OK    EURAXESS (language education): 0 matches (of 97 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 97 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
-  "OK    jobs.ac.uk (linguistics PhD): 7 matches (of 42 links)",
+  "FAIL  jobs.ac.uk (linguistics PhD): 504 Server Error: Gateway Time-out for url: https://www.jobs.ac.uk/search/?keywords=linguistics+phd",
   "OK    AcademicTransfer: 0 matches (of 6 links)",
   "FAIL  Academic Positions (education): 403 Client Error: Forbidden for url: https://academicpositions.com/find-jobs?keywords=education+phd",
   "FAIL  DAAD scholarship database: 403 Client Error: Forbidden for url: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
@@ -1656,7 +1563,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  15 pages read this run, 0 could not be opened, AI ON"
+  "READ  7 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
