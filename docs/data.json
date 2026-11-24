@@ -51,15 +51,6 @@
    }
   },
   {
-   "title": "Scholarships for French students or students living in France",
-   "link": "https://www.campusfrance.org/en/node/2280",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
    "title": "Organising your stay as a scholarship holder",
    "link": "https://www.campusfrance.org/en/organising-your-stay-as-a-scholarship-holder",
    "country": "France",
@@ -150,15 +141,6 @@
   {
    "title": "How to finance your Doctorat (PhD)",
    "link": "https://www.campusfrance.org/en/how-to-finance-Doctorate-France",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "FAQ – Doing my Doctorate in France",
-   "link": "https://www.campusfrance.org/en/FAQ-Doctorate-France-questions",
    "country": "France",
    "source": "Campus France scholarships",
    "fund": "PhD job / position",
@@ -311,15 +293,6 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
-  },
-  {
-   "title": "E2-news: Scholarships as a career booster",
-   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
-   "country": "Switzerland",
-   "source": "Swiss Excellence Scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
   },
   {
    "title": "Research scholarships",
@@ -948,35 +921,8 @@
    "first_seen": "2026-11-24"
   },
   {
-   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
-   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
-   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
    "title": "International scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "Search for scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
    "country": "Canada",
    "source": "EduCanada scholarships",
    "fund": "Scholarship",
@@ -1056,24 +1002,6 @@
    }
   },
   {
-   "title": "Canadian International Development Scholarships 2030",
-   "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "Organization of American States Academic Scholarships Program",
-   "link": "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
    "title": "Scholarship Holders",
    "link": "https://stipendiumhungaricum.hu/scholarship-holders",
    "country": "Hungary",
@@ -1134,15 +1062,6 @@
    "country": "Belgium",
    "source": "VLIR-UOS",
    "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "Applying for admission to doctoral schools",
-   "link": "https://nawa.gov.pl/en/recognition/recognition-for-academic-purposes/applying-for-admission-to-doctoral-studies",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
    "deadline": "",
    "first_seen": "2026-11-24"
   },
@@ -1629,11 +1548,12 @@
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
   "AIFAIL https://euraxess.ec.europa.eu/jobs/482586: all models busy or failing: gemini-3.8-flash 429 busy",
-  "AIFAIL https://www.campusfrance.org/en/node/2280: all models busy or failing: gemini-3.8-flash 429 busy",
-  "AIFAIL https://www.campusfrance.org/en/how-to-finance-Doctorate-Fra: all models busy or failing: gemini-3.8-flash 429 busy",
-  "AIFAIL https://www.campusfrance.org/en/FAQ-Doctorate-France-questio: all models busy or failing: gemini-3.8-flash 503 busy",
-  "AI STOPPED after 3 failures in a row, see AIFAIL lines above",
-  "READ  1 pages read this run, 0 could not be opened, AI ON"
+  "AIFAIL https://www.campusfrance.org/en/how-to-finance-Doctorate-Fra: all models busy or failing: gemini-3.8-flash 503 busy",
+  "AIFAIL https://www.studyinjapan.go.jp/en/search-for-scholarships/tu: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://www.educanada.ca/scholarships-bourses/index.aspx?lan: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://www.vliruos.be/get-funded/study-scholarships: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://nawa.gov.pl/en/students/foreign-students/the-ignacy-: all models busy or failing: gemini-3.8-flash 429 busy",
+  "READ  9 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
