@@ -2,6 +2,41 @@
  "updated": "2026-11-24",
  "items": [
   {
+   "title": "PhD Candidate Distributed Value-stacking Flexibility for Efficient Distribution Grid Operation",
+   "link": "https://euraxess.ec.europa.eu/jobs/482594",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job (paid)",
+   "deadline": "2026-12-15",
+   "first_seen": "2026-11-24",
+   "info": {
+    "deadline": "2026-12-15",
+    "requirements": [],
+    "funding_details": "",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Norway",
+    "institution": "NTNU Norwegian University of Science and Technology",
+    "funding_type": "PhD job (paid)",
+    "deadline_note": "Application deadline is 15 Dec 2026 - 23:59 (Europe/Oslo).",
+    "eligible_fields": "Computer science, electrical power engineering, operations research, energy systems and markets",
+    "fit_elt_dt": "low",
+    "fit_reason": "The PhD position requires a background in electrical power engineering, operations research, computer science, or related technical fields, which does not match an ELT and Digital Technology background.",
+    "how_to_apply": "Apply online through the EURAXESS or NTNU application portal by clicking 'Apply now'.",
+    "summary": "A fully funded 3-year PhD position in Distributed Value-stacking Flexibility for Efficient Distribution Grid Operation at NTNU, Norway, focusing on electrical power systems and optimization models.",
+    "v": 2
+   }
+  },
+  {
+   "title": "Notice No. 26/2026 - Notice of Call for Applications for 1 (one) Postdoctoral Research Fellowship (BIPD) in the scientific field of Marine Sciences - OKEANOS",
+   "link": "https://euraxess.ec.europa.eu/jobs/482586",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
    "title": "Scholarships programmes",
    "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
    "country": "France",
@@ -14,6 +49,15 @@
     "ai": false,
     "retry": "2026-11-29"
    }
+  },
+  {
+   "title": "Scholarships for French students or students living in France",
+   "link": "https://www.campusfrance.org/en/node/2280",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
   },
   {
    "title": "Organising your stay as a scholarship holder",
@@ -102,6 +146,24 @@
     "ai": false,
     "retry": "2026-11-25"
    }
+  },
+  {
+   "title": "How to finance your Doctorat (PhD)",
+   "link": "https://www.campusfrance.org/en/how-to-finance-Doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "FAQ – Doing my Doctorate in France",
+   "link": "https://www.campusfrance.org/en/FAQ-Doctorate-France-questions",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-24"
   },
   {
    "title": "Post-Doctorate Discover",
@@ -249,6 +311,15 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
+  },
+  {
+   "title": "E2-news: Scholarships as a career booster",
+   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
+   "country": "Switzerland",
+   "source": "Swiss Excellence Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
   },
   {
    "title": "Research scholarships",
@@ -877,6 +948,24 @@
    "first_seen": "2026-11-24"
   },
   {
+   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
+   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
+   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
    "title": "International scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
    "country": "Canada",
@@ -1500,9 +1589,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 90 links)",
-  "OK    EURAXESS (language education): 0 matches (of 90 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 90 links)",
+  "OK    EURAXESS (applied linguistics): 2 matches (of 89 links)",
+  "OK    EURAXESS (language education): 0 matches (of 89 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 89 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "FAIL  jobs.ac.uk (linguistics PhD): 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/search/?keywords=linguistics+phd",
@@ -1539,8 +1628,12 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "AIFAIL https://www.studyinjapan.go.jp/en/search-for-scholarships/tu: all models busy or failing: gemini-3.8-flash 503 busy",
-  "READ  6 pages read this run, 0 could not be opened, AI ON"
+  "AIFAIL https://euraxess.ec.europa.eu/jobs/482586: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://www.campusfrance.org/en/node/2280: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://www.campusfrance.org/en/how-to-finance-Doctorate-Fra: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://www.campusfrance.org/en/FAQ-Doctorate-France-questio: all models busy or failing: gemini-3.8-flash 503 busy",
+  "AI STOPPED after 3 failures in a row, see AIFAIL lines above",
+  "READ  1 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
