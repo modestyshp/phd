@@ -2,46 +2,6 @@
  "updated": "2026-11-24",
  "items": [
   {
-   "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
-   "link": "https://euraxess.ec.europa.eu/jobs/482353",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2026-12-07",
-   "first_seen": "2026-11-23",
-   "info": {
-    "deadline": "2026-12-07",
-    "requirements": [
-     "Bachelor Degree or equivalent (in Mathematics, Economics, International economics, Statistics, Physics, Computer science, Informatics, Industrial technology, or Mechanical engineering)",
-     "Master Degree or equivalent (in Mathematics, Statistics, Engineering, Computer engineering, Mechanical engineering, or Economics)",
-     "SPANISH language"
-    ],
-    "funding_details": "amount: unknown; duration: unknown; what_is_covered: unknown",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Spain",
-    "institution": "Universitat Politècnica de València (UPV)",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 7 Dec 2026 - 23:59 (Europe/Madrid).",
-    "eligible_fields": "Mathematics, Statistics, Physics, Computer science, Informatics, Industrial technology, Mechanical engineering, Economics, International economics, Autonomic computing, Computer engineering",
-    "who_can_apply": "nationality: unknown; degree: Bachelor Degree or equivalent, Master Degree or equivalent; age_or_other_limits: unknown",
-    "fit_elt_dt": "low",
-    "fit_reason": "The position is for a predoctoral contract in mathematics, transport, mobility, and computer science/economics, not ELT or digital technology in education.",
-    "how_to_apply": "Apply via the official UPV website link provided in the offer description.",
-    "summary": "Universitat Politècnica de València in Spain offers a paid predoctoral contract linked to a research project in transport, mobility, and transformer models, with a deadline of 7 December 2026.",
-    "v": 2
-   }
-  },
-  {
-   "title": "Call for a public offer for the recruitment of Researching staff linked to Universitat Politècnica de València (UPV)",
-   "link": "https://euraxess.ec.europa.eu/jobs/482348",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-23"
-  },
-  {
    "title": "Scholarships programmes",
    "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
    "country": "France",
@@ -908,6 +868,33 @@
    }
   },
   {
+   "title": "Search for scholarships",
+   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "International scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "Search for scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
    "title": "Study in Canada Scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
    "country": "Canada",
@@ -980,6 +967,24 @@
    }
   },
   {
+   "title": "Canadian International Development Scholarships 2030",
+   "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "Organization of American States Academic Scholarships Program",
+   "link": "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
    "title": "Scholarship Holders",
    "link": "https://stipendiumhungaricum.hu/scholarship-holders",
    "country": "Hungary",
@@ -1033,6 +1038,24 @@
     "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
     "retry": "2026-12-05"
    }
+  },
+  {
+   "title": "/get-funded/study-scholarships",
+   "link": "https://www.vliruos.be/get-funded/study-scholarships",
+   "country": "Belgium",
+   "source": "VLIR-UOS",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "Applying for admission to doctoral schools",
+   "link": "https://nawa.gov.pl/en/recognition/recognition-for-academic-purposes/applying-for-admission-to-doctoral-studies",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-24"
   },
   {
    "title": "Promotional and informational materials",
@@ -1107,6 +1130,42 @@
    "first_seen": "2026-11-16"
   },
   {
+   "title": "The Lukasiewicz Scholarship Programme",
+   "link": "https://nawa.gov.pl/en/students/foreign-students/the-ignacy-lukasiewicz-scholarship-programme",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "Students and doctoral students",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/nabor-2023/studenci-i-doktoranci/call-for-proposals",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "Students and doctoral students",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2022/students-and-doctoral-students",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "Students and doctoral students",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2021/students-and-doctoral-students/call-for-proposals",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2020/promotional-and-informational-materials",
    "country": "Poland",
@@ -1150,6 +1209,24 @@
    "fund": "PhD job / position",
    "deadline": "",
    "first_seen": "2026-11-16"
+  },
+  {
+   "title": "Various Scholarship Opportunities",
+   "link": "https://www.studyinkorea.go.kr/ko/why/diverseGovSpprt.do",
+   "country": "South Korea",
+   "source": "Study in Korea (GKS)",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "title": "Scholarships Notice",
+   "link": "https://www.studyinkorea.go.kr/ko/notice/scholarshipsList.do?boardSort=3",
+   "country": "South Korea",
+   "source": "Study in Korea (GKS)",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-24"
   },
   {
    "title": "GKS Scholarship",
@@ -1423,9 +1500,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 2 matches (of 104 links)",
-  "OK    EURAXESS (language education): 0 matches (of 104 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 104 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 90 links)",
+  "OK    EURAXESS (language education): 0 matches (of 90 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 90 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "FAIL  jobs.ac.uk (linguistics PhD): 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/search/?keywords=linguistics+phd",
@@ -1462,8 +1539,8 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "AIFAIL https://euraxess.ec.europa.eu/jobs/482348: all models busy or failing: gemini-3.8-flash 429 busy",
-  "READ  19 pages read this run, 0 could not be opened, AI ON"
+  "AIFAIL https://www.studyinjapan.go.jp/en/search-for-scholarships/tu: all models busy or failing: gemini-3.8-flash 503 busy",
+  "READ  6 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
