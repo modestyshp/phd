@@ -1,41 +1,6 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "items": [
-  {
-   "title": "PhD Candidate Distributed Value-stacking Flexibility for Efficient Distribution Grid Operation",
-   "link": "https://euraxess.ec.europa.eu/jobs/482594",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2026-12-15",
-   "first_seen": "2026-11-24",
-   "info": {
-    "deadline": "2026-12-15",
-    "requirements": [],
-    "funding_details": "",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "Norway",
-    "institution": "NTNU Norwegian University of Science and Technology",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 15 Dec 2026 - 23:59 (Europe/Oslo).",
-    "eligible_fields": "Computer science, electrical power engineering, operations research, energy systems and markets",
-    "fit_elt_dt": "low",
-    "fit_reason": "The PhD position requires a background in electrical power engineering, operations research, computer science, or related technical fields, which does not match an ELT and Digital Technology background.",
-    "how_to_apply": "Apply online through the EURAXESS or NTNU application portal by clicking 'Apply now'.",
-    "summary": "A fully funded 3-year PhD position in Distributed Value-stacking Flexibility for Efficient Distribution Grid Operation at NTNU, Norway, focusing on electrical power systems and optimization models.",
-    "v": 2
-   }
-  },
-  {
-   "title": "Notice No. 26/2026 - Notice of Call for Applications for 1 (one) Postdoctoral Research Fellowship (BIPD) in the scientific field of Marine Sciences - OKEANOS",
-   "link": "https://euraxess.ec.europa.eu/jobs/482586",
-   "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
   {
    "title": "Scholarships programmes",
    "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
@@ -137,15 +102,6 @@
     "ai": false,
     "retry": "2026-11-25"
    }
-  },
-  {
-   "title": "How to finance your Doctorat (PhD)",
-   "link": "https://www.campusfrance.org/en/how-to-finance-Doctorate-France",
-   "country": "France",
-   "source": "Campus France scholarships",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-24"
   },
   {
    "title": "Post-Doctorate Discover",
@@ -912,24 +868,6 @@
    }
   },
   {
-   "title": "Search for scholarships",
-   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
-   "country": "Japan",
-   "source": "MEXT / Study in Japan",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "International scholarships",
-   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
-   "country": "Canada",
-   "source": "EduCanada scholarships",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
    "title": "Study in Canada Scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
    "country": "Canada",
@@ -1057,15 +995,6 @@
    }
   },
   {
-   "title": "/get-funded/study-scholarships",
-   "link": "https://www.vliruos.be/get-funded/study-scholarships",
-   "country": "Belgium",
-   "source": "VLIR-UOS",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/scientists/the-bekker-programme/promotional-and-informational-materials",
    "country": "Poland",
@@ -1138,42 +1067,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "The Lukasiewicz Scholarship Programme",
-   "link": "https://nawa.gov.pl/en/students/foreign-students/the-ignacy-lukasiewicz-scholarship-programme",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "Students and doctoral students",
-   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/nabor-2023/studenci-i-doktoranci/call-for-proposals",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "Students and doctoral students",
-   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2022/students-and-doctoral-students",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "Students and doctoral students",
-   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2021/students-and-doctoral-students/call-for-proposals",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2020/promotional-and-informational-materials",
    "country": "Poland",
@@ -1219,40 +1112,21 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Various Scholarship Opportunities",
-   "link": "https://www.studyinkorea.go.kr/ko/why/diverseGovSpprt.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "Scholarships Notice",
-   "link": "https://www.studyinkorea.go.kr/ko/notice/scholarshipsList.do?boardSort=3",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-24"
-  },
-  {
-   "title": "GKS Scholarship",
-   "link": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
    "title": "Scholarship Guidelines",
    "link": "https://taiwanscholarship.moe.gov.tw/pages.aspx?p=7",
    "country": "Taiwan",
    "source": "Taiwan Scholarship",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [],
+    "funding_details": "",
+    "ai": false,
+    "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
+    "retry": "2026-12-09"
+   }
   },
   {
    "title": "Scholarship Application Process",
@@ -1261,7 +1135,15 @@
    "source": "Taiwan Scholarship",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [],
+    "funding_details": "",
+    "ai": false,
+    "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
+    "retry": "2026-12-09"
+   }
   },
   {
    "title": "Links About Scholarships",
@@ -1270,16 +1152,15 @@
    "source": "Taiwan Scholarship",
    "fund": "Scholarship",
    "deadline": "",
-   "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Database: Grants & Scholarships",
-   "link": "https://grants.at/en/",
-   "country": "Austria",
-   "source": "OeAD",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-16",
+   "info": {
+    "deadline": "",
+    "requirements": [],
+    "funding_details": "",
+    "ai": false,
+    "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
+    "retry": "2026-12-09"
+   }
   },
   {
    "title": "Doctoral Grant for the European University Institute (EUI)",
@@ -1508,9 +1389,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 2 matches (of 89 links)",
-  "OK    EURAXESS (language education): 0 matches (of 89 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 89 links)",
+  "OK    EURAXESS (applied linguistics): 0 matches (of 98 links)",
+  "OK    EURAXESS (language education): 0 matches (of 98 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 98 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "FAIL  jobs.ac.uk (linguistics PhD): 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/search/?keywords=linguistics+phd",
@@ -1536,7 +1417,7 @@
   "OK    VLIR-UOS: 1 matches (of 51 links)",
   "OK    NAWA: 18 matches (of 934 links)",
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
-  "OK    Study in Korea (GKS): 5 matches (of 142 links)",
+  "OK    Study in Korea (GKS): 5 matches (of 143 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
   "OK    OeAD: 6 matches (of 323 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
@@ -1547,13 +1428,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "AIFAIL https://euraxess.ec.europa.eu/jobs/482586: all models busy or failing: gemini-3.8-flash 429 busy",
-  "AIFAIL https://www.campusfrance.org/en/how-to-finance-Doctorate-Fra: all models busy or failing: gemini-3.8-flash 503 busy",
-  "AIFAIL https://www.studyinjapan.go.jp/en/search-for-scholarships/tu: all models busy or failing: gemini-3.8-flash 429 busy",
-  "AIFAIL https://www.educanada.ca/scholarships-bourses/index.aspx?lan: all models busy or failing: gemini-3.8-flash 429 busy",
-  "AIFAIL https://www.vliruos.be/get-funded/study-scholarships: all models busy or failing: gemini-3.8-flash 429 busy",
-  "AIFAIL https://nawa.gov.pl/en/students/foreign-students/the-ignacy-: all models busy or failing: gemini-3.8-flash 429 busy",
-  "READ  9 pages read this run, 0 could not be opened, AI ON"
+  "READ  24 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
