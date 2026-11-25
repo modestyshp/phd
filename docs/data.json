@@ -2,6 +2,15 @@
  "updated": "2026-11-25",
  "items": [
   {
+   "title": "Call for 1 Research Scientific Fellowship (BI-202690) - MoreMedDiet",
+   "link": "https://euraxess.ec.europa.eu/jobs/482928",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
    "title": "Scholarships programmes",
    "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
    "country": "France",
@@ -102,6 +111,24 @@
     "ai": false,
     "retry": "2026-11-25"
    }
+  },
+  {
+   "title": "How to finance your Doctorat (PhD)",
+   "link": "https://www.campusfrance.org/en/how-to-finance-Doctorate-France",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "title": "FAQ – Doing my Doctorate in France",
+   "link": "https://www.campusfrance.org/en/FAQ-Doctorate-France-questions",
+   "country": "France",
+   "source": "Campus France scholarships",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-25"
   },
   {
    "title": "Post-Doctorate Discover",
@@ -249,6 +276,15 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
+  },
+  {
+   "title": "E2-news: Scholarships as a career booster",
+   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
+   "country": "Switzerland",
+   "source": "Swiss Excellence Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-25"
   },
   {
    "title": "Research scholarships",
@@ -868,6 +904,51 @@
    }
   },
   {
+   "title": "Search for scholarships",
+   "link": "https://www.studyinjapan.go.jp/en/search-for-scholarships/tuition-reduction_search.php",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "title": "2026.10.16 MITSUI & CO. SCHOLARSHIP PROGRAM FOR INDIA in 2027",
+   "link": "https://www.studyinjapan.go.jp/en/news/2610161600.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "title": "Ngozi Nigeria Studying in Japan as a PhD Researcher Read full story",
+   "link": "https://www.studyinjapan.go.jp/en/why/student-stories/ngozi.html",
+   "country": "Japan",
+   "source": "MEXT / Study in Japan",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "title": "International scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "title": "Search for scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
    "title": "Study in Canada Scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
    "country": "Canada",
@@ -938,6 +1019,24 @@
     "summary": "The SEED-2 program provides short-term study or research exchange scholarships of up to $12,700 in Canada for post-secondary students from ASEAN, Pacific Island Countries, and Mongolia.",
     "v": 2
    }
+  },
+  {
+   "title": "Canadian International Development Scholarships 2030",
+   "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "title": "Organization of American States Academic Scholarships Program",
+   "link": "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-25"
   },
   {
    "title": "Scholarship Holders",
@@ -1130,13 +1229,31 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Promotional materials",
-   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/researchers-2023/promotional-materials",
+   "title": "Student and Researcher Promotional Activities",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/student-researcher-promotional-activities",
    "country": "Poland",
    "source": "NAWA",
    "fund": "PhD job / position",
    "deadline": "",
-   "first_seen": "2026-11-16"
+   "first_seen": "2026-11-25"
+  },
+  {
+   "title": "Researchers Promotional Activities",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/promotional-materials/researchers-promotional-activities",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "title": "Student Promotional Activities",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/student-researcher-promotional-activities/student-promotional-activities",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-25"
   },
   {
    "title": "Promotion of the Polish language",
@@ -1479,9 +1596,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 89 links)",
-  "OK    EURAXESS (language education): 0 matches (of 89 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 89 links)",
+  "OK    EURAXESS (applied linguistics): 3 matches (of 92 links)",
+  "OK    EURAXESS (language education): 0 matches (of 92 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 92 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "FAIL  jobs.ac.uk (linguistics PhD): 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/search/?keywords=linguistics+phd",
@@ -1505,7 +1622,7 @@
   "OK    HKPFS (RGC): 1 matches (of 5 links)",
   "OK    Fulbright Foreign Student: 0 matches (of 30 links)",
   "OK    VLIR-UOS: 1 matches (of 51 links)",
-  "OK    NAWA: 18 matches (of 946 links)",
+  "OK    NAWA: 20 matches (of 950 links)",
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
   "OK    Study in Korea (GKS): 5 matches (of 142 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
@@ -1518,7 +1635,12 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 99 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  11 pages read this run, 0 could not be opened, AI ON"
+  "AIFAIL https://euraxess.ec.europa.eu/jobs/482928: all models busy or failing: gemini-3.8-flash 503 busy",
+  "AIFAIL https://www.campusfrance.org/en/how-to-finance-Doctorate-Fra: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://www.campusfrance.org/en/FAQ-Doctorate-France-questio: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AIFAIL https://e2-news.ch/en/news/scholarships-as-a-career-booster: all models busy or failing: gemini-3.8-flash 429 busy",
+  "AI STOPPED after 3 failures in a row, see AIFAIL lines above",
+  "READ  3 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
