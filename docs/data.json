@@ -2,35 +2,42 @@
  "updated": "2026-11-26",
  "items": [
   {
-   "title": "Employment as a doctoral student in History and History Didactics",
-   "link": "https://euraxess.ec.europa.eu/jobs/483014",
+   "title": "Research Grant – “A Global Optical Network: seamless integration of Fiber and SatCom” Project",
+   "link": "https://euraxess.ec.europa.eu/jobs/483282",
    "country": "Europe",
-   "source": "EURAXESS (applied linguistics)",
-   "fund": "PhD job (paid)",
-   "deadline": "2027-01-11",
+   "source": "EURAXESS (educational technology)",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "title": "“linguistics phd” ×",
+   "link": "https://www.jobs.ac.uk/",
+   "country": "UK",
+   "source": "jobs.ac.uk (linguistics PhD)",
+   "fund": "Scholarship",
+   "deadline": "2027-01-08",
    "first_seen": "2026-11-26",
    "info": {
-    "deadline": "2027-01-11",
+    "deadline": "2027-01-08",
     "requirements": [
-     "Second-cycle qualification or at least 240 ECTS credits with at least 60 second-cycle credits",
-     "Approved independent thesis within History, Historical Studies or another relevant subject comprising at least 15 second-cycle ECTS credits",
-     "Research proposal relevant for the project Modern Siddhas Along the Bay of Bengal",
-     "Evidence of training in Sanskrit and Indic vernacular language(s) associated with the Siddha contexts studied in the project"
+     "Applicants must be eligible for home fee status",
+     "Not open to international-fee applicants"
     ],
-    "funding_details": "",
+    "funding_details": "Fully funded PhD, stipend funded at the UKRI level (currently £23,805 for the academic year 2026/2027).",
     "ai": true,
     "is_phd_funding": true,
-    "country": "Sweden",
-    "institution": "Malmö University",
-    "funding_type": "PhD job (paid)",
-    "deadline_note": "Application deadline is 11 Jan 2027 - 12:00 (UTC).",
-    "eligible_fields": "History, History Didactics, Historical Studies, History of Religions, Religious Studies, South Asian languages and/or literatures",
-    "who_can_apply": "Open to applicants worldwide who meet the general entry requirements (second-cycle qualification or at least 240 credits with 60 second-cycle credits) and specific entry requirements.",
-    "morocco_eligible": "yes",
+    "country": "United Kingdom",
+    "institution": "University of Roehampton",
+    "funding_type": "Scholarship",
+    "deadline_note": "The closing date is 8th January 2027.",
+    "eligible_fields": "Psychology, nutrition, and life sciences",
+    "who_can_apply": "Applicants must be eligible for home fee status; the studentship is not open to international-fee applicants.",
+    "morocco_eligible": "no",
     "fit_elt_dt": "low",
-    "fit_reason": "The PhD position requires a background in history, history didactics, religious studies, or South Asian languages, making an ELT and digital technology master's degree a poor fit.",
-    "how_to_apply": "Apply online through the link provided on the EURAXESS job offer page by submitting the required application documents.",
-    "summary": "A paid doctoral student position in History and History Didactics focusing on South Asian religious history at Malmö University, Sweden, with a deadline of 11 January 2027.",
+    "fit_reason": "The PhD project focuses on psychology, nutrition, and mental health rather than English Language Teaching or educational technology.",
+    "how_to_apply": "Apply on the employer's site.",
+    "summary": "A fully funded 3-year full-time PhD studentship in Psychology at the University of Roehampton focusing on nutrition, mental health, and stakeholder perspectives within the BEETHOVEN Horizon Europe project, restricted to home fee status applicants.",
     "v": 2
    }
   },
@@ -259,6 +266,15 @@
     "how_to_apply": "Find a Swiss academic supervisor to obtain a letter of support and submit the application online with all required forms, documents, and reference contacts.",
     "summary": "The Swiss Government Excellence Scholarships provide CHF 2,450 per month for 6 to 12 months for doctoral students from any academic discipline to conduct full-time research at a Swiss institution."
    }
+  },
+  {
+   "title": "E2-news: Scholarships as a career booster",
+   "link": "https://e2-news.ch/en/news/scholarships-as-a-career-booster",
+   "country": "Switzerland",
+   "source": "Swiss Excellence Scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-26"
   },
   {
    "title": "Research scholarships",
@@ -1077,33 +1093,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "title": "Students and doctoral students",
-   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/nabor-2023/studenci-i-doktoranci/call-for-proposals",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-26"
-  },
-  {
-   "title": "Students and doctoral students",
-   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2022/students-and-doctoral-students",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-26"
-  },
-  {
-   "title": "Students and doctoral students",
-   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2021/students-and-doctoral-students/call-for-proposals",
-   "country": "Poland",
-   "source": "NAWA",
-   "fund": "PhD job / position",
-   "deadline": "",
-   "first_seen": "2026-11-26"
-  },
-  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2020/promotional-and-informational-materials",
    "country": "Poland",
@@ -1165,15 +1154,6 @@
    "fund": "PhD job / position",
    "deadline": "",
    "first_seen": "2026-11-16"
-  },
-  {
-   "title": "Various Scholarship Opportunities",
-   "link": "https://www.studyinkorea.go.kr/ko/why/diverseGovSpprt.do",
-   "country": "South Korea",
-   "source": "Study in Korea (GKS)",
-   "fund": "Scholarship",
-   "deadline": "",
-   "first_seen": "2026-11-25"
   },
   {
    "title": "Scholarships Notice",
@@ -1480,17 +1460,17 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 1 matches (of 115 links)",
-  "OK    EURAXESS (language education): 0 matches (of 115 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 115 links)",
+  "OK    EURAXESS (applied linguistics): 2 matches (of 93 links)",
+  "OK    EURAXESS (language education): 0 matches (of 93 links)",
+  "OK    EURAXESS (educational technology): 1 matches (of 99 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
-  "OK    jobs.ac.uk (linguistics PhD): 0 matches (of 18 links)",
+  "OK    jobs.ac.uk (linguistics PhD): 1 matches (of 19 links)",
   "OK    AcademicTransfer: 0 matches (of 6 links)",
   "FAIL  Academic Positions (education): 403 Client Error: Forbidden for url: https://academicpositions.com/find-jobs?keywords=education+phd",
   "FAIL  DAAD scholarship database: 403 Client Error: Forbidden for url: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
   "OK    Campus France scholarships: 12 matches (of 154 links)",
-  "OK    ABG offers: 0 matches (of 73 links)",
+  "OK    ABG offers: 0 matches (of 74 links)",
   "OK    Swiss Excellence Scholarships: 13 matches (of 23 links)",
   "OK    Turkiye Scholarships: 13 matches (of 53 links)",
   "OK    MEXT / Study in Japan: 3 matches (of 75 links)",
@@ -1519,7 +1499,8 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 104 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  14 pages read this run, 0 could not be opened, AI ON"
+  "AIFAIL https://e2-news.ch/en/news/scholarships-as-a-career-booster: all models busy or failing: gemini-3.8-flash 429 busy",
+  "READ  20 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
