@@ -1,6 +1,39 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "items": [
+  {
+   "title": "Employment as a doctoral student in History and History Didactics",
+   "link": "https://euraxess.ec.europa.eu/jobs/483014",
+   "country": "Europe",
+   "source": "EURAXESS (applied linguistics)",
+   "fund": "PhD job (paid)",
+   "deadline": "2027-01-11",
+   "first_seen": "2026-11-26",
+   "info": {
+    "deadline": "2027-01-11",
+    "requirements": [
+     "Second-cycle qualification or at least 240 ECTS credits with at least 60 second-cycle credits",
+     "Approved independent thesis within History, Historical Studies or another relevant subject comprising at least 15 second-cycle ECTS credits",
+     "Research proposal relevant for the project Modern Siddhas Along the Bay of Bengal",
+     "Evidence of training in Sanskrit and Indic vernacular language(s) associated with the Siddha contexts studied in the project"
+    ],
+    "funding_details": "",
+    "ai": true,
+    "is_phd_funding": true,
+    "country": "Sweden",
+    "institution": "Malmö University",
+    "funding_type": "PhD job (paid)",
+    "deadline_note": "Application deadline is 11 Jan 2027 - 12:00 (UTC).",
+    "eligible_fields": "History, History Didactics, Historical Studies, History of Religions, Religious Studies, South Asian languages and/or literatures",
+    "who_can_apply": "Open to applicants worldwide who meet the general entry requirements (second-cycle qualification or at least 240 credits with 60 second-cycle credits) and specific entry requirements.",
+    "morocco_eligible": "yes",
+    "fit_elt_dt": "low",
+    "fit_reason": "The PhD position requires a background in history, history didactics, religious studies, or South Asian languages, making an ELT and digital technology master's degree a poor fit.",
+    "how_to_apply": "Apply online through the link provided on the EURAXESS job offer page by submitting the required application documents.",
+    "summary": "A paid doctoral student position in History and History Didactics focusing on South Asian religious history at Malmö University, Sweden, with a deadline of 11 January 2027.",
+    "v": 2
+   }
+  },
   {
    "title": "Scholarships programmes",
    "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
@@ -1067,6 +1100,15 @@
    "first_seen": "2026-11-16"
   },
   {
+   "title": "Students and doctoral students",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2021/students-and-doctoral-students/call-for-proposals",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-26"
+  },
+  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2020/promotional-and-informational-materials",
    "country": "Poland",
@@ -1443,9 +1485,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 91 links)",
-  "OK    EURAXESS (language education): 0 matches (of 91 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 91 links)",
+  "OK    EURAXESS (applied linguistics): 1 matches (of 138 links)",
+  "OK    EURAXESS (language education): 0 matches (of 138 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 138 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "FAIL  jobs.ac.uk (linguistics PhD): 503 Server Error: Service Temporarily Unavailable for url: https://www.jobs.ac.uk/search/?keywords=linguistics+phd",
@@ -1471,7 +1513,7 @@
   "OK    VLIR-UOS: 1 matches (of 51 links)",
   "OK    NAWA: 20 matches (of 950 links)",
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
-  "OK    Study in Korea (GKS): 5 matches (of 141 links)",
+  "OK    Study in Korea (GKS): 5 matches (of 140 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
   "OK    OeAD: 6 matches (of 323 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
