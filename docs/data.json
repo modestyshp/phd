@@ -876,6 +876,20 @@
    }
   },
   {
+   "title": "Search for scholarships",
+   "link": "https://www.educanada.ca/scholarships-bourses/search-scholarships-rechercher-bourses.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-27",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-12-04"
+   }
+  },
+  {
    "title": "Study in Canada Scholarships",
    "link": "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=eng",
    "country": "Canada",
@@ -948,6 +962,34 @@
    }
   },
   {
+   "title": "Canadian International Development Scholarships 2030",
+   "link": "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-27",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-12-04"
+   }
+  },
+  {
+   "title": "Organization of American States Academic Scholarships Program",
+   "link": "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=eng",
+   "country": "Canada",
+   "source": "EduCanada scholarships",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-27",
+   "info": {
+    "summary": "The script could not open this page. Open it and check.",
+    "ai": false,
+    "retry": "2026-12-04"
+   }
+  },
+  {
    "title": "Scholarship Holders",
    "link": "https://stipendiumhungaricum.hu/scholarship-holders",
    "country": "Hungary",
@@ -1001,6 +1043,15 @@
     "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
     "retry": "2026-12-05"
    }
+  },
+  {
+   "title": "/get-funded/study-scholarships",
+   "link": "https://www.vliruos.be/get-funded/study-scholarships",
+   "country": "Belgium",
+   "source": "VLIR-UOS",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-27"
   },
   {
    "title": "Applying for admission to doctoral schools",
@@ -1496,9 +1547,9 @@
   }
  ],
  "log": [
-  "OK    EURAXESS (applied linguistics): 0 matches (of 102 links)",
-  "OK    EURAXESS (language education): 0 matches (of 102 links)",
-  "OK    EURAXESS (educational technology): 0 matches (of 102 links)",
+  "OK    EURAXESS (applied linguistics): 1 matches (of 97 links)",
+  "OK    EURAXESS (language education): 0 matches (of 97 links)",
+  "OK    EURAXESS (educational technology): 0 matches (of 97 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
   "OK    jobs.ac.uk (linguistics PhD): 1 matches (of 19 links)",
@@ -1526,16 +1577,19 @@
   "FAIL  CSC / Campus China: 412 Client Error: Precondition Failed for url: https://www.campuschina.org/",
   "OK    Study in Korea (GKS): 5 matches (of 141 links)",
   "OK    Taiwan Scholarship: 6 matches (of 21 links)",
-  "OK    OeAD: 6 matches (of 323 links)",
+  "OK    OeAD: 6 matches (of 330 links)",
   "FAIL  AUF: 403 Client Error: Forbidden for url: https://www.auf.org/",
   "OK    FCT: 3 matches (of 54 links)",
   "OK    Univ. of Luxembourg jobs: 0 matches (of 0 links)",
   "OK    Study Australia scholarships: 11 matches (of 115 links)",
   "FAIL  Study in New Zealand: 429 Client Error: Too Many Requests for url: https://www.studyinnewzealand.govt.nz/",
-  "OK    UMI (Moulay Ismail): 6 matches (of 104 links)",
+  "OK    UMI (Moulay Ismail): 6 matches (of 100 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  12 pages read this run, 0 could not be opened, AI ON"
+  "READFAIL https://www.educanada.ca/scholarships-bourses/search-scholarships-rech: HTTPSConnectionPool(host='www.educanada.ca', port=443): Max retries ex",
+  "READFAIL https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?la: HTTPSConnectionPool(host='www.educanada.ca', port=443): Max retries ex",
+  "READFAIL https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas: HTTPSConnectionPool(host='www.educanada.ca', port=443): Max retries ex",
+  "READ  9 pages read this run, 3 could not be opened, AI ON"
  ],
  "programmes": [
   {
