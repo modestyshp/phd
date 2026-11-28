@@ -1,37 +1,6 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "items": [
-  {
-   "title": "“linguistics phd” ×",
-   "link": "https://www.jobs.ac.uk/",
-   "country": "UK",
-   "source": "jobs.ac.uk (linguistics PhD)",
-   "fund": "Scholarship",
-   "deadline": "2027-01-08",
-   "first_seen": "2026-11-26",
-   "info": {
-    "deadline": "2027-01-08",
-    "requirements": [
-     "Applicants must be eligible for home fee status",
-     "Not open to international-fee applicants"
-    ],
-    "funding_details": "Fully funded PhD, stipend funded at the UKRI level (currently £23,805 for the academic year 2026/2027).",
-    "ai": true,
-    "is_phd_funding": true,
-    "country": "United Kingdom",
-    "institution": "University of Roehampton",
-    "funding_type": "Scholarship",
-    "deadline_note": "The closing date is 8th January 2027.",
-    "eligible_fields": "Psychology, nutrition, and life sciences",
-    "who_can_apply": "Applicants must be eligible for home fee status; the studentship is not open to international-fee applicants.",
-    "morocco_eligible": "no",
-    "fit_elt_dt": "low",
-    "fit_reason": "The PhD project focuses on psychology, nutrition, and mental health rather than English Language Teaching or educational technology.",
-    "how_to_apply": "Apply on the employer's site.",
-    "summary": "A fully funded 3-year full-time PhD studentship in Psychology at the University of Roehampton focusing on nutrition, mental health, and stakeholder perspectives within the BEETHOVEN Horizon Europe project, restricted to home fee status applicants.",
-    "v": 2
-   }
-  },
   {
    "title": "Scholarships programmes",
    "link": "https://www.campusfrance.org/en/bursaries-foreign-students",
@@ -1117,6 +1086,42 @@
    "first_seen": "2026-11-16"
   },
   {
+   "title": "The Lukasiewicz Scholarship Programme",
+   "link": "https://nawa.gov.pl/en/students/foreign-students/the-ignacy-lukasiewicz-scholarship-programme",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "Students and doctoral students",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/nabor-2023/studenci-i-doktoranci/call-for-proposals",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "Students and doctoral students",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2022/students-and-doctoral-students",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "Students and doctoral students",
+   "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2021/students-and-doctoral-students/call-for-proposals",
+   "country": "Poland",
+   "source": "NAWA",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
    "title": "Promotional and informational materials",
    "link": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies/call-2020/promotional-and-informational-materials",
    "country": "Poland",
@@ -1180,6 +1185,33 @@
    "first_seen": "2026-11-16"
   },
   {
+   "title": "Various Scholarship Opportunities",
+   "link": "https://www.studyinkorea.go.kr/ko/why/diverseGovSpprt.do",
+   "country": "South Korea",
+   "source": "Study in Korea (GKS)",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "Scholarships Notice",
+   "link": "https://www.studyinkorea.go.kr/ko/notice/scholarshipsList.do?boardSort=3",
+   "country": "South Korea",
+   "source": "Study in Korea (GKS)",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "GKS Scholarship",
+   "link": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1",
+   "country": "South Korea",
+   "source": "Study in Korea (GKS)",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
    "title": "Scholarship Guidelines",
    "link": "https://taiwanscholarship.moe.gov.tw/pages.aspx?p=7",
    "country": "Taiwan",
@@ -1229,6 +1261,60 @@
     "summary": "Page needs JavaScript, so it could not be read automatically. Open it and check.",
     "retry": "2026-12-09"
    }
+  },
+  {
+   "title": "Database: Grants & Scholarships",
+   "link": "https://grants.at/en/",
+   "country": "Austria",
+   "source": "OeAD",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "Doctoral Grant for the European University Institute (EUI)",
+   "link": "https://grants.at/en/?=NDI2NzFfMF8w",
+   "country": "Austria",
+   "source": "OeAD",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "OeAD Scholarship Programmes and Further Grants for Academic Stays in Austria 2027/2028",
+   "link": "https://oead.at/en/news/article/2026/09/oead-scholarship-programmes-and-further-grants-to-austria-for-2027-28",
+   "country": "Austria",
+   "source": "OeAD",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "Scholarships and funding programmes from A to Z",
+   "link": "https://oead.at/en/the-oead/our-programmes-from-a-to-z",
+   "country": "Austria",
+   "source": "OeAD",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "Overview: grants and scholarships",
+   "link": "https://oead.at/en/study-research-teaching/overview-grants-and-scholarships",
+   "country": "Austria",
+   "source": "OeAD",
+   "fund": "Scholarship",
+   "deadline": "",
+   "first_seen": "2026-11-28"
+  },
+  {
+   "title": "Press photos Jakob Calice, PhD",
+   "link": "https://presse.oead.at/en/press-photos/press-photos-jakob-calice-phd",
+   "country": "Austria",
+   "source": "OeAD",
+   "fund": "PhD job / position",
+   "deadline": "",
+   "first_seen": "2026-11-28"
   },
   {
    "title": "Nov. 10, 2026 Studentships Fulbright Research and Doctoral Scholarships for 2027/2028, with support from FCT Applications are open until January 15, 2027",
@@ -1417,7 +1503,7 @@
   "OK    EURAXESS (educational technology): 0 matches (of 97 links)",
   "FAIL  FindAPhD (applied linguistics): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=applied+linguistics",
   "FAIL  FindAPhD (educational technology): 403 Client Error: Forbidden for url: https://www.findaphd.com/phds/?Keywords=educational+technology",
-  "OK    jobs.ac.uk (linguistics PhD): 1 matches (of 19 links)",
+  "OK    jobs.ac.uk (linguistics PhD): 0 matches (of 43 links)",
   "OK    AcademicTransfer: 0 matches (of 6 links)",
   "FAIL  Academic Positions (education): 403 Client Error: Forbidden for url: https://academicpositions.com/find-jobs?keywords=education+phd",
   "FAIL  DAAD scholarship database: 403 Client Error: Forbidden for url: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
@@ -1451,7 +1537,7 @@
   "OK    UMI (Moulay Ismail): 6 matches (of 100 links)",
   "FAIL  ABG thesis offers: no discipline page could be opened",
   "MODELS gemini-flash-latest, gemini-flash-lite-latest, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash",
-  "READ  24 pages read this run, 0 could not be opened, AI ON"
+  "READ  11 pages read this run, 0 could not be opened, AI ON"
  ],
  "programmes": [
   {
